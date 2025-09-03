@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- v0.3.0 -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/"
     exclude-result-prefixes="xs" version="2.0">
@@ -24,6 +25,7 @@
 
     <xsl:template match="/">
         <!--Erstellung von Auflistungen für:
+Speakers
 Keynotes
 Sessions
 Workshops
@@ -34,6 +36,17 @@ Ohne Raum mit Datum
 Ohne Raum ohne Datum
 Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
 -->
+        <!-- Speakers -->
+        <xsl:variable name="outPath"
+            select="concat('file:///', $p-folder-out, '/Speaker_Namen.xml')"/>
+        <xsl:result-document href="{$outPath}">
+            <speakers>
+                <xsl:apply-templates select="//conferenceData/speakers/speaker" mode="nameOnly"/>
+            </speakers>
+        </xsl:result-document>
+
+
+
         <!-- Keynotes -->
         <xsl:variable name="outPath"
             select="concat('file:///', $p-folder-out, '/Keynotes_mitDatum_mitRauemen.xml')"/>
@@ -531,5 +544,15 @@ Timetable – Raumplan-->
         </Zelle>
 
     </xsl:template>
+
+    <!-- Nur Namen der Speaker für die Speaker_Namen.xml -->
+    <xsl:template match="speaker" mode="nameOnly">
+        <speaker>
+            <name>
+                <xsl:value-of select="concat(firstName, ' ', lastName)"/>
+            </name>
+        </speaker>
+    </xsl:template>
+
 
 </xsl:stylesheet>

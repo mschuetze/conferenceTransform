@@ -143,7 +143,7 @@ Freuen Sie sich auf eine spannende Live-Demo, die zeigt, wie schnell und einfach
 </speakers><abstract>Entdecken Sie das volle Spektrum von Docker für Ihre ASP.NET Core-Anwendungen! Diese Session bietet einen umfassenden Leitfaden zur Nutzung von Docker-Containern während des gesamten Anwendungslebenszyklus, von der Entwicklung bis zur Produktion. Entdecken Sie, wie Sie Ihre Entwicklungs- und Testprozesse optimieren, Ihre Container absichern und effizient in Produktionsumgebungen einsetzen können. Wir behandeln wichtige Tools, erweiterte Sicherheitspraktiken und Optimierungstechniken, damit Sie das volle Potential von einer containerbasierten Anwendung voll ausschöpfen können.
 </abstract><room>Gold 2
 </room></item><item><title>Hot Design: The Next-Gen Visual Designer for Supercharged .NET Development
-</title><speakers>Dominik Titl (Uno Platform), Martin Zikmund (Uno Platform)
+</title><speakers>Martin Zikmund (Uno Platform), Dominik Titl (Uno Platform)
 </speakers><abstract>Hot Design is the industry's first visual designer for cross-platform .NET applications. It transforms your running app into a visual designer from any IDE on any OS. Maximizing developer productivity has always been the focus of the open-source Uno Platform. The newest addition – Hot Design – alongside Hot Reload and Figma design-to-code tooling, allows you to design and build cross-platform .NET apps faster than ever before!In this session, I will demonstrate our revolutionary set of tools, along with the core open-source platform, and build a real-life application. The code for this application will be available in the Uno Platform GitHub repository.
 </abstract><room>Gold 3
 </room></item></item><item><day>Wednesday, 05. March 2025 
