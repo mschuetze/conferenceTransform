@@ -1,5 +1,3 @@
-<!-- v0.2.0 -->
-
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/"
@@ -12,6 +10,10 @@
     <xsl:key name="speakers" match="conferenceData/speakers/speaker" use="uniqueId"/>
 
     <xsl:variable name="uhr">Uhr</xsl:variable>
+
+    <xsl:variable name="isSoMe" select="false()"/>
+
+    
 
     <!-- Identity Pattern -->
     <xsl:template match="node() | @*" priority="-1">
@@ -40,6 +42,7 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
                 <xsl:apply-templates select="//keynotes">
                     <xsl:with-param name="date" select="true()"/>
                     <xsl:with-param name="room" select="true()"/>
+                    <xsl:with-param name="isSoMe" select="false()"/>
                 </xsl:apply-templates>
             </result>
         </xsl:result-document>
@@ -50,6 +53,7 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
                 <xsl:apply-templates select="//keynotes">
                     <xsl:with-param name="date" select="true()"/>
                     <xsl:with-param name="room" select="false()"/>
+                    <xsl:with-param name="isSoMe" select="false()"/>
                 </xsl:apply-templates>
             </result>
         </xsl:result-document>
@@ -60,6 +64,7 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
                 <xsl:apply-templates select="//keynotes">
                     <xsl:with-param name="date" select="false()"/>
                     <xsl:with-param name="room" select="true()"/>
+                    <xsl:with-param name="isSoMe" select="false()"/>
                 </xsl:apply-templates>
             </result>
         </xsl:result-document>
@@ -70,6 +75,18 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
                 <xsl:apply-templates select="//keynotes">
                     <xsl:with-param name="date" select="false()"/>
                     <xsl:with-param name="room" select="false()"/>
+                    <xsl:with-param name="isSoMe" select="false()"/>
+                </xsl:apply-templates>
+            </result>
+        </xsl:result-document>
+        <xsl:variable name="outPath"
+            select="concat('file:///', $p-folder-out, '/SoMe_Keynotes_ohneDatum_ohneRaueme_ohneAbstract.xml')"/>
+        <xsl:result-document href="{$outPath}">
+            <result is_array="true">
+                <xsl:apply-templates select="//keynotes">
+                    <xsl:with-param name="date" select="false()"/>
+                    <xsl:with-param name="room" select="false()"/>
+                    <xsl:with-param name="isSoMe" select="true()"/>
                 </xsl:apply-templates>
             </result>
         </xsl:result-document>
@@ -82,6 +99,7 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
                 <xsl:apply-templates select="//sessions">
                     <xsl:with-param name="date" select="true()"/>
                     <xsl:with-param name="room" select="true()"/>
+                    <xsl:with-param name="isSoMe" select="false()"/>
                 </xsl:apply-templates>
             </result>
         </xsl:result-document>
@@ -92,6 +110,7 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
                 <xsl:apply-templates select="//sessions">
                     <xsl:with-param name="date" select="true()"/>
                     <xsl:with-param name="room" select="false()"/>
+                    <xsl:with-param name="isSoMe" select="false()"/>
                 </xsl:apply-templates>
             </result>
         </xsl:result-document>
@@ -102,6 +121,7 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
                 <xsl:apply-templates select="//sessions">
                     <xsl:with-param name="date" select="false()"/>
                     <xsl:with-param name="room" select="true()"/>
+                    <xsl:with-param name="isSoMe" select="false()"/>
                 </xsl:apply-templates>
             </result>
         </xsl:result-document>
@@ -112,6 +132,18 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
                 <xsl:apply-templates select="//sessions">
                     <xsl:with-param name="date" select="false()"/>
                     <xsl:with-param name="room" select="false()"/>
+                    <xsl:with-param name="isSoMe" select="false()"/>
+                </xsl:apply-templates>
+            </result>
+        </xsl:result-document>
+        <xsl:variable name="outPath"
+            select="concat('file:///', $p-folder-out, '/SoMe_Sessions_ohneDatum_ohneRaueme_ohneAbstract.xml')"/>
+        <xsl:result-document href="{$outPath}">
+            <result is_array="true">
+                <xsl:apply-templates select="//sessions">
+                    <xsl:with-param name="date" select="false()"/>
+                    <xsl:with-param name="room" select="false()"/>
+                    <xsl:with-param name="isSoMe" select="true()"/>
                 </xsl:apply-templates>
             </result>
         </xsl:result-document>
@@ -124,6 +156,7 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
                 <xsl:apply-templates select="//workshops">
                     <xsl:with-param name="date" select="true()"/>
                     <xsl:with-param name="room" select="true()"/>
+                    <xsl:with-param name="isSoMe" select="false()"/>
                 </xsl:apply-templates>
             </result>
         </xsl:result-document>
@@ -134,6 +167,7 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
                 <xsl:apply-templates select="//workshops">
                     <xsl:with-param name="date" select="true()"/>
                     <xsl:with-param name="room" select="false()"/>
+                    <xsl:with-param name="isSoMe" select="false()"/>
                 </xsl:apply-templates>
             </result>
         </xsl:result-document>
@@ -144,6 +178,7 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
                 <xsl:apply-templates select="//workshops">
                     <xsl:with-param name="date" select="false()"/>
                     <xsl:with-param name="room" select="true()"/>
+                    <xsl:with-param name="isSoMe" select="false()"/>
                 </xsl:apply-templates>
             </result>
         </xsl:result-document>
@@ -154,6 +189,18 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
                 <xsl:apply-templates select="//workshops">
                     <xsl:with-param name="date" select="false()"/>
                     <xsl:with-param name="room" select="false()"/>
+                    <xsl:with-param name="isSoMe" select="false()"/>
+                </xsl:apply-templates>
+            </result>
+        </xsl:result-document>
+        <xsl:variable name="outPath"
+            select="concat('file:///', $p-folder-out, '/SoMe_Workshops_ohneDatum_ohneRaueme_ohneAbstract.xml')"/>
+        <xsl:result-document href="{$outPath}">
+            <result is_array="true">
+                <xsl:apply-templates select="//workshops">
+                    <xsl:with-param name="date" select="false()"/>
+                    <xsl:with-param name="room" select="false()"/>
+                    <xsl:with-param name="isSoMe" select="true()"/>
                 </xsl:apply-templates>
             </result>
         </xsl:result-document>
@@ -189,6 +236,7 @@ Timetable – Raumplan-->
     <xsl:template match="keynotes | sessions | workshops">
         <xsl:param name="date"/>
         <xsl:param name="room"/>
+        <xsl:param name="isSoMe"/>
         <xsl:for-each-group select="session" group-by="xs:dateTime(startDate)">
             <xsl:for-each-group select="current-group()" group-by="xs:dateTime(endDate)">
                 <xsl:variable name="startDate" select="xs:dateTime(startDate)"/>
@@ -216,6 +264,7 @@ Timetable – Raumplan-->
                             <xsl:apply-templates select="current-group()">
                                 <xsl:with-param name="date" select="$date"/>
                                 <xsl:with-param name="room" select="$room"/>
+                                <xsl:with-param name="isSoMe" select="$isSoMe"/>
                             </xsl:apply-templates>
                         </item>
                     </xsl:when>
@@ -223,6 +272,7 @@ Timetable – Raumplan-->
                         <xsl:apply-templates select="current-group()">
                             <xsl:with-param name="date" select="$date"/>
                             <xsl:with-param name="room" select="$room"/>
+                            <xsl:with-param name="isSoMe" select="$isSoMe"/>
                         </xsl:apply-templates>
                     </xsl:otherwise>
                 </xsl:choose>
@@ -234,16 +284,27 @@ Timetable – Raumplan-->
     <xsl:template match="session">
         <xsl:param name="date"/>
         <xsl:param name="room"/>
+        <xsl:param name="isSoMe"/>
+
         <item>
+            <!-- Titel generieren -->
             <title>
                 <xsl:value-of select="name"/>
-                <xsl:text>&#x0A;</xsl:text>
+                <xsl:if test="not($isSoMe)"> <!-- Zeilenumbruch nur für die normale Datei, nicht für SoMe -->
+                    <xsl:text>&#x0A;</xsl:text> 
+                </xsl:if>
             </title>
-            <xsl:apply-templates select="speakers"/>
+            <!-- Speakername + Firma generieren -->
+            <xsl:apply-templates select="speakers">
+                <xsl:with-param name="isSoMe" select="$isSoMe"/>
+            </xsl:apply-templates>
+            <!-- Abstract generieren -->
             <xsl:if test="details and details != ''">
-                <abstract>
-                    <xsl:apply-templates select="details"/>
-                </abstract>
+                <xsl:if test="not($isSoMe)"> <!-- Unterschiedliche Behandlung von SoMe und Rest -->
+                    <abstract>
+                        <xsl:apply-templates select="details"/>
+                    </abstract>
+                </xsl:if>
             </xsl:if>
             <xsl:if test="$room and roomName and roomName != ''">
                 <room>
@@ -261,11 +322,23 @@ Timetable – Raumplan-->
 
 
     <xsl:template match="session/speakers">
+        <xsl:param name="isSoMe" select="false()"/>
         <speakers>
-            <xsl:apply-templates/>
-            <xsl:text>&#x0A;</xsl:text>
+            <xsl:choose>
+                <xsl:when test="$isSoMe">
+                    <!-- Handle output for SoMe -->
+                    <xsl:apply-templates/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <!-- Handle output for non-SoMe -->
+                    <xsl:apply-templates/>
+                    <xsl:text>&#x0A;</xsl:text> <!-- Add line break for non-SoMe -->
+                </xsl:otherwise>
+            </xsl:choose>
         </speakers>
     </xsl:template>
+
+
     <!--   mode weil fehlender Zeilenumbruch, weil speaker in Tabellenzelle steht -->
     <xsl:template match="session/speakers" mode="table">
         <speakers>
@@ -280,12 +353,26 @@ Timetable – Raumplan-->
     </xsl:template>
 
     <xsl:template match="conferenceData/speakers/speaker">
-        <xsl:value-of select="firstName"/>
-        <xsl:text> </xsl:text>
-        <xsl:value-of select="lastName"/>
-        <xsl:text> (</xsl:text>
-        <xsl:value-of select="company"/>
-        <xsl:text>)</xsl:text>
+        <xsl:param name="isSoMe" select="false()"/>
+        <xsl:choose>
+            <xsl:when test="$isSoMe">
+                <!-- Format for SoMe -->
+                <xsl:value-of select="firstName"/>
+                <xsl:text> </xsl:text>
+                <xsl:value-of select="lastName"/>
+                <xsl:text> | </xsl:text>
+                <xsl:value-of select="company"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <!-- Default format -->
+                <xsl:value-of select="firstName"/>
+                <xsl:text> </xsl:text>
+                <xsl:value-of select="lastName"/>
+                <xsl:text> (</xsl:text>
+                <xsl:value-of select="company"/>
+                <xsl:text>)</xsl:text>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
 
     <!-- Erstellt Tabelle_Zeitplaner_sortiert_nach_SpecialDays.xml  -->

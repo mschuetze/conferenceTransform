@@ -1,317 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><conferences><conferenceData>
-	<tracks>
-		<track>
-			<startDate>2025-03-20T09:32:00.000Z</startDate>
-			<endDate>2025-03-20T09:32:00.000Z</endDate>
-			<details/>
-			<specialDay>false</specialDay>
-			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-			<versionId>115</versionId>
-			<_id>673b2887702fee076a23e459</_id>
-			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a0</uniqueId>
-			<name>Microservices &amp; APIs</name>
-			<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
-			<redsysId>rHrPqX2KbFPwjtDSb</redsysId>
-			<__v>0</__v>
-		</track>
-		<track>
-			<startDate>2025-03-20T09:32:00.000Z</startDate>
-			<endDate>2025-03-20T09:32:00.000Z</endDate>
-			<details/>
-			<specialDay>false</specialDay>
-			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-			<versionId>115</versionId>
-			<_id>673b2887702fee076a23e458</_id>
-			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29b</uniqueId>
-			<name>JavaScript</name>
-			<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
-			<redsysId>EGYE6YvXFMXibJPBb</redsysId>
-			<__v>0</__v>
-		</track>
-		<track>
-			<startDate>2025-03-20T09:32:00.000Z</startDate>
-			<endDate>2025-03-20T09:32:00.000Z</endDate>
-			<details/>
-			<specialDay>false</specialDay>
-			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-			<versionId>115</versionId>
-			<_id>673b2887702fee076a23e45c</_id>
-			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d299</uniqueId>
-			<name>Data Access &amp; Storage</name>
-			<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
-			<redsysId>oWL542WsjR4YQeLrJ</redsysId>
-			<__v>0</__v>
-		</track>
-		<track>
-			<startDate>2025-03-20T09:32:00.000Z</startDate>
-			<endDate>2025-03-20T09:32:00.000Z</endDate>
-			<details/>
-			<specialDay>false</specialDay>
-			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-			<versionId>115</versionId>
-			<_id>673b2887702fee076a23e45b</_id>
-			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a2</uniqueId>
-			<name>AI — Artificial Intelligence</name>
-			<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
-			<redsysId>HiYrk8EikrLTAMJgF</redsysId>
-			<__v>0</__v>
-		</track>
-		<track>
-			<startDate>2025-03-20T09:32:00.000Z</startDate>
-			<endDate>2025-03-20T09:32:00.000Z</endDate>
-			<details/>
-			<specialDay>false</specialDay>
-			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-			<versionId>115</versionId>
-			<_id>673b2887702fee076a23e45a</_id>
-			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29d</uniqueId>
-			<name>.NET Framework &amp; C#</name>
-			<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
-			<redsysId>bbrhptpLkagnsFkvL</redsysId>
-			<__v>0</__v>
-		</track>
-		<track>
-			<startDate>2025-03-20T09:32:00.000Z</startDate>
-			<endDate>2025-03-20T09:32:00.000Z</endDate>
-			<details/>
-			<specialDay>false</specialDay>
-			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-			<versionId>115</versionId>
-			<_id>673b2887702fee076a23e45e</_id>
-			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29a</uniqueId>
-			<name>UI Technology</name>
-			<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
-			<redsysId>WyEPvNyjueeLdzdfh</redsysId>
-			<__v>0</__v>
-		</track>
-		<track>
-			<startDate>2025-03-20T09:32:00.000Z</startDate>
-			<endDate>2025-03-20T09:32:00.000Z</endDate>
-			<details/>
-			<specialDay>false</specialDay>
-			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-			<versionId>115</versionId>
-			<_id>673b2887702fee076a23e45d</_id>
-			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29e</uniqueId>
-			<name>Web Development</name>
-			<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
-			<redsysId>KFhbqzmMxqkkEd7Ni</redsysId>
-			<__v>0</__v>
-		</track>
-		<track>
-			<startDate>2025-03-20T09:32:00.000Z</startDate>
-			<endDate>2025-03-20T09:32:00.000Z</endDate>
-			<details/>
-			<specialDay>false</specialDay>
-			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-			<versionId>115</versionId>
-			<_id>673b2887702fee076a23e460</_id>
-			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29c</uniqueId>
-			<name>Security</name>
-			<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
-			<redsysId>fEYwXYGi3Af2bqcPX</redsysId>
-			<__v>0</__v>
-		</track>
-		<track>
-			<startDate>2025-03-20T09:32:00.000Z</startDate>
-			<endDate>2025-03-20T09:32:00.000Z</endDate>
-			<details/>
-			<specialDay>false</specialDay>
-			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-			<versionId>115</versionId>
-			<_id>673b2887702fee076a23e461</_id>
-			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a1</uniqueId>
-			<name>Agile &amp; DevOps</name>
-			<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
-			<redsysId>x5uJwZ4cgL2Yengi3</redsysId>
-			<__v>0</__v>
-		</track>
-		<track>
-			<startDate>2025-03-20T09:32:00.000Z</startDate>
-			<endDate>2025-03-20T09:32:00.000Z</endDate>
-			<details/>
-			<specialDay>false</specialDay>
-			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-			<versionId>115</versionId>
-			<_id>673b2887702fee076a23e45f</_id>
-			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29f</uniqueId>
-			<name>Azure &amp; Cloud</name>
-			<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
-			<redsysId>s5Lbe3yH2JHAr9mdb</redsysId>
-			<__v>0</__v>
-		</track>
-	</tracks>
-	<sponsors>
-	</sponsors>
-	<sponsor-types>
-	</sponsor-types>
-	<specialDays>
-		<order>0</order>
-		<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-		<_id>673b2888702fee076a23e4f2</_id>
-		<uniqueId>6656ce9ff952db9d1df7d2a3_66fd0da281a8b48e0638e33b</uniqueId>
-		<name>.NET Framework &amp; C# Days</name>
-		<startDate>2025-03-04T08:00:00.000Z</startDate>
-		<endDate>2025-03-05T18:00:00.000Z</endDate>
-		<details>Back to the roots: die wichtigsten Kernthemen vieler BASTA-Besucher sind und bleiben .NET und C#. Daran kann auch JavaScript nichts ändern. Daher gibt es diese Themen jetzt endlich wieder an zwei Special Days! An den beiden Tagen gibt es neben neuen Features in der Sprache C# und den .NET-Bibliotheken auch Best Practices sowie Tipps und Tricks zu bereits etablierten Sprachkonstrukten, Techniken und Tools. Ob Anfänger oder Fortgeschrittene, unsere Experten haben hochkarätige Fachvorträge mit aktuellsten Informationen vorbereitet, um Sie im Umgang mit .NET und C# noch effektiver und erfolgreicher zu machen.
-
--- DIE .NET &amp; C# DAYS FINDEN AM DIENSTAG, 04.03.2025 + MITTWOCH, 05.03.2025  STATT --</details>
-		<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
-		<__v>0</__v>
-	</specialDays>
-	<specialDays>
-		<order>0</order>
-		<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-		<_id>673b2888702fee076a23e4f4</_id>
-		<uniqueId>6656ce9ff952db9d1df7d2a3_6703cdea0157cd560623515e</uniqueId>
-		<name>Architektur Day</name>
-		<startDate>2025-03-04T08:00:00.000Z</startDate>
-		<endDate>2025-03-04T18:00:00.000Z</endDate>
-		<details>Moderne Anwendungssysteme bestehen aus einer Vielzahl von Komponenten, die miteinander interagieren und ein komplexes Geflecht bilden. Doch wie ordnet man diese Technologiebausteine in ein kohärentes Gesamtbild ein? Genau das steht im Fokus des Architecture Day.
-Auf dem Architecture Day bei BASTA! erleben Teilnehmer nicht nur theoretische Konzepte, sondern auch praktische Demos, die zeigen, wie diese Konzepte in der realen Welt umgesetzt werden können. Von Microservices-Architekturen über Event-Driven Design bis hin zu Containerisierung und Serverless Computing - hier erhalten Entwickler und Architekten wertvolle Einblicke in bewährte Methoden und innovative Ansätze.</details>
-		<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
-		<__v>0</__v>
-	</specialDays>
-	<specialDays>
-		<order>0</order>
-		<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-		<_id>673b2888702fee076a23e4f3</_id>
-		<uniqueId>6656ce9ff952db9d1df7d2a3_67090a2b2611732c065af299</uniqueId>
-		<name>Generative AI Day</name>
-		<startDate>2025-03-04T08:00:00.000Z</startDate>
-		<endDate>2025-03-04T18:00:00.000Z</endDate>
-		<details>Generative AI ist gekommen, um zu bleiben. Der Generative AI Day auf der BASTA! beleuchtet Möglichkeiten, die Large Language Models (LLMs) und generative KI für die Softwareentwicklung bieten. Dieser Tag bietet einen Einblick sowohl in aktuelle Entwicklungen als auch in Best Practices für den Einsatz von KI-Technologien in realen Anwendungsfällen. Der Fokus liegt auf der praktischen Anwendung von LLMs, der Optimierung bestehender Workflows und der Bewältigung von Herausforderungen wie Effizienz, Sicherheit und Kosten. Live-Demonstrationen und interaktive Coding-Sessions ermöglichen den Teilnehmern, die Technologien in Aktion zu erleben und konkrete Anregungen für ihre eigenen Projekte mitzunehmen.</details>
-		<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
-		<__v>0</__v>
-	</specialDays>
-	<specialDays>
-		<order>0</order>
-		<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-		<_id>673b2888702fee076a23e4f6</_id>
-		<uniqueId>6656ce9ff952db9d1df7d2a3_6703eaf74bc7a15f069a9a8c</uniqueId>
-		<name>UI Technology Day</name>
-		<startDate>2025-03-06T08:00:00.000Z</startDate>
-		<endDate>2025-03-06T17:00:00.000Z</endDate>
-		<details>Die Gestaltung von Oberflächen ist nicht so einfach wie es vielleicht scheint. Denn hierbei geht es weniger um schickes Aussehen, sondern vielmehr um Usability oder neudeutsch User Experience. Sie entscheidet, ob eine App akzeptiert und vor allem verwendet wird.
-Doch um eine gelungenes Oberflächendesign umsetzen zu können benötigt man auch ein gutes Technikverständnis - egal ob die Oberfläche auf HTML/CSS, XAML oder anderen Technologien basiert.
-
-Der UI Technology Day befasst sich genau mit diesen Themen. Er vermittelt nicht nur das grundlegende Verständnis intelligent gestalteter User Interfaces, sondern diskutiert auch neue technologische Ansätze in diesem Bereich und dies natürlich Plattform- und Technologie übergreifend.</details>
-		<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
-		<__v>0</__v>
-	</specialDays>
-	<specialDays>
-		<order>0</order>
-		<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-		<_id>673b2888702fee076a23e4f5</_id>
-		<uniqueId>6656ce9ff952db9d1df7d2a3_6703ea6d8094c54f062dd18b</uniqueId>
-		<name>Web Development Days</name>
-		<startDate>2025-03-05T08:00:00.000Z</startDate>
-		<endDate>2025-03-06T17:00:00.000Z</endDate>
-		<details>Die Web Development Days der BASTA! stehen für die Vielfältigkeit moderner Webentwicklung für .NET-Entwickler:innen. Von Microsofts hauseigenen Blazor-Lösungen bis hin zu beeindruckenden Web-Apps mit Node.js, Angular, Vue.js und React. Es werden sowohl client-seitige als auch serverseitige Lösungen besprochen, um robuste und skalierbare Web-Anwendungen zu erstellen, die nativen Desktop-Anwendungen in nichts nachstehen. Unsere Expert:innen geben auf den Special Days wertvolle Einblicke und Praxistipps und zeigen wie aktuelle Trends und auch neueste Ansätze aus der Web-Welt, wie Hydration mit Frameworks wie Astro, Next.js, Qwik oder Svelte, mit .NET-Technologien zusammenspielen. Die Web Development Days bieten eine einzigartige Gelegenheit zum Wissensaustausch und zur Vernetzung mit Gleichgesinnten. Also: Seien Sie dabei.
-
---. DIE WEB DEVELOPMENT DASYS FINDEN AM MITTWOCH, 05.03.2025 + DONNERSTAG, 06.03.2025  STATT --</details>
-		<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
-		<__v>0</__v>
-	</specialDays>
-	<specialDays>
-		<order>0</order>
-		<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-		<_id>673b2888702fee076a23e4f7</_id>
-		<uniqueId>6656ce9ff952db9d1df7d2a3_66fd6b2470db79570622e31a</uniqueId>
-		<name>Data Access Day</name>
-		<startDate>2025-03-06T08:00:00.000Z</startDate>
-		<endDate>2025-03-06T17:00:00.000Z</endDate>
-		<details>Der Datenzugriff auf Datenbanken und andere Datenquellen ist eine zentrale Funktion in den meisten Anwendungen, egal ob auf dem Client, Server oder in der Cloud. Dabei bildet sowohl die Auswahl der Datenbanktechnik, das Datenbankdesign und die Datenhaltung als auch die Implementierung der Datenzugriffsschicht die Grundlage für eine effiziente und performante Softwareentwicklung.
-
-Der Data Access Day beginnt dieses Mal mit einem Vortrag von Robert Panther über KI-gestützte Datenbankentwicklung mit Azure Data Studio und GitHub Copilot. Dieser Vortrag bietet einen Einblick in die neuen Möglichkeiten, die sich daraus ergeben, beleuchtet aber auch technische Grenzen und andere Aspekte, die beim Einsatz von KI-generiertem Code zu berücksichtigen sind. 
-
-Entity Framework-Guru Holger Schwichtenberg zeigt die Neuerungen in Entity Framework Core 9.0, das im November 2024 erschienen ist. Olaf Lischke stellt danach mit NHibernate eine Alternative zu Entity Framework Core vor. In seinem Vortrag beleuchtet er die Unterschiede in Architektur, Logik und Anwendung genauso wie die möglichen Einsatzbereiche für verschiedene Szenarien.
-
-Anschließend erörtert Thorsten Kansy das Sicherheitskonzept von Microsoft SQL Server und den Möglichkeiten (einfach) eigene Inhalte in Datenbanken zu verschlüsseln.
- 
-Am Ende des Tages erörtert Gregor Biswanger das Microsoft Semantic Kernel (Memory) SDK. Diese Technologien ermöglichen es, eigene Daten nahtlos mit Generativer KI zu kombinieren. Verschiedene Vektordatenbanken werden analysiert, ihre Stärken und Schwächen aufgezeigt, sowie Kriterien zur Bewertung der Qualität einer Vektordatenbank im Vergleich zu Embedding Models besprochen.</details>
-		<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
-		<__v>0</__v>
-	</specialDays>
-	<specialDays>
-		<order>0</order>
-		<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-		<_id>673b2888702fee076a23e4f8</_id>
-		<uniqueId>6656ce9ff952db9d1df7d2a3_670f8474a8fe756f06447001</uniqueId>
-		<name>DevOps &amp; Cloud Developer Day</name>
-		<startDate>2025-03-05T08:00:00.000Z</startDate>
-		<endDate>2025-03-05T18:00:00.000Z</endDate>
-		<details>Entdecken Sie an diesem Special Day die essentiellen Elemente moderner Softwareentwicklung: Cloud-Technologien und Continuous Delivery. Erfahren Sie, warum diese nahezu unverzichtbar sind und wie sie Ihre Projekte damit zum Erfolg bringen. Tauchen Sie ein in moderne Pipelines und hochautomatisierte CI/CD-Prozesse, die Ihre Arbeit revolutionieren und eine reibungslose Continuous Delivery ermöglichen. Erfahren Sie, wie Sie durch Platform Engineering Ihrem Unternehmen eine flexible Infrastruktur ermöglichen, die nahtlos in Ihre DevOps-Strategie integriert ist.
-An diesem Special Day erhalten Sie einen umfassenden Überblick über die neuesten Microsoft Azure Services, von Azure Functions über Azure Kubernetes Service bis hin zu Azure Cosmos DB. Der „DevOps &amp; Cloud Development Day” bietet dabei praktische Einblicke in Sessions und Workshops und hilft, ein tiefes Verständnis für Azure, DevOps, Platform Engineering und mehr zu entwickeln.</details>
-		<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
-		<__v>0</__v>
-	</specialDays>
 	<speakers>
-		<speaker>
-			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-			<qualifications>
-			</qualifications>
-			<versionId>119</versionId>
-			<_id>673b2887702fee076a23e472</_id>
-			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_66d47c6bfb59bb8d10f09958</uniqueId>
-			<firstName>Thorsten</firstName>
-			<lastName>Kansy</lastName>
-			<company>www.dotnetconsulting.eu</company>
-			<details>Mit Herz und Seele und gefühlt seit einer Ewigkeit Entwickler, Software Architekt und Mentor. Full Stack Developer meets Microsoft SQL Server. Thorsten Kansy ist seit mehr als 30 Jahren als unabhängiger Softwarearchitekt, Entwickler und Trainer international tätig. Zudem schreibt er Bücher und Artikel rund um seine Spezialthemen: die Entwicklung komplexer Anwendungen mit .NET im Microsoft-Umfeld, insbesondere SQL Server. Er ist MCITP, MCTS, MCDBA, MCSD, MCAD, MCPD und MCSE+I zertifiziert. Sie erreichen ihn unter tkansy@dotnetconsulting.eu oder auf Twitter: @tkansy.</details>
-			<email>tkansy@dotnetconsulting.eu</email>
-			<lastSavedDate>2025-03-11T09:48:00.000Z</lastSavedDate>
-			<expertId>61e68caf5642af001d4a6f2b</expertId>
-			<userId>57e6186b18fb72cb2ff49d4f</userId>
-			<slug>thorsten-kansy</slug>
-			<__v>0</__v>
-		</speaker>
-		<speaker>
-			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-			<qualifications>
-			</qualifications>
-			<versionId>119</versionId>
-			<_id>673b2887702fee076a23e476</_id>
-			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_66f42394b5f32d4e06f7e0b9</uniqueId>
-			<firstName>Johannes</firstName>
-			<lastName>Dienst</lastName>
-			<company>AskUI</company>
-			<details>Johannes Dienst ist Developer Advocate bei AskUI. Sein Fokus liegt auf Automatisierung, Dokumentation und Softwarequalität.</details>
-			<email>info@johannesdienst.net</email>
-			<lastSavedDate>2025-03-12T14:06:00.000Z</lastSavedDate>
-			<expertId>62a87af34312ed001daa3bb9</expertId>
-			<slug>johannes-dienst</slug>
-			<__v>0</__v>
-		</speaker>
-		<speaker>
-			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-			<qualifications>
-			</qualifications>
-			<versionId>119</versionId>
-			<_id>673b2887702fee076a23e474</_id>
-			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_66f2a45f38207f8506414111</uniqueId>
-			<firstName>Dino</firstName>
-			<lastName>Esposito</lastName>
-			<company>Crionet</company>
-			<details>Dino Esposito hat in seiner bisher 25-jährigen Karriere über zwanzig Bücher und tausend Artikel verfasst. Derzeit ist er einer der Köpfe hinter der digitalen Transformation des Profi-Tennis.</details>
-			<email>dino.esposito@youbiquitous.net</email>
-			<lastSavedDate>2025-03-11T09:48:00.000Z</lastSavedDate>
-			<expertId>61e68bf65642af001d4a6f26</expertId>
-			<slug>dino-esposito</slug>
-			<__v>0</__v>
-		</speaker>
 		<speaker>
 			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
 			<qualifications>
@@ -336,6 +24,43 @@ An diesem Special Day erhalten Sie einen umfassenden Überblick über die neuest
 		<speaker>
 			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
 			<qualifications>
+			</qualifications>
+			<versionId>119</versionId>
+			<_id>673b2887702fee076a23e474</_id>
+			<published>true</published>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_66f2a45f38207f8506414111</uniqueId>
+			<firstName>Dino</firstName>
+			<lastName>Esposito</lastName>
+			<company>Crionet</company>
+			<details>Dino Esposito hat in seiner bisher 25-jährigen Karriere über zwanzig Bücher und tausend Artikel verfasst. Derzeit ist er einer der Köpfe hinter der digitalen Transformation des Profi-Tennis.</details>
+			<email>dino.esposito@youbiquitous.net</email>
+			<lastSavedDate>2025-03-11T09:48:00.000Z</lastSavedDate>
+			<expertId>61e68bf65642af001d4a6f26</expertId>
+			<slug>dino-esposito</slug>
+			<__v>0</__v>
+		</speaker>
+		<speaker>
+			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+			<qualifications>
+			</qualifications>
+			<versionId>119</versionId>
+			<_id>673b2887702fee076a23e472</_id>
+			<published>true</published>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_66d47c6bfb59bb8d10f09958</uniqueId>
+			<firstName>Thorsten</firstName>
+			<lastName>Kansy</lastName>
+			<company>www.dotnetconsulting.eu</company>
+			<details>Mit Herz und Seele und gefühlt seit einer Ewigkeit Entwickler, Software Architekt und Mentor. Full Stack Developer meets Microsoft SQL Server. Thorsten Kansy ist seit mehr als 30 Jahren als unabhängiger Softwarearchitekt, Entwickler und Trainer international tätig. Zudem schreibt er Bücher und Artikel rund um seine Spezialthemen: die Entwicklung komplexer Anwendungen mit .NET im Microsoft-Umfeld, insbesondere SQL Server. Er ist MCITP, MCTS, MCDBA, MCSD, MCAD, MCPD und MCSE+I zertifiziert. Sie erreichen ihn unter tkansy@dotnetconsulting.eu oder auf Twitter: @tkansy.</details>
+			<email>tkansy@dotnetconsulting.eu</email>
+			<lastSavedDate>2025-03-11T09:48:00.000Z</lastSavedDate>
+			<expertId>61e68caf5642af001d4a6f2b</expertId>
+			<userId>57e6186b18fb72cb2ff49d4f</userId>
+			<slug>thorsten-kansy</slug>
+			<__v>0</__v>
+		</speaker>
+		<speaker>
+			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+			<qualifications>
 				<qualification>6656ce9ff952db9d1df7d2a3_673d9f4bd02da66c06af66b4</qualification>
 			</qualifications>
 			<redsysQualifications>dcb6638bd109e09bc20340f2</redsysQualifications>
@@ -352,6 +77,24 @@ An diesem Special Day erhalten Sie einen umfassenden Überblick über die neuest
 			<expertId>61a4b517eeea2e001d2d7252</expertId>
 			<slug>martina-kraus</slug>
 			<__v>1</__v>
+		</speaker>
+		<speaker>
+			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+			<qualifications>
+			</qualifications>
+			<versionId>119</versionId>
+			<_id>673b2887702fee076a23e476</_id>
+			<published>true</published>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_66f42394b5f32d4e06f7e0b9</uniqueId>
+			<firstName>Johannes</firstName>
+			<lastName>Dienst</lastName>
+			<company>AskUI</company>
+			<details>Johannes Dienst ist Developer Advocate bei AskUI. Sein Fokus liegt auf Automatisierung, Dokumentation und Softwarequalität.</details>
+			<email>info@johannesdienst.net</email>
+			<lastSavedDate>2025-03-12T14:06:00.000Z</lastSavedDate>
+			<expertId>62a87af34312ed001daa3bb9</expertId>
+			<slug>johannes-dienst</slug>
+			<__v>0</__v>
 		</speaker>
 		<speaker>
 			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
@@ -394,6 +137,25 @@ An diesem Special Day erhalten Sie einen umfassenden Überblick über die neuest
 		<speaker>
 			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
 			<qualifications>
+			</qualifications>
+			<versionId>119</versionId>
+			<_id>673b2887702fee076a23e477</_id>
+			<published>true</published>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_66f464855eef0724066a5c31</uniqueId>
+			<firstName>Thomas Claudius</firstName>
+			<lastName>Huber</lastName>
+			<company>Accenture</company>
+			<details>Thomas Claudius Huber ist Microsoft MVP für .NET und Windows Development und beschäftigt sich schwerpunktmäßig mit allen XAML-basierten Frameworks: WPF, WinUI und .NET MAUI. Er freut sich über Feedback.</details>
+			<email>thomas@thomasclaudiushuber.com</email>
+			<lastSavedDate>2025-03-11T09:48:00.000Z</lastSavedDate>
+			<expertId>61e68c705642af001d4a6f29</expertId>
+			<userId>57df9a71d2972c861f72b22d</userId>
+			<slug>thomas-claudius-huber</slug>
+			<__v>0</__v>
+		</speaker>
+		<speaker>
+			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+			<qualifications>
 				<qualification>6656ce9ff952db9d1df7d2a3_67adb828e301739306ee34bd</qualification>
 			</qualifications>
 			<redsysQualifications>3aa879aeda3168f069f503e1</redsysQualifications>
@@ -410,25 +172,6 @@ An diesem Special Day erhalten Sie einen umfassenden Überblick über die neuest
 			<expertId>619d0a1e94e919001d77cc5d</expertId>
 			<slug>joerg-neumann</slug>
 			<__v>1</__v>
-		</speaker>
-		<speaker>
-			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-			<qualifications>
-			</qualifications>
-			<versionId>119</versionId>
-			<_id>673b2887702fee076a23e477</_id>
-			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_66f464855eef0724066a5c31</uniqueId>
-			<firstName>Thomas Claudius</firstName>
-			<lastName>Huber</lastName>
-			<company>Accenture</company>
-			<details>Thomas Claudius Huber ist Microsoft MVP für .NET und Windows Development und beschäftigt sich schwerpunktmäßig mit allen XAML-basierten Frameworks: WPF, WinUI und .NET MAUI. Er freut sich über Feedback.</details>
-			<email>thomas@thomasclaudiushuber.com</email>
-			<lastSavedDate>2025-03-11T09:48:00.000Z</lastSavedDate>
-			<expertId>61e68c705642af001d4a6f29</expertId>
-			<userId>57df9a71d2972c861f72b22d</userId>
-			<slug>thomas-claudius-huber</slug>
-			<__v>0</__v>
 		</speaker>
 		<speaker>
 			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
@@ -507,24 +250,6 @@ An diesem Special Day erhalten Sie einen umfassenden Überblick über die neuest
 		<speaker>
 			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
 			<qualifications>
-			</qualifications>
-			<versionId>119</versionId>
-			<_id>673b2887702fee076a23e47c</_id>
-			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_6702730bc7d73c5206b96f03</uniqueId>
-			<firstName>Patrick</firstName>
-			<lastName>Koch</lastName>
-			<company>AVL List GmbH</company>
-			<details>Patrick Koch ist DevOps-Ingenieur, Blogger, Mitorganisator der MS Developer User Group Graz, Azure Hero und Dozent, der gerne alles automatisiert. Sein Interesse an DevOps begann während seines Studiums der Softwareentwicklung an der Technischen Universität Graz. Zu dieser Zeit arbeitete er auch an einem gemeinnützigen Free and Open Source Software Projekt mit. Seit 2014 ist er in seiner Abteilung für die Themen CICD/Cloud/Container/Kubernetes zuständig. Seit mehreren Jahren betreibt er einen eigenen Blog zum Thema DevOps auf Azure und hält Vorträge/Workshops auf internationalen Konferenzen.</details>
-			<email>patrick.koch@avl.com</email>
-			<lastSavedDate>2025-03-11T09:48:00.000Z</lastSavedDate>
-			<expertId>636904fd20e20c002137bad1</expertId>
-			<slug>patrick-koch</slug>
-			<__v>0</__v>
-		</speaker>
-		<speaker>
-			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-			<qualifications>
 				<qualification>6656ce9ff952db9d1df7d2a3_6167e70121806921479d4f51</qualification>
 			</qualifications>
 			<versionId>119</versionId>
@@ -539,6 +264,24 @@ An diesem Special Day erhalten Sie einen umfassenden Überblick über die neuest
 			<lastSavedDate>2025-03-11T09:48:00.000Z</lastSavedDate>
 			<expertId>61a4caa294e919001d77cd7d</expertId>
 			<userId>61a4ca9f69958004737b5a3c</userId>
+			<__v>0</__v>
+		</speaker>
+		<speaker>
+			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+			<qualifications>
+			</qualifications>
+			<versionId>119</versionId>
+			<_id>673b2887702fee076a23e47c</_id>
+			<published>true</published>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_6702730bc7d73c5206b96f03</uniqueId>
+			<firstName>Patrick</firstName>
+			<lastName>Koch</lastName>
+			<company>AVL List GmbH</company>
+			<details>Patrick Koch ist DevOps-Ingenieur, Blogger, Mitorganisator der MS Developer User Group Graz, Azure Hero und Dozent, der gerne alles automatisiert. Sein Interesse an DevOps begann während seines Studiums der Softwareentwicklung an der Technischen Universität Graz. Zu dieser Zeit arbeitete er auch an einem gemeinnützigen Free and Open Source Software Projekt mit. Seit 2014 ist er in seiner Abteilung für die Themen CICD/Cloud/Container/Kubernetes zuständig. Seit mehreren Jahren betreibt er einen eigenen Blog zum Thema DevOps auf Azure und hält Vorträge/Workshops auf internationalen Konferenzen.</details>
+			<email>patrick.koch@avl.com</email>
+			<lastSavedDate>2025-03-11T09:48:00.000Z</lastSavedDate>
+			<expertId>636904fd20e20c002137bad1</expertId>
+			<slug>patrick-koch</slug>
 			<__v>0</__v>
 		</speaker>
 		<speaker>
@@ -996,24 +739,6 @@ Das 30-köpfige Team betreut Unternehmen im Bundesgebiet mit der Stellung des ex
 			<qualifications>
 			</qualifications>
 			<versionId>119</versionId>
-			<_id>673b2887702fee076a23e495</_id>
-			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_670401b028df965006211647</uniqueId>
-			<firstName>Marco</firstName>
-			<lastName>Frodl</lastName>
-			<company>Thinktecture AG</company>
-			<details>Marco Frodl ist Principal Consultant für Generative AI bei der Thinktecture AG und konzentriert sich im Bereich der künstlichen Intelligenz auf Generative AI. Ihn fasziniert die Vision, in natürlicher Sprache mit Apps und Devices kommunizieren zu können. Sein Beratungsfokus ist die Entwicklung von AI-Workflows unter Verwendung von LLMs von OpenAI oder Mistral sowie community-getriebene Large Language Models wie Metas Llama2, Mixtral, Intel NeuralChat oder DeepSeek Coder. Er ist Fan von LangChain und LangFuse, weil sich damit komplexe AI-Abläufe kompakt verpacken und gut tracen lassen.</details>
-			<email>marco.frodl@thinktecture.com</email>
-			<lastSavedDate>2025-03-11T09:48:00.000Z</lastSavedDate>
-			<expertId>6331d64ec302686eb9097419</expertId>
-			<slug>marco-frodl</slug>
-			<__v>0</__v>
-		</speaker>
-		<speaker>
-			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-			<qualifications>
-			</qualifications>
-			<versionId>119</versionId>
 			<_id>673b2887702fee076a23e499</_id>
 			<published>true</published>
 			<uniqueId>6656ce9ff952db9d1df7d2a3_670f722dd05449ae161c6b4a</uniqueId>
@@ -1025,6 +750,24 @@ Das 30-köpfige Team betreut Unternehmen im Bundesgebiet mit der Stellung des ex
 			<lastSavedDate>2025-03-11T09:48:00.000Z</lastSavedDate>
 			<expertId>c348a541c4d22e31aa8d2aed</expertId>
 			<slug>marcel-philipp-strauss</slug>
+			<__v>0</__v>
+		</speaker>
+		<speaker>
+			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+			<qualifications>
+			</qualifications>
+			<versionId>119</versionId>
+			<_id>673b2887702fee076a23e495</_id>
+			<published>true</published>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_670401b028df965006211647</uniqueId>
+			<firstName>Marco</firstName>
+			<lastName>Frodl</lastName>
+			<company>Thinktecture AG</company>
+			<details>Marco Frodl ist Principal Consultant für Generative AI bei der Thinktecture AG und konzentriert sich im Bereich der künstlichen Intelligenz auf Generative AI. Ihn fasziniert die Vision, in natürlicher Sprache mit Apps und Devices kommunizieren zu können. Sein Beratungsfokus ist die Entwicklung von AI-Workflows unter Verwendung von LLMs von OpenAI oder Mistral sowie community-getriebene Large Language Models wie Metas Llama2, Mixtral, Intel NeuralChat oder DeepSeek Coder. Er ist Fan von LangChain und LangFuse, weil sich damit komplexe AI-Abläufe kompakt verpacken und gut tracen lassen.</details>
+			<email>marco.frodl@thinktecture.com</email>
+			<lastSavedDate>2025-03-11T09:48:00.000Z</lastSavedDate>
+			<expertId>6331d64ec302686eb9097419</expertId>
+			<slug>marco-frodl</slug>
 			<__v>0</__v>
 		</speaker>
 		<speaker>
@@ -1252,10 +995,10 @@ Heute bringt er seine Expertise als Softwarearchitekt bei der Thinktecture AG ei
 			<details/>
 			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
 			<versionId>0</versionId>
-			<_id>673b2888702fee076a23e4ea</_id>
+			<_id>673b2888702fee076a23e4ec</_id>
 			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_670d1460a8fe756f06446ff4</uniqueId>
-			<name>BAS 1.25 .NET</name>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_670d14284cfa3654065f955a</uniqueId>
+			<name>BAS 1.25 Azure</name>
 			<__v>0</__v>
 		</qualification>
 		<qualification>
@@ -1272,10 +1015,10 @@ Heute bringt er seine Expertise als Softwarearchitekt bei der Thinktecture AG ei
 			<details/>
 			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
 			<versionId>0</versionId>
-			<_id>673b2888702fee076a23e4ec</_id>
+			<_id>673b2888702fee076a23e4ea</_id>
 			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_670d14284cfa3654065f955a</uniqueId>
-			<name>BAS 1.25 Azure</name>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_670d1460a8fe756f06446ff4</uniqueId>
+			<name>BAS 1.25 .NET</name>
 			<__v>0</__v>
 		</qualification>
 		<qualification>
@@ -1289,6 +1032,283 @@ Heute bringt er seine Expertise als Softwarearchitekt bei der Thinktecture AG ei
 			<__v>0</__v>
 		</qualification>
 	</qualifications>
+	<tracks>
+		<track>
+			<startDate>2025-03-20T09:32:00.000Z</startDate>
+			<endDate>2025-03-20T09:32:00.000Z</endDate>
+			<details/>
+			<specialDay>false</specialDay>
+			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+			<versionId>115</versionId>
+			<_id>673b2887702fee076a23e458</_id>
+			<published>true</published>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29b</uniqueId>
+			<name>JavaScript</name>
+			<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
+			<redsysId>EGYE6YvXFMXibJPBb</redsysId>
+			<__v>0</__v>
+		</track>
+		<track>
+			<startDate>2025-03-20T09:32:00.000Z</startDate>
+			<endDate>2025-03-20T09:32:00.000Z</endDate>
+			<details/>
+			<specialDay>false</specialDay>
+			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+			<versionId>115</versionId>
+			<_id>673b2887702fee076a23e459</_id>
+			<published>true</published>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a0</uniqueId>
+			<name>Microservices &amp; APIs</name>
+			<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
+			<redsysId>rHrPqX2KbFPwjtDSb</redsysId>
+			<__v>0</__v>
+		</track>
+		<track>
+			<startDate>2025-03-20T09:32:00.000Z</startDate>
+			<endDate>2025-03-20T09:32:00.000Z</endDate>
+			<details/>
+			<specialDay>false</specialDay>
+			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+			<versionId>115</versionId>
+			<_id>673b2887702fee076a23e45b</_id>
+			<published>true</published>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a2</uniqueId>
+			<name>AI — Artificial Intelligence</name>
+			<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
+			<redsysId>HiYrk8EikrLTAMJgF</redsysId>
+			<__v>0</__v>
+		</track>
+		<track>
+			<startDate>2025-03-20T09:32:00.000Z</startDate>
+			<endDate>2025-03-20T09:32:00.000Z</endDate>
+			<details/>
+			<specialDay>false</specialDay>
+			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+			<versionId>115</versionId>
+			<_id>673b2887702fee076a23e45c</_id>
+			<published>true</published>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d299</uniqueId>
+			<name>Data Access &amp; Storage</name>
+			<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
+			<redsysId>oWL542WsjR4YQeLrJ</redsysId>
+			<__v>0</__v>
+		</track>
+		<track>
+			<startDate>2025-03-20T09:32:00.000Z</startDate>
+			<endDate>2025-03-20T09:32:00.000Z</endDate>
+			<details/>
+			<specialDay>false</specialDay>
+			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+			<versionId>115</versionId>
+			<_id>673b2887702fee076a23e45a</_id>
+			<published>true</published>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29d</uniqueId>
+			<name>.NET Framework &amp; C#</name>
+			<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
+			<redsysId>bbrhptpLkagnsFkvL</redsysId>
+			<__v>0</__v>
+		</track>
+		<track>
+			<startDate>2025-03-20T09:32:00.000Z</startDate>
+			<endDate>2025-03-20T09:32:00.000Z</endDate>
+			<details/>
+			<specialDay>false</specialDay>
+			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+			<versionId>115</versionId>
+			<_id>673b2887702fee076a23e45e</_id>
+			<published>true</published>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29a</uniqueId>
+			<name>UI Technology</name>
+			<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
+			<redsysId>WyEPvNyjueeLdzdfh</redsysId>
+			<__v>0</__v>
+		</track>
+		<track>
+			<startDate>2025-03-20T09:32:00.000Z</startDate>
+			<endDate>2025-03-20T09:32:00.000Z</endDate>
+			<details/>
+			<specialDay>false</specialDay>
+			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+			<versionId>115</versionId>
+			<_id>673b2887702fee076a23e45d</_id>
+			<published>true</published>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29e</uniqueId>
+			<name>Web Development</name>
+			<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
+			<redsysId>KFhbqzmMxqkkEd7Ni</redsysId>
+			<__v>0</__v>
+		</track>
+		<track>
+			<startDate>2025-03-20T09:32:00.000Z</startDate>
+			<endDate>2025-03-20T09:32:00.000Z</endDate>
+			<details/>
+			<specialDay>false</specialDay>
+			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+			<versionId>115</versionId>
+			<_id>673b2887702fee076a23e460</_id>
+			<published>true</published>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29c</uniqueId>
+			<name>Security</name>
+			<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
+			<redsysId>fEYwXYGi3Af2bqcPX</redsysId>
+			<__v>0</__v>
+		</track>
+		<track>
+			<startDate>2025-03-20T09:32:00.000Z</startDate>
+			<endDate>2025-03-20T09:32:00.000Z</endDate>
+			<details/>
+			<specialDay>false</specialDay>
+			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+			<versionId>115</versionId>
+			<_id>673b2887702fee076a23e461</_id>
+			<published>true</published>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a1</uniqueId>
+			<name>Agile &amp; DevOps</name>
+			<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
+			<redsysId>x5uJwZ4cgL2Yengi3</redsysId>
+			<__v>0</__v>
+		</track>
+		<track>
+			<startDate>2025-03-20T09:32:00.000Z</startDate>
+			<endDate>2025-03-20T09:32:00.000Z</endDate>
+			<details/>
+			<specialDay>false</specialDay>
+			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+			<versionId>115</versionId>
+			<_id>673b2887702fee076a23e45f</_id>
+			<published>true</published>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29f</uniqueId>
+			<name>Azure &amp; Cloud</name>
+			<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
+			<redsysId>s5Lbe3yH2JHAr9mdb</redsysId>
+			<__v>0</__v>
+		</track>
+	</tracks>
+	<speakerqualifications>
+		<details/>
+		<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+		<versionId>0</versionId>
+		<_id>673da0cb702fee076a4a696e</_id>
+		<published>true</published>
+		<uniqueId>6656ce9ff952db9d1df7d2a3_673d9f4bd02da66c06af66b4</uniqueId>
+		<name>BAS125 Speakerquali</name>
+		<__v>0</__v>
+	</speakerqualifications>
+	<speakerqualifications>
+		<details/>
+		<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+		<versionId>0</versionId>
+		<_id>67adbb702ed0fe07298d1767</_id>
+		<published>true</published>
+		<uniqueId>6656ce9ff952db9d1df7d2a3_67adb828e301739306ee34bd</uniqueId>
+		<name>A Speaker BAS 125</name>
+		<__v>0</__v>
+	</speakerqualifications>
+	<sponsor-types>
+	</sponsor-types>
+	<sponsors>
+	</sponsors>
+	<specialDays>
+		<order>0</order>
+		<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+		<_id>673b2888702fee076a23e4f4</_id>
+		<uniqueId>6656ce9ff952db9d1df7d2a3_6703cdea0157cd560623515e</uniqueId>
+		<name>Architektur Day</name>
+		<startDate>2025-03-04T08:00:00.000Z</startDate>
+		<endDate>2025-03-04T18:00:00.000Z</endDate>
+		<details>Moderne Anwendungssysteme bestehen aus einer Vielzahl von Komponenten, die miteinander interagieren und ein komplexes Geflecht bilden. Doch wie ordnet man diese Technologiebausteine in ein kohärentes Gesamtbild ein? Genau das steht im Fokus des Architecture Day.
+Auf dem Architecture Day bei BASTA! erleben Teilnehmer nicht nur theoretische Konzepte, sondern auch praktische Demos, die zeigen, wie diese Konzepte in der realen Welt umgesetzt werden können. Von Microservices-Architekturen über Event-Driven Design bis hin zu Containerisierung und Serverless Computing - hier erhalten Entwickler und Architekten wertvolle Einblicke in bewährte Methoden und innovative Ansätze.</details>
+		<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
+		<__v>0</__v>
+	</specialDays>
+	<specialDays>
+		<order>0</order>
+		<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+		<_id>673b2888702fee076a23e4f6</_id>
+		<uniqueId>6656ce9ff952db9d1df7d2a3_6703eaf74bc7a15f069a9a8c</uniqueId>
+		<name>UI Technology Day</name>
+		<startDate>2025-03-06T08:00:00.000Z</startDate>
+		<endDate>2025-03-06T17:00:00.000Z</endDate>
+		<details>Die Gestaltung von Oberflächen ist nicht so einfach wie es vielleicht scheint. Denn hierbei geht es weniger um schickes Aussehen, sondern vielmehr um Usability oder neudeutsch User Experience. Sie entscheidet, ob eine App akzeptiert und vor allem verwendet wird.
+Doch um eine gelungenes Oberflächendesign umsetzen zu können benötigt man auch ein gutes Technikverständnis - egal ob die Oberfläche auf HTML/CSS, XAML oder anderen Technologien basiert.
+
+Der UI Technology Day befasst sich genau mit diesen Themen. Er vermittelt nicht nur das grundlegende Verständnis intelligent gestalteter User Interfaces, sondern diskutiert auch neue technologische Ansätze in diesem Bereich und dies natürlich Plattform- und Technologie übergreifend.</details>
+		<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
+		<__v>0</__v>
+	</specialDays>
+	<specialDays>
+		<order>0</order>
+		<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+		<_id>673b2888702fee076a23e4f5</_id>
+		<uniqueId>6656ce9ff952db9d1df7d2a3_6703ea6d8094c54f062dd18b</uniqueId>
+		<name>Web Development Days</name>
+		<startDate>2025-03-05T08:00:00.000Z</startDate>
+		<endDate>2025-03-06T17:00:00.000Z</endDate>
+		<details>Die Web Development Days der BASTA! stehen für die Vielfältigkeit moderner Webentwicklung für .NET-Entwickler:innen. Von Microsofts hauseigenen Blazor-Lösungen bis hin zu beeindruckenden Web-Apps mit Node.js, Angular, Vue.js und React. Es werden sowohl client-seitige als auch serverseitige Lösungen besprochen, um robuste und skalierbare Web-Anwendungen zu erstellen, die nativen Desktop-Anwendungen in nichts nachstehen. Unsere Expert:innen geben auf den Special Days wertvolle Einblicke und Praxistipps und zeigen wie aktuelle Trends und auch neueste Ansätze aus der Web-Welt, wie Hydration mit Frameworks wie Astro, Next.js, Qwik oder Svelte, mit .NET-Technologien zusammenspielen. Die Web Development Days bieten eine einzigartige Gelegenheit zum Wissensaustausch und zur Vernetzung mit Gleichgesinnten. Also: Seien Sie dabei.
+
+--. DIE WEB DEVELOPMENT DASYS FINDEN AM MITTWOCH, 05.03.2025 + DONNERSTAG, 06.03.2025  STATT --</details>
+		<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
+		<__v>0</__v>
+	</specialDays>
+	<specialDays>
+		<order>0</order>
+		<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+		<_id>673b2888702fee076a23e4f3</_id>
+		<uniqueId>6656ce9ff952db9d1df7d2a3_67090a2b2611732c065af299</uniqueId>
+		<name>Generative AI Day</name>
+		<startDate>2025-03-04T08:00:00.000Z</startDate>
+		<endDate>2025-03-04T18:00:00.000Z</endDate>
+		<details>Generative AI ist gekommen, um zu bleiben. Der Generative AI Day auf der BASTA! beleuchtet Möglichkeiten, die Large Language Models (LLMs) und generative KI für die Softwareentwicklung bieten. Dieser Tag bietet einen Einblick sowohl in aktuelle Entwicklungen als auch in Best Practices für den Einsatz von KI-Technologien in realen Anwendungsfällen. Der Fokus liegt auf der praktischen Anwendung von LLMs, der Optimierung bestehender Workflows und der Bewältigung von Herausforderungen wie Effizienz, Sicherheit und Kosten. Live-Demonstrationen und interaktive Coding-Sessions ermöglichen den Teilnehmern, die Technologien in Aktion zu erleben und konkrete Anregungen für ihre eigenen Projekte mitzunehmen.</details>
+		<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
+		<__v>0</__v>
+	</specialDays>
+	<specialDays>
+		<order>0</order>
+		<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+		<_id>673b2888702fee076a23e4f2</_id>
+		<uniqueId>6656ce9ff952db9d1df7d2a3_66fd0da281a8b48e0638e33b</uniqueId>
+		<name>.NET Framework &amp; C# Days</name>
+		<startDate>2025-03-04T08:00:00.000Z</startDate>
+		<endDate>2025-03-05T18:00:00.000Z</endDate>
+		<details>Back to the roots: die wichtigsten Kernthemen vieler BASTA-Besucher sind und bleiben .NET und C#. Daran kann auch JavaScript nichts ändern. Daher gibt es diese Themen jetzt endlich wieder an zwei Special Days! An den beiden Tagen gibt es neben neuen Features in der Sprache C# und den .NET-Bibliotheken auch Best Practices sowie Tipps und Tricks zu bereits etablierten Sprachkonstrukten, Techniken und Tools. Ob Anfänger oder Fortgeschrittene, unsere Experten haben hochkarätige Fachvorträge mit aktuellsten Informationen vorbereitet, um Sie im Umgang mit .NET und C# noch effektiver und erfolgreicher zu machen.
+
+-- DIE .NET &amp; C# DAYS FINDEN AM DIENSTAG, 04.03.2025 + MITTWOCH, 05.03.2025  STATT --</details>
+		<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
+		<__v>0</__v>
+	</specialDays>
+	<specialDays>
+		<order>0</order>
+		<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+		<_id>673b2888702fee076a23e4f7</_id>
+		<uniqueId>6656ce9ff952db9d1df7d2a3_66fd6b2470db79570622e31a</uniqueId>
+		<name>Data Access Day</name>
+		<startDate>2025-03-06T08:00:00.000Z</startDate>
+		<endDate>2025-03-06T17:00:00.000Z</endDate>
+		<details>Der Datenzugriff auf Datenbanken und andere Datenquellen ist eine zentrale Funktion in den meisten Anwendungen, egal ob auf dem Client, Server oder in der Cloud. Dabei bildet sowohl die Auswahl der Datenbanktechnik, das Datenbankdesign und die Datenhaltung als auch die Implementierung der Datenzugriffsschicht die Grundlage für eine effiziente und performante Softwareentwicklung.
+
+Der Data Access Day beginnt dieses Mal mit einem Vortrag von Robert Panther über KI-gestützte Datenbankentwicklung mit Azure Data Studio und GitHub Copilot. Dieser Vortrag bietet einen Einblick in die neuen Möglichkeiten, die sich daraus ergeben, beleuchtet aber auch technische Grenzen und andere Aspekte, die beim Einsatz von KI-generiertem Code zu berücksichtigen sind. 
+
+Entity Framework-Guru Holger Schwichtenberg zeigt die Neuerungen in Entity Framework Core 9.0, das im November 2024 erschienen ist. Olaf Lischke stellt danach mit NHibernate eine Alternative zu Entity Framework Core vor. In seinem Vortrag beleuchtet er die Unterschiede in Architektur, Logik und Anwendung genauso wie die möglichen Einsatzbereiche für verschiedene Szenarien.
+
+Anschließend erörtert Thorsten Kansy das Sicherheitskonzept von Microsoft SQL Server und den Möglichkeiten (einfach) eigene Inhalte in Datenbanken zu verschlüsseln.
+ 
+Am Ende des Tages erörtert Gregor Biswanger das Microsoft Semantic Kernel (Memory) SDK. Diese Technologien ermöglichen es, eigene Daten nahtlos mit Generativer KI zu kombinieren. Verschiedene Vektordatenbanken werden analysiert, ihre Stärken und Schwächen aufgezeigt, sowie Kriterien zur Bewertung der Qualität einer Vektordatenbank im Vergleich zu Embedding Models besprochen.</details>
+		<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
+		<__v>0</__v>
+	</specialDays>
+	<specialDays>
+		<order>0</order>
+		<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+		<_id>673b2888702fee076a23e4f8</_id>
+		<uniqueId>6656ce9ff952db9d1df7d2a3_670f8474a8fe756f06447001</uniqueId>
+		<name>DevOps &amp; Cloud Developer Day</name>
+		<startDate>2025-03-05T08:00:00.000Z</startDate>
+		<endDate>2025-03-05T18:00:00.000Z</endDate>
+		<details>Entdecken Sie an diesem Special Day die essentiellen Elemente moderner Softwareentwicklung: Cloud-Technologien und Continuous Delivery. Erfahren Sie, warum diese nahezu unverzichtbar sind und wie sie Ihre Projekte damit zum Erfolg bringen. Tauchen Sie ein in moderne Pipelines und hochautomatisierte CI/CD-Prozesse, die Ihre Arbeit revolutionieren und eine reibungslose Continuous Delivery ermöglichen. Erfahren Sie, wie Sie durch Platform Engineering Ihrem Unternehmen eine flexible Infrastruktur ermöglichen, die nahtlos in Ihre DevOps-Strategie integriert ist.
+An diesem Special Day erhalten Sie einen umfassenden Überblick über die neuesten Microsoft Azure Services, von Azure Functions über Azure Kubernetes Service bis hin zu Azure Cosmos DB. Der „DevOps &amp; Cloud Development Day” bietet dabei praktische Einblicke in Sessions und Workshops und hilft, ein tiefes Verständnis für Azure, DevOps, Platform Engineering und mehr zu entwickeln.</details>
+		<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
+		<__v>0</__v>
+	</specialDays>
 	<sessionTypes>
 		<sessiontype>
 			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
@@ -1333,26 +1353,6 @@ Heute bringt er seine Expertise als Softwarearchitekt bei der Thinktecture AG ei
 			<imageUrl>https://petrol.signsoft.com/api/sessionType/image/673b2888702fee076a23e4e7?version=0</imageUrl>
 		</sessiontype>
 	</sessionTypes>
-	<speakerqualifications>
-		<details/>
-		<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-		<versionId>0</versionId>
-		<_id>673da0cb702fee076a4a696e</_id>
-		<published>true</published>
-		<uniqueId>6656ce9ff952db9d1df7d2a3_673d9f4bd02da66c06af66b4</uniqueId>
-		<name>BAS125 Speakerquali</name>
-		<__v>0</__v>
-	</speakerqualifications>
-	<speakerqualifications>
-		<details/>
-		<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-		<versionId>0</versionId>
-		<_id>67adbb702ed0fe07298d1767</_id>
-		<published>true</published>
-		<uniqueId>6656ce9ff952db9d1df7d2a3_67adb828e301739306ee34bd</uniqueId>
-		<name>A Speaker BAS 125</name>
-		<__v>0</__v>
-	</speakerqualifications>
 	<sessions>
 		<session>
 			<workflowState>Live</workflowState>
@@ -1471,58 +1471,6 @@ Heute bringt er seine Expertise als Softwarearchitekt bei der Thinktecture AG ei
 			<workflowState>Live</workflowState>
 			<language>de</language>
 			<qualifications>
-				<qualification>6656ce9ff952db9d1df7d2a3_670d143f6a720d5b06dcb6af</qualification>
-			</qualifications>
-			<redsysQualifications>ff79323734c7422f94d0cd2d</redsysQualifications>
-			<workshopShortLabel/>
-			<workshopRequirements/>
-			<longAbstract/>
-			<primaryTrackUniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d299</primaryTrackUniqueId>
-			<versionId>119</versionId>
-			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-			<redsysExpertIds>61e68caf5642af001d4a6f2b</redsysExpertIds>
-			<redsysTrackIds>oWL542WsjR4YQeLrJ</redsysTrackIds>
-			<isVideoStream>true</isVideoStream>
-			<videoStreamUrl>https://vimeo.com/event/4869042/embed</videoStreamUrl>
-			<isZoomStream>false</isZoomStream>
-			<onboardingZoomLink/>
-			<liveStreamZoomLink/>
-			<specialDayIds>6656ce9ff952db9d1df7d2a3_66fd6b2470db79570622e31a</specialDayIds>
-			<workshopAttendeeInformationsDe/>
-			<workshopAttendeeInformationsEn/>
-			<_id>673b2887702fee076a23e373</_id>
-			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_66d47e2875bc5493104b2a60</uniqueId>
-			<name>SQL Server – eine sichere Sache!?</name>
-			<type>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a6</type>
-			<startDate>2025-03-06T11:00:00.000Z</startDate>
-			<endDate>2025-03-06T12:00:00.000Z</endDate>
-			<details>&lt;p&gt;Besonders bei der Arbeit mit Daten gilt (hoffentlich) eins: Sicher muss es sein. Das muss natürlich auch  bei dem Datenbankentwurf und der Softwareentwicklung bedacht werden. Thorsten Kansy zeigt, wie man es angehen kann. Das Sicherheitskonzept des SQL Server und die Möglichkeiten, (einfach) eigene Inhalte zu verschlüsseln, sind die Kernthemen. Und er verteilt zahlreiche Tipps und Trick – wie immer ungefragt ;-)&lt;/p&gt;</details>
-			<lastSavedDate>2025-02-04T09:00:00.000Z</lastSavedDate>
-			<redsysPrimaryTrackId>oWL542WsjR4YQeLrJ</redsysPrimaryTrackId>
-			<redsysType>JBPD73cH534W8FFEx</redsysType>
-			<slugs>
-				<_id>67dbe0bf4ddcdb0728f3c257</_id>
-				<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-				<slug>sql-server-security-tipps</slug>
-			</slugs>
-			<__v>119</__v>
-			<roomName>Ballsaal 2</roomName>
-			<speakers>
-				<speaker>
-					<speakerId>6656ce9ff952db9d1df7d2a3_66d47c6bfb59bb8d10f09958</speakerId>
-				</speaker>
-			</speakers>
-			<tracks>
-				<track>
-					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d299</trackId>
-				</track>
-			</tracks>
-		</session>
-		<session>
-			<workflowState>Live</workflowState>
-			<language>de</language>
-			<qualifications>
 			</qualifications>
 			<workshopShortLabel>Web App Security Workshop</workshopShortLabel>
 			<workshopRequirements>&lt;p&gt;&lt;span&gt;Alle, die mit Webentwicklung beschäftigt sind, inklusive Teamleitung. Erfahrung mit Webtechnologien wird somit vorausgesetzt. Zwar verwenden die Beispiele ASP.NET Core, aber hier ist kein Detailwissen erforderlich. &lt;/span&gt;&lt;/p&gt;</workshopRequirements>
@@ -1627,6 +1575,58 @@ Heute bringt er seine Expertise als Softwarearchitekt bei der Thinktecture AG ei
 			<tracks>
 				<track>
 					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29d</trackId>
+				</track>
+			</tracks>
+		</session>
+		<session>
+			<workflowState>Live</workflowState>
+			<language>de</language>
+			<qualifications>
+				<qualification>6656ce9ff952db9d1df7d2a3_670d143f6a720d5b06dcb6af</qualification>
+			</qualifications>
+			<redsysQualifications>ff79323734c7422f94d0cd2d</redsysQualifications>
+			<workshopShortLabel/>
+			<workshopRequirements/>
+			<longAbstract/>
+			<primaryTrackUniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d299</primaryTrackUniqueId>
+			<versionId>119</versionId>
+			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+			<redsysExpertIds>61e68caf5642af001d4a6f2b</redsysExpertIds>
+			<redsysTrackIds>oWL542WsjR4YQeLrJ</redsysTrackIds>
+			<isVideoStream>true</isVideoStream>
+			<videoStreamUrl>https://vimeo.com/event/4869042/embed</videoStreamUrl>
+			<isZoomStream>false</isZoomStream>
+			<onboardingZoomLink/>
+			<liveStreamZoomLink/>
+			<specialDayIds>6656ce9ff952db9d1df7d2a3_66fd6b2470db79570622e31a</specialDayIds>
+			<workshopAttendeeInformationsDe/>
+			<workshopAttendeeInformationsEn/>
+			<_id>673b2887702fee076a23e373</_id>
+			<published>true</published>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_66d47e2875bc5493104b2a60</uniqueId>
+			<name>SQL Server – eine sichere Sache!?</name>
+			<type>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a6</type>
+			<startDate>2025-03-06T11:00:00.000Z</startDate>
+			<endDate>2025-03-06T12:00:00.000Z</endDate>
+			<details>&lt;p&gt;Besonders bei der Arbeit mit Daten gilt (hoffentlich) eins: Sicher muss es sein. Das muss natürlich auch  bei dem Datenbankentwurf und der Softwareentwicklung bedacht werden. Thorsten Kansy zeigt, wie man es angehen kann. Das Sicherheitskonzept des SQL Server und die Möglichkeiten, (einfach) eigene Inhalte zu verschlüsseln, sind die Kernthemen. Und er verteilt zahlreiche Tipps und Trick – wie immer ungefragt ;-)&lt;/p&gt;</details>
+			<lastSavedDate>2025-02-04T09:00:00.000Z</lastSavedDate>
+			<redsysPrimaryTrackId>oWL542WsjR4YQeLrJ</redsysPrimaryTrackId>
+			<redsysType>JBPD73cH534W8FFEx</redsysType>
+			<slugs>
+				<_id>67dbe0bf4ddcdb0728f3c257</_id>
+				<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+				<slug>sql-server-security-tipps</slug>
+			</slugs>
+			<__v>119</__v>
+			<roomName>Ballsaal 2</roomName>
+			<speakers>
+				<speaker>
+					<speakerId>6656ce9ff952db9d1df7d2a3_66d47c6bfb59bb8d10f09958</speakerId>
+				</speaker>
+			</speakers>
+			<tracks>
+				<track>
+					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d299</trackId>
 				</track>
 			</tracks>
 		</session>
@@ -2256,56 +2256,6 @@ This talk will delve into the stages of enhancing documentation quality, complet
 			<workflowState>Live</workflowState>
 			<language>de</language>
 			<qualifications>
-			</qualifications>
-			<workshopShortLabel/>
-			<workshopRequirements/>
-			<longAbstract/>
-			<primaryTrackUniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29e</primaryTrackUniqueId>
-			<versionId>119</versionId>
-			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-			<redsysExpertIds>61d2d8ab5907bd001dd2f6f7</redsysExpertIds>
-			<redsysTrackIds>KFhbqzmMxqkkEd7Ni</redsysTrackIds>
-			<isVideoStream>true</isVideoStream>
-			<videoStreamUrl>https://vimeo.com/event/4869041/embed</videoStreamUrl>
-			<isZoomStream>false</isZoomStream>
-			<onboardingZoomLink/>
-			<liveStreamZoomLink/>
-			<specialDayIds>6656ce9ff952db9d1df7d2a3_6703ea6d8094c54f062dd18b</specialDayIds>
-			<workshopAttendeeInformationsDe/>
-			<workshopAttendeeInformationsEn/>
-			<_id>673b2887702fee076a23e38b</_id>
-			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_66f3f2f1b0bc2e5e06e9ff40</uniqueId>
-			<name>Blazor United: SPAs im Automodus statt der Qual der Wahl zwischen Blazor Server und Blazor WebAssembly</name>
-			<type>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a6</type>
-			<startDate>2025-03-05T09:30:00.000Z</startDate>
-			<endDate>2025-03-05T10:30:00.000Z</endDate>
-			<details>&lt;p&gt;Seit .NET 8.0 und nochmal verbessert in .NET 9.0 bietet Microsoft mit Blazor Web Apps neue Hostingmodelle für Blazor-Anwendungen: Beim Blazor Static Server-side Rendering (SSR) kann man die mächtigen Razor Components nun auch dort einsetzen, wo bisher MVC und Razor Pages genutzt wurden. Innerhalb einer Blazor-Static-SSR-Rahmenanwendung können dann Single Page Apps mit Blazor Server und/oder Blazor WebAssembly als SPA-Inseln rendern. Im neuen Automodus wird eine Komponente zunächst schnell per Blazor Server interaktiv, um dann im Hintergrund die Module für Blazor WebAssembly nachzuladen. Nutzen Sie ab jetzt das Beste aus beiden Welten statt der Wahl zwischen Pest und Cholera! Blazor-Guru und Blazor-Buchautor Dr. Holger Schwichtenberg zeigt Ihnen, was die neuen Blazor-Architekturen bringen und wie und wofür man sie in der Praxis einsetzt.&lt;/p&gt;</details>
-			<lastSavedDate>2025-02-04T09:02:00.000Z</lastSavedDate>
-			<redsysPrimaryTrackId>KFhbqzmMxqkkEd7Ni</redsysPrimaryTrackId>
-			<redsysType>JBPD73cH534W8FFEx</redsysType>
-			<slugs>
-				<_id>67dbe0bf4ddcdb0728f3c260</_id>
-				<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-				<slug>blazor-united-spa-auto-modus</slug>
-			</slugs>
-			<__v>119</__v>
-			<roomName>Ballsaal 1</roomName>
-			<speakers>
-				<speaker>
-					<speakerId>6656ce9ff952db9d1df7d2a3_66f3f05bfce7635506103140</speakerId>
-				</speaker>
-			</speakers>
-			<tracks>
-				<track>
-					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29e</trackId>
-				</track>
-			</tracks>
-		</session>
-		<session>
-			<workflowState>Live</workflowState>
-			<language>de</language>
-			<qualifications>
 				<qualification>6656ce9ff952db9d1df7d2a3_670d1460a8fe756f06446ff4</qualification>
 			</qualifications>
 			<redsysQualifications>1ead4e119e10feb4bca10d9d</redsysQualifications>
@@ -2358,43 +2308,41 @@ This talk will delve into the stages of enhancing documentation quality, complet
 			<workflowState>Live</workflowState>
 			<language>de</language>
 			<qualifications>
-				<qualification>6656ce9ff952db9d1df7d2a3_670d143f6a720d5b06dcb6af</qualification>
 			</qualifications>
-			<redsysQualifications>ff79323734c7422f94d0cd2d</redsysQualifications>
 			<workshopShortLabel/>
 			<workshopRequirements/>
 			<longAbstract/>
-			<primaryTrackUniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d299</primaryTrackUniqueId>
+			<primaryTrackUniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29e</primaryTrackUniqueId>
 			<versionId>119</versionId>
 			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
 			<redsysExpertIds>61d2d8ab5907bd001dd2f6f7</redsysExpertIds>
-			<redsysTrackIds>oWL542WsjR4YQeLrJ</redsysTrackIds>
+			<redsysTrackIds>KFhbqzmMxqkkEd7Ni</redsysTrackIds>
 			<isVideoStream>true</isVideoStream>
-			<videoStreamUrl>https://vimeo.com/event/4869042/embed</videoStreamUrl>
+			<videoStreamUrl>https://vimeo.com/event/4869041/embed</videoStreamUrl>
 			<isZoomStream>false</isZoomStream>
 			<onboardingZoomLink/>
 			<liveStreamZoomLink/>
-			<specialDayIds>6656ce9ff952db9d1df7d2a3_66fd6b2470db79570622e31a</specialDayIds>
+			<specialDayIds>6656ce9ff952db9d1df7d2a3_6703ea6d8094c54f062dd18b</specialDayIds>
 			<workshopAttendeeInformationsDe/>
 			<workshopAttendeeInformationsEn/>
-			<_id>673b2887702fee076a23e39b</_id>
+			<_id>673b2887702fee076a23e38b</_id>
 			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_66f3f236b71bf92b06e1c27f</uniqueId>
-			<name>Neuigkeiten in Entity Framework Core 9.0</name>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_66f3f2f1b0bc2e5e06e9ff40</uniqueId>
+			<name>Blazor United: SPAs im Automodus statt der Qual der Wahl zwischen Blazor Server und Blazor WebAssembly</name>
 			<type>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a6</type>
-			<startDate>2025-03-06T08:00:00.000Z</startDate>
-			<endDate>2025-03-06T09:00:00.000Z</endDate>
-			<details>&lt;p&gt;Microsoft verbessert seinen Objekt-Relationalen Mapper kontinuierlich. Im November 2024 ist die nächste Version 9.0 von Entity Framework Core mit einigen Neuerungen erschienen. Lernen Sie in diesem Vortrag von Entity-Framework-Core-Guru Holger Schwichtenberg u. a.: w&lt;span style="font-size: 1em;"&gt;ichtige Fakten zu Entity Framework Core 9.0, &lt;/span&gt;&lt;span style="font-size: 1em;"&gt;Performanceoptimierung durch Auto-compiled Models, &lt;/span&gt;&lt;span style="font-size: 1em;"&gt;Entity Framework Core und NativeAOT, s&lt;/span&gt;&lt;span style="font-size: 1em;"&gt;chreibgeschützte Objektmengen elementarer Typen als Property-Typ, &lt;/span&gt;&lt;span style="font-size: 1em;"&gt;Verbesserungen für komplexe Typen, &lt;/span&gt;&lt;span style="font-size: 1em;"&gt;Einfluss auf die Parametrisierung von SQL-Abfragen und &lt;/span&gt;&lt;span style="font-size: 1em;"&gt;Verbesserungen bei der Übersetzung von LINQ zu SQL.&lt;/span&gt;&lt;/p&gt;</details>
-			<lastSavedDate>2025-02-04T09:06:00.000Z</lastSavedDate>
-			<redsysPrimaryTrackId>oWL542WsjR4YQeLrJ</redsysPrimaryTrackId>
+			<startDate>2025-03-05T09:30:00.000Z</startDate>
+			<endDate>2025-03-05T10:30:00.000Z</endDate>
+			<details>&lt;p&gt;Seit .NET 8.0 und nochmal verbessert in .NET 9.0 bietet Microsoft mit Blazor Web Apps neue Hostingmodelle für Blazor-Anwendungen: Beim Blazor Static Server-side Rendering (SSR) kann man die mächtigen Razor Components nun auch dort einsetzen, wo bisher MVC und Razor Pages genutzt wurden. Innerhalb einer Blazor-Static-SSR-Rahmenanwendung können dann Single Page Apps mit Blazor Server und/oder Blazor WebAssembly als SPA-Inseln rendern. Im neuen Automodus wird eine Komponente zunächst schnell per Blazor Server interaktiv, um dann im Hintergrund die Module für Blazor WebAssembly nachzuladen. Nutzen Sie ab jetzt das Beste aus beiden Welten statt der Wahl zwischen Pest und Cholera! Blazor-Guru und Blazor-Buchautor Dr. Holger Schwichtenberg zeigt Ihnen, was die neuen Blazor-Architekturen bringen und wie und wofür man sie in der Praxis einsetzt.&lt;/p&gt;</details>
+			<lastSavedDate>2025-02-04T09:02:00.000Z</lastSavedDate>
+			<redsysPrimaryTrackId>KFhbqzmMxqkkEd7Ni</redsysPrimaryTrackId>
 			<redsysType>JBPD73cH534W8FFEx</redsysType>
 			<slugs>
-				<_id>67dbe0bf4ddcdb0728f3c212</_id>
+				<_id>67dbe0bf4ddcdb0728f3c260</_id>
 				<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-				<slug>entity-framework-core-9</slug>
+				<slug>blazor-united-spa-auto-modus</slug>
 			</slugs>
 			<__v>119</__v>
-			<roomName>Ballsaal 2</roomName>
+			<roomName>Ballsaal 1</roomName>
 			<speakers>
 				<speaker>
 					<speakerId>6656ce9ff952db9d1df7d2a3_66f3f05bfce7635506103140</speakerId>
@@ -2402,7 +2350,7 @@ This talk will delve into the stages of enhancing documentation quality, complet
 			</speakers>
 			<tracks>
 				<track>
-					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d299</trackId>
+					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29e</trackId>
 				</track>
 			</tracks>
 		</session>
@@ -2457,6 +2405,58 @@ This talk will delve into the stages of enhancing documentation quality, complet
 				</track>
 				<track>
 					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29d</trackId>
+				</track>
+			</tracks>
+		</session>
+		<session>
+			<workflowState>Live</workflowState>
+			<language>de</language>
+			<qualifications>
+				<qualification>6656ce9ff952db9d1df7d2a3_670d143f6a720d5b06dcb6af</qualification>
+			</qualifications>
+			<redsysQualifications>ff79323734c7422f94d0cd2d</redsysQualifications>
+			<workshopShortLabel/>
+			<workshopRequirements/>
+			<longAbstract/>
+			<primaryTrackUniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d299</primaryTrackUniqueId>
+			<versionId>119</versionId>
+			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+			<redsysExpertIds>61d2d8ab5907bd001dd2f6f7</redsysExpertIds>
+			<redsysTrackIds>oWL542WsjR4YQeLrJ</redsysTrackIds>
+			<isVideoStream>true</isVideoStream>
+			<videoStreamUrl>https://vimeo.com/event/4869042/embed</videoStreamUrl>
+			<isZoomStream>false</isZoomStream>
+			<onboardingZoomLink/>
+			<liveStreamZoomLink/>
+			<specialDayIds>6656ce9ff952db9d1df7d2a3_66fd6b2470db79570622e31a</specialDayIds>
+			<workshopAttendeeInformationsDe/>
+			<workshopAttendeeInformationsEn/>
+			<_id>673b2887702fee076a23e39b</_id>
+			<published>true</published>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_66f3f236b71bf92b06e1c27f</uniqueId>
+			<name>Neuigkeiten in Entity Framework Core 9.0</name>
+			<type>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a6</type>
+			<startDate>2025-03-06T08:00:00.000Z</startDate>
+			<endDate>2025-03-06T09:00:00.000Z</endDate>
+			<details>&lt;p&gt;Microsoft verbessert seinen Objekt-Relationalen Mapper kontinuierlich. Im November 2024 ist die nächste Version 9.0 von Entity Framework Core mit einigen Neuerungen erschienen. Lernen Sie in diesem Vortrag von Entity-Framework-Core-Guru Holger Schwichtenberg u. a.: w&lt;span style="font-size: 1em;"&gt;ichtige Fakten zu Entity Framework Core 9.0, &lt;/span&gt;&lt;span style="font-size: 1em;"&gt;Performanceoptimierung durch Auto-compiled Models, &lt;/span&gt;&lt;span style="font-size: 1em;"&gt;Entity Framework Core und NativeAOT, s&lt;/span&gt;&lt;span style="font-size: 1em;"&gt;chreibgeschützte Objektmengen elementarer Typen als Property-Typ, &lt;/span&gt;&lt;span style="font-size: 1em;"&gt;Verbesserungen für komplexe Typen, &lt;/span&gt;&lt;span style="font-size: 1em;"&gt;Einfluss auf die Parametrisierung von SQL-Abfragen und &lt;/span&gt;&lt;span style="font-size: 1em;"&gt;Verbesserungen bei der Übersetzung von LINQ zu SQL.&lt;/span&gt;&lt;/p&gt;</details>
+			<lastSavedDate>2025-02-04T09:06:00.000Z</lastSavedDate>
+			<redsysPrimaryTrackId>oWL542WsjR4YQeLrJ</redsysPrimaryTrackId>
+			<redsysType>JBPD73cH534W8FFEx</redsysType>
+			<slugs>
+				<_id>67dbe0bf4ddcdb0728f3c212</_id>
+				<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+				<slug>entity-framework-core-9</slug>
+			</slugs>
+			<__v>119</__v>
+			<roomName>Ballsaal 2</roomName>
+			<speakers>
+				<speaker>
+					<speakerId>6656ce9ff952db9d1df7d2a3_66f3f05bfce7635506103140</speakerId>
+				</speaker>
+			</speakers>
+			<tracks>
+				<track>
+					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d299</trackId>
 				</track>
 			</tracks>
 		</session>
@@ -2571,75 +2571,6 @@ This talk will delve into the stages of enhancing documentation quality, complet
 			<workflowState>Live</workflowState>
 			<language>de</language>
 			<qualifications>
-			</qualifications>
-			<workshopShortLabel/>
-			<workshopRequirements/>
-			<longAbstract/>
-			<primaryTrackUniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29d</primaryTrackUniqueId>
-			<versionId>119</versionId>
-			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-			<redsysExpertIds>61e68d605642af001d4a6f2e</redsysExpertIds>
-			<redsysTrackIds>oWL542WsjR4YQeLrJ</redsysTrackIds>
-			<redsysTrackIds>WyEPvNyjueeLdzdfh</redsysTrackIds>
-			<redsysTrackIds>EGYE6YvXFMXibJPBb</redsysTrackIds>
-			<redsysTrackIds>bbrhptpLkagnsFkvL</redsysTrackIds>
-			<redsysTrackIds>KFhbqzmMxqkkEd7Ni</redsysTrackIds>
-			<redsysTrackIds>rHrPqX2KbFPwjtDSb</redsysTrackIds>
-			<isVideoStream>true</isVideoStream>
-			<videoStreamUrl>https://vimeo.com/event/4869042/embed</videoStreamUrl>
-			<isZoomStream>false</isZoomStream>
-			<onboardingZoomLink/>
-			<liveStreamZoomLink/>
-			<workshopAttendeeInformationsDe/>
-			<workshopAttendeeInformationsEn/>
-			<_id>673b2887702fee076a23e395</_id>
-			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_66f416bfbf211a580624007b</uniqueId>
-			<name>Visual Studio Code in der professionellen Softwareentwicklung</name>
-			<type>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a6</type>
-			<startDate>2025-03-05T16:00:00.000Z</startDate>
-			<endDate>2025-03-05T17:00:00.000Z</endDate>
-			<details>&lt;p&gt;Visual Studio ist unser Brot-und-Butter-Werkzeug, egal ob als Professional- oder Enterprise-Edition. Doch seit .NET Core gibt es auch das kostenlose Visual Studio Code, das, mit den richtigen Extensions ausgestattet, seinem großen Bruder in einigen Bereichen das Wasser reichen kann. In diesem Talk beleuchten wir die Fähigkeiten von Visual Studio Code im Projekteinsatz und zeigen auf, wo Visual Studio Code seine Stärken und Schwächen hat.&lt;/p&gt;</details>
-			<lastSavedDate>2025-02-04T09:04:00.000Z</lastSavedDate>
-			<redsysPrimaryTrackId>bbrhptpLkagnsFkvL</redsysPrimaryTrackId>
-			<redsysType>JBPD73cH534W8FFEx</redsysType>
-			<slugs>
-				<_id>67dbe0bf4ddcdb0728f3c215</_id>
-				<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-				<slug>visual-studio-code-staerken-schwaechen</slug>
-			</slugs>
-			<__v>119</__v>
-			<roomName>Ballsaal 2</roomName>
-			<speakers>
-				<speaker>
-					<speakerId>6656ce9ff952db9d1df7d2a3_66f3c987d2591452067dab15</speakerId>
-				</speaker>
-			</speakers>
-			<tracks>
-				<track>
-					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d299</trackId>
-				</track>
-				<track>
-					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29a</trackId>
-				</track>
-				<track>
-					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29b</trackId>
-				</track>
-				<track>
-					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29d</trackId>
-				</track>
-				<track>
-					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29e</trackId>
-				</track>
-				<track>
-					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a0</trackId>
-				</track>
-			</tracks>
-		</session>
-		<session>
-			<workflowState>Live</workflowState>
-			<language>de</language>
-			<qualifications>
 				<qualification>6656ce9ff952db9d1df7d2a3_670d143f6a720d5b06dcb6af</qualification>
 			</qualifications>
 			<redsysQualifications>ff79323734c7422f94d0cd2d</redsysQualifications>
@@ -2739,6 +2670,75 @@ This talk will delve into the stages of enhancing documentation quality, complet
 				</track>
 				<track>
 					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29e</trackId>
+				</track>
+			</tracks>
+		</session>
+		<session>
+			<workflowState>Live</workflowState>
+			<language>de</language>
+			<qualifications>
+			</qualifications>
+			<workshopShortLabel/>
+			<workshopRequirements/>
+			<longAbstract/>
+			<primaryTrackUniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29d</primaryTrackUniqueId>
+			<versionId>119</versionId>
+			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+			<redsysExpertIds>61e68d605642af001d4a6f2e</redsysExpertIds>
+			<redsysTrackIds>oWL542WsjR4YQeLrJ</redsysTrackIds>
+			<redsysTrackIds>WyEPvNyjueeLdzdfh</redsysTrackIds>
+			<redsysTrackIds>EGYE6YvXFMXibJPBb</redsysTrackIds>
+			<redsysTrackIds>bbrhptpLkagnsFkvL</redsysTrackIds>
+			<redsysTrackIds>KFhbqzmMxqkkEd7Ni</redsysTrackIds>
+			<redsysTrackIds>rHrPqX2KbFPwjtDSb</redsysTrackIds>
+			<isVideoStream>true</isVideoStream>
+			<videoStreamUrl>https://vimeo.com/event/4869042/embed</videoStreamUrl>
+			<isZoomStream>false</isZoomStream>
+			<onboardingZoomLink/>
+			<liveStreamZoomLink/>
+			<workshopAttendeeInformationsDe/>
+			<workshopAttendeeInformationsEn/>
+			<_id>673b2887702fee076a23e395</_id>
+			<published>true</published>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_66f416bfbf211a580624007b</uniqueId>
+			<name>Visual Studio Code in der professionellen Softwareentwicklung</name>
+			<type>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a6</type>
+			<startDate>2025-03-05T16:00:00.000Z</startDate>
+			<endDate>2025-03-05T17:00:00.000Z</endDate>
+			<details>&lt;p&gt;Visual Studio ist unser Brot-und-Butter-Werkzeug, egal ob als Professional- oder Enterprise-Edition. Doch seit .NET Core gibt es auch das kostenlose Visual Studio Code, das, mit den richtigen Extensions ausgestattet, seinem großen Bruder in einigen Bereichen das Wasser reichen kann. In diesem Talk beleuchten wir die Fähigkeiten von Visual Studio Code im Projekteinsatz und zeigen auf, wo Visual Studio Code seine Stärken und Schwächen hat.&lt;/p&gt;</details>
+			<lastSavedDate>2025-02-04T09:04:00.000Z</lastSavedDate>
+			<redsysPrimaryTrackId>bbrhptpLkagnsFkvL</redsysPrimaryTrackId>
+			<redsysType>JBPD73cH534W8FFEx</redsysType>
+			<slugs>
+				<_id>67dbe0bf4ddcdb0728f3c215</_id>
+				<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+				<slug>visual-studio-code-staerken-schwaechen</slug>
+			</slugs>
+			<__v>119</__v>
+			<roomName>Ballsaal 2</roomName>
+			<speakers>
+				<speaker>
+					<speakerId>6656ce9ff952db9d1df7d2a3_66f3c987d2591452067dab15</speakerId>
+				</speaker>
+			</speakers>
+			<tracks>
+				<track>
+					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d299</trackId>
+				</track>
+				<track>
+					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29a</trackId>
+				</track>
+				<track>
+					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29b</trackId>
+				</track>
+				<track>
+					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29d</trackId>
+				</track>
+				<track>
+					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29e</trackId>
+				</track>
+				<track>
+					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a0</trackId>
 				</track>
 			</tracks>
 		</session>
@@ -2974,56 +2974,6 @@ This talk will delve into the stages of enhancing documentation quality, complet
 			<workshopShortLabel/>
 			<workshopRequirements/>
 			<longAbstract/>
-			<primaryTrackUniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29e</primaryTrackUniqueId>
-			<versionId>119</versionId>
-			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-			<redsysExpertIds>61a5e5c0eeea2e001d2d7268</redsysExpertIds>
-			<redsysTrackIds>KFhbqzmMxqkkEd7Ni</redsysTrackIds>
-			<isVideoStream>true</isVideoStream>
-			<videoStreamUrl>https://vimeo.com/event/4869041/embed</videoStreamUrl>
-			<isZoomStream>false</isZoomStream>
-			<onboardingZoomLink/>
-			<liveStreamZoomLink/>
-			<specialDayIds>6656ce9ff952db9d1df7d2a3_6703ea6d8094c54f062dd18b</specialDayIds>
-			<workshopAttendeeInformationsDe/>
-			<workshopAttendeeInformationsEn/>
-			<_id>673b2887702fee076a23e3b1</_id>
-			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_66fd0b9e8ce063950637bed6</uniqueId>
-			<name>Der Preis von Microfrontends – und welche Alternativen Sie haben!</name>
-			<type>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a6</type>
-			<startDate>2025-03-06T09:30:00.000Z</startDate>
-			<endDate>2025-03-06T10:30:00.000Z</endDate>
-			<details>&lt;p dir="ltr"&gt;Gerade für große Enterprise-Lösungen sind Microfrontends sehr verlockend, zumal sie den einzelnen Teams mehr Autonomie verleihen. So bekommen wir die Agilität von kleinen schlagfertigen Teams auch in umfangreichen Projekten. &lt;span style="font-size: 1em;"&gt;Wie bei jedem Architekturansatz gibt es auch bei Microfrontends einige Konsequenzen zu beachten. In dieser Session erfahren Sie von einem Microfrontend-Praktiker der ersten Stunde, welchen Preis Sie für Microfrontends und deren Vorteile zahlen, wann sie sich lohnen und welche Alternativen Sie haben. Die einzelnen Ausführungen werden durch kurze Demos untermauert. &lt;/span&gt;&lt;span style="font-size: 1em;"&gt;Am Ende wissen Sie, ob Ihr Projekt von Microfrontends profitieren kann bzw. welche Alternativen Sie in Erwägung ziehen sollten.&lt;/span&gt;&lt;/p&gt;</details>
-			<lastSavedDate>2025-02-04T09:11:00.000Z</lastSavedDate>
-			<redsysPrimaryTrackId>KFhbqzmMxqkkEd7Ni</redsysPrimaryTrackId>
-			<redsysType>JBPD73cH534W8FFEx</redsysType>
-			<slugs>
-				<_id>67dbe0bf4ddcdb0728f3c233</_id>
-				<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-				<slug>micro-frontends-alternativen</slug>
-			</slugs>
-			<__v>119</__v>
-			<roomName>Ballsaal 1</roomName>
-			<speakers>
-				<speaker>
-					<speakerId>6656ce9ff952db9d1df7d2a3_66fd065881a8b48e0638e33a</speakerId>
-				</speaker>
-			</speakers>
-			<tracks>
-				<track>
-					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29e</trackId>
-				</track>
-			</tracks>
-		</session>
-		<session>
-			<workflowState>Live</workflowState>
-			<language>de</language>
-			<qualifications>
-			</qualifications>
-			<workshopShortLabel/>
-			<workshopRequirements/>
-			<longAbstract/>
 			<primaryTrackUniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a2</primaryTrackUniqueId>
 			<versionId>119</versionId>
 			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
@@ -3130,49 +3080,45 @@ This talk will delve into the stages of enhancing documentation quality, complet
 			<workshopShortLabel/>
 			<workshopRequirements/>
 			<longAbstract/>
-			<primaryTrackUniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a2</primaryTrackUniqueId>
+			<primaryTrackUniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29e</primaryTrackUniqueId>
 			<versionId>119</versionId>
 			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-			<redsysExpertIds>619d0a1e94e919001d77cc5d</redsysExpertIds>
+			<redsysExpertIds>61a5e5c0eeea2e001d2d7268</redsysExpertIds>
 			<redsysTrackIds>KFhbqzmMxqkkEd7Ni</redsysTrackIds>
-			<redsysTrackIds>HiYrk8EikrLTAMJgF</redsysTrackIds>
 			<isVideoStream>true</isVideoStream>
 			<videoStreamUrl>https://vimeo.com/event/4869041/embed</videoStreamUrl>
 			<isZoomStream>false</isZoomStream>
 			<onboardingZoomLink/>
 			<liveStreamZoomLink/>
-			<specialDayIds>6656ce9ff952db9d1df7d2a3_67090a2b2611732c065af299</specialDayIds>
+			<specialDayIds>6656ce9ff952db9d1df7d2a3_6703ea6d8094c54f062dd18b</specialDayIds>
 			<workshopAttendeeInformationsDe/>
 			<workshopAttendeeInformationsEn/>
-			<_id>673b2887702fee076a23e3b9</_id>
+			<_id>673b2887702fee076a23e3b1</_id>
 			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_66fa57c4a7ca783f06e5da00</uniqueId>
-			<name>The Art of Prompt Engineering: LLMs meistern</name>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_66fd0b9e8ce063950637bed6</uniqueId>
+			<name>Der Preis von Microfrontends – und welche Alternativen Sie haben!</name>
 			<type>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a6</type>
-			<startDate>2025-03-04T09:45:00.000Z</startDate>
-			<endDate>2025-03-04T10:45:00.000Z</endDate>
-			<details>&lt;p&gt;Um AI-basierte Anwendungen zu entwickeln, ist ein ganz neuer Skill erforderlich – Prompt Engineering. Hierbei geht es nicht nur um das möglichst intelligente Erfragen von Fakten im Chat, sondern vor allem um die Steuerung des LLM im spezifischen Szenario. Egal, ob Few-Shot-Learning, Fine Tuning oder RAG - alles basiert auf dem zugrunde liegenden Prompt. Daher ist das Wissen um die verschiedenen Prompting-Techniken für Entwickler essenziell. Schließlich ist der Prompt die zentrale Schnittstelle zum LLM!&lt;/p&gt;</details>
-			<lastSavedDate>2025-02-04T09:08:00.000Z</lastSavedDate>
-			<redsysPrimaryTrackId>HiYrk8EikrLTAMJgF</redsysPrimaryTrackId>
+			<startDate>2025-03-06T09:30:00.000Z</startDate>
+			<endDate>2025-03-06T10:30:00.000Z</endDate>
+			<details>&lt;p dir="ltr"&gt;Gerade für große Enterprise-Lösungen sind Microfrontends sehr verlockend, zumal sie den einzelnen Teams mehr Autonomie verleihen. So bekommen wir die Agilität von kleinen schlagfertigen Teams auch in umfangreichen Projekten. &lt;span style="font-size: 1em;"&gt;Wie bei jedem Architekturansatz gibt es auch bei Microfrontends einige Konsequenzen zu beachten. In dieser Session erfahren Sie von einem Microfrontend-Praktiker der ersten Stunde, welchen Preis Sie für Microfrontends und deren Vorteile zahlen, wann sie sich lohnen und welche Alternativen Sie haben. Die einzelnen Ausführungen werden durch kurze Demos untermauert. &lt;/span&gt;&lt;span style="font-size: 1em;"&gt;Am Ende wissen Sie, ob Ihr Projekt von Microfrontends profitieren kann bzw. welche Alternativen Sie in Erwägung ziehen sollten.&lt;/span&gt;&lt;/p&gt;</details>
+			<lastSavedDate>2025-02-04T09:11:00.000Z</lastSavedDate>
+			<redsysPrimaryTrackId>KFhbqzmMxqkkEd7Ni</redsysPrimaryTrackId>
 			<redsysType>JBPD73cH534W8FFEx</redsysType>
 			<slugs>
-				<_id>67dbe0bf4ddcdb0728f3c24b</_id>
+				<_id>67dbe0bf4ddcdb0728f3c233</_id>
 				<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-				<slug>prompt-engineering-ai-llm</slug>
+				<slug>micro-frontends-alternativen</slug>
 			</slugs>
 			<__v>119</__v>
 			<roomName>Ballsaal 1</roomName>
 			<speakers>
 				<speaker>
-					<speakerId>6656ce9ff952db9d1df7d2a3_66fa53bf5eef0724066a5d82</speakerId>
+					<speakerId>6656ce9ff952db9d1df7d2a3_66fd065881a8b48e0638e33a</speakerId>
 				</speaker>
 			</speakers>
 			<tracks>
 				<track>
 					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29e</trackId>
-				</track>
-				<track>
-					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a2</trackId>
 				</track>
 			</tracks>
 		</session>
@@ -3238,6 +3184,60 @@ This talk will delve into the stages of enhancing documentation quality, complet
 			<workflowState>Live</workflowState>
 			<language>de</language>
 			<qualifications>
+			</qualifications>
+			<workshopShortLabel/>
+			<workshopRequirements/>
+			<longAbstract/>
+			<primaryTrackUniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a2</primaryTrackUniqueId>
+			<versionId>119</versionId>
+			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+			<redsysExpertIds>619d0a1e94e919001d77cc5d</redsysExpertIds>
+			<redsysTrackIds>KFhbqzmMxqkkEd7Ni</redsysTrackIds>
+			<redsysTrackIds>HiYrk8EikrLTAMJgF</redsysTrackIds>
+			<isVideoStream>true</isVideoStream>
+			<videoStreamUrl>https://vimeo.com/event/4869041/embed</videoStreamUrl>
+			<isZoomStream>false</isZoomStream>
+			<onboardingZoomLink/>
+			<liveStreamZoomLink/>
+			<specialDayIds>6656ce9ff952db9d1df7d2a3_67090a2b2611732c065af299</specialDayIds>
+			<workshopAttendeeInformationsDe/>
+			<workshopAttendeeInformationsEn/>
+			<_id>673b2887702fee076a23e3b9</_id>
+			<published>true</published>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_66fa57c4a7ca783f06e5da00</uniqueId>
+			<name>The Art of Prompt Engineering: LLMs meistern</name>
+			<type>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a6</type>
+			<startDate>2025-03-04T09:45:00.000Z</startDate>
+			<endDate>2025-03-04T10:45:00.000Z</endDate>
+			<details>&lt;p&gt;Um AI-basierte Anwendungen zu entwickeln, ist ein ganz neuer Skill erforderlich – Prompt Engineering. Hierbei geht es nicht nur um das möglichst intelligente Erfragen von Fakten im Chat, sondern vor allem um die Steuerung des LLM im spezifischen Szenario. Egal, ob Few-Shot-Learning, Fine Tuning oder RAG - alles basiert auf dem zugrunde liegenden Prompt. Daher ist das Wissen um die verschiedenen Prompting-Techniken für Entwickler essenziell. Schließlich ist der Prompt die zentrale Schnittstelle zum LLM!&lt;/p&gt;</details>
+			<lastSavedDate>2025-02-04T09:08:00.000Z</lastSavedDate>
+			<redsysPrimaryTrackId>HiYrk8EikrLTAMJgF</redsysPrimaryTrackId>
+			<redsysType>JBPD73cH534W8FFEx</redsysType>
+			<slugs>
+				<_id>67dbe0bf4ddcdb0728f3c24b</_id>
+				<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+				<slug>prompt-engineering-ai-llm</slug>
+			</slugs>
+			<__v>119</__v>
+			<roomName>Ballsaal 1</roomName>
+			<speakers>
+				<speaker>
+					<speakerId>6656ce9ff952db9d1df7d2a3_66fa53bf5eef0724066a5d82</speakerId>
+				</speaker>
+			</speakers>
+			<tracks>
+				<track>
+					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29e</trackId>
+				</track>
+				<track>
+					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a2</trackId>
+				</track>
+			</tracks>
+		</session>
+		<session>
+			<workflowState>Live</workflowState>
+			<language>de</language>
+			<qualifications>
 				<qualification>6656ce9ff952db9d1df7d2a3_670d1460a8fe756f06446ff4</qualification>
 				<qualification>6656ce9ff952db9d1df7d2a3_670d140b3de68c56063068e5</qualification>
 			</qualifications>
@@ -3280,6 +3280,57 @@ This talk will delve into the stages of enhancing documentation quality, complet
 			<speakers>
 				<speaker>
 					<speakerId>6656ce9ff952db9d1df7d2a3_66e1b51151cab17b069b7fb7</speakerId>
+				</speaker>
+			</speakers>
+			<tracks>
+				<track>
+					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29d</trackId>
+				</track>
+			</tracks>
+		</session>
+		<session>
+			<workflowState>Live</workflowState>
+			<language>de</language>
+			<qualifications>
+				<qualification>6656ce9ff952db9d1df7d2a3_670d1460a8fe756f06446ff4</qualification>
+			</qualifications>
+			<redsysQualifications>1ead4e119e10feb4bca10d9d</redsysQualifications>
+			<workshopShortLabel/>
+			<workshopRequirements/>
+			<longAbstract/>
+			<primaryTrackUniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29d</primaryTrackUniqueId>
+			<versionId>119</versionId>
+			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+			<redsysExpertIds>61e68c705642af001d4a6f29</redsysExpertIds>
+			<redsysTrackIds>bbrhptpLkagnsFkvL</redsysTrackIds>
+			<isVideoStream>true</isVideoStream>
+			<videoStreamUrl>https://vimeo.com/event/4330936/embed</videoStreamUrl>
+			<isZoomStream>false</isZoomStream>
+			<onboardingZoomLink/>
+			<liveStreamZoomLink/>
+			<workshopAttendeeInformationsDe/>
+			<workshopAttendeeInformationsEn/>
+			<_id>673b2887702fee076a23e3ad</_id>
+			<published>true</published>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_66f4657c854d4a5306958e44</uniqueId>
+			<name>.NET-Desktop-Development: Was ist der Stand bei WPF, WinForms und WinUI?</name>
+			<type>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a6</type>
+			<startDate>2025-03-06T09:30:00.000Z</startDate>
+			<endDate>2025-03-06T10:30:00.000Z</endDate>
+			<details>&lt;p&gt;Während sich derzeit vieles um KI und das Web dreht, wird in vielen Unternehmen weiterhin die klassische Enterprise-Desktop-App gebaut: Daten laden, anzeigen, verändern, speichern und vielleicht hier und da noch einen Chart anzeigen. Doch wie sieht es bei Microsoft mit den Frameworks zum Entwickeln von Desktop-Apps aus? Wie ist der Stand von WPF, WinForms und WinUI in .NET 9.0 und welche neuen Features gibt es? Auf welches dieser Frameworks sollte man als Entwickler und Unternehmen für die nächste Windows-Desktopanwendung setzen? All das wird in dieser Session diskutiert und mit der ein oder anderen Livedemo erklärt und gezeigt.&lt;/p&gt;</details>
+			<lastSavedDate>2025-03-10T16:47:00.000Z</lastSavedDate>
+			<redsysPrimaryTrackId>bbrhptpLkagnsFkvL</redsysPrimaryTrackId>
+			<redsysType>JBPD73cH534W8FFEx</redsysType>
+			<slugs>
+				<_id>67dbe0c04ddcdb0728f3c27b</_id>
+				<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+				<slug>dotnet-desktop-wpf-winforms-winui</slug>
+			</slugs>
+			<__v>119</__v>
+			<roomName>Gold 2</roomName>
+			<speakers>
+				<speaker>
+					<speakerId>6656ce9ff952db9d1df7d2a3_66f464855eef0724066a5c31</speakerId>
 				</speaker>
 			</speakers>
 			<tracks>
@@ -3353,50 +3404,60 @@ This talk will delve into the stages of enhancing documentation quality, complet
 			<workflowState>Live</workflowState>
 			<language>de</language>
 			<qualifications>
-				<qualification>6656ce9ff952db9d1df7d2a3_670d1460a8fe756f06446ff4</qualification>
 			</qualifications>
-			<redsysQualifications>1ead4e119e10feb4bca10d9d</redsysQualifications>
-			<workshopShortLabel/>
+			<workshopShortLabel>Best Practices Workshop</workshopShortLabel>
 			<workshopRequirements/>
 			<longAbstract/>
 			<primaryTrackUniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29d</primaryTrackUniqueId>
 			<versionId>119</versionId>
 			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-			<redsysExpertIds>61e68c705642af001d4a6f29</redsysExpertIds>
+			<redsysExpertIds>61e68f0fd6b114001dad4c54</redsysExpertIds>
+			<redsysTrackIds>oWL542WsjR4YQeLrJ</redsysTrackIds>
+			<redsysTrackIds>EGYE6YvXFMXibJPBb</redsysTrackIds>
 			<redsysTrackIds>bbrhptpLkagnsFkvL</redsysTrackIds>
-			<isVideoStream>true</isVideoStream>
-			<videoStreamUrl>https://vimeo.com/event/4330936/embed</videoStreamUrl>
-			<isZoomStream>false</isZoomStream>
+			<redsysTrackIds>rHrPqX2KbFPwjtDSb</redsysTrackIds>
+			<isVideoStream>false</isVideoStream>
+			<videoStreamUrl/>
+			<isZoomStream>true</isZoomStream>
 			<onboardingZoomLink/>
-			<liveStreamZoomLink/>
-			<workshopAttendeeInformationsDe/>
+			<liveStreamZoomLink>https://sandsmedia.zoom.us/j/85468897146?pwd=dvuHQ8FJuBBJ9HlbNofcBPvlBd1o0s.1</liveStreamZoomLink>
+			<workshopAttendeeInformationsDe>&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;!--StartFragment--&gt;&lt;p&gt;Liebe Teilnehmer/innen,&lt;/p&gt;&lt;p&gt;&lt;span&gt;dieser Workshop findet für Remote-Teilnehmer/innen ausschließlich in Zoom statt. Die Kommunikation läuft via Zoom Chat.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;u&gt;Onsite Teilnehmer:&lt;/u&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Sie benötigen ein Laptop + Headset&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;u&gt;Remote Teilnehmer:&lt;/u&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Sie benötigen ein Laptop + Headset&lt;/p&gt;&lt;p&gt;&lt;u&gt;Alle Teilnehmer:&lt;/u&gt;&lt;/p&gt;&lt;p&gt;Installation von&lt;/p&gt;&lt;ul&gt;&lt;li&gt;.NET&lt;/li&gt;&lt;li&gt;Node.js&lt;/li&gt;&lt;li&gt;Visual Studio Code&lt;/li&gt;&lt;li&gt;Docker Desktop&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Beste Grüße,&lt;/p&gt;&lt;p&gt;Conference Team&lt;/p&gt;&lt;!--EndFragment--&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;</workshopAttendeeInformationsDe>
 			<workshopAttendeeInformationsEn/>
-			<_id>673b2887702fee076a23e3ad</_id>
+			<_id>673b2887702fee076a23e3b3</_id>
 			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_66f4657c854d4a5306958e44</uniqueId>
-			<name>.NET-Desktop-Development: Was ist der Stand bei WPF, WinForms und WinUI?</name>
-			<type>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a6</type>
-			<startDate>2025-03-06T09:30:00.000Z</startDate>
-			<endDate>2025-03-06T10:30:00.000Z</endDate>
-			<details>&lt;p&gt;Während sich derzeit vieles um KI und das Web dreht, wird in vielen Unternehmen weiterhin die klassische Enterprise-Desktop-App gebaut: Daten laden, anzeigen, verändern, speichern und vielleicht hier und da noch einen Chart anzeigen. Doch wie sieht es bei Microsoft mit den Frameworks zum Entwickeln von Desktop-Apps aus? Wie ist der Stand von WPF, WinForms und WinUI in .NET 9.0 und welche neuen Features gibt es? Auf welches dieser Frameworks sollte man als Entwickler und Unternehmen für die nächste Windows-Desktopanwendung setzen? All das wird in dieser Session diskutiert und mit der ein oder anderen Livedemo erklärt und gezeigt.&lt;/p&gt;</details>
-			<lastSavedDate>2025-03-10T16:47:00.000Z</lastSavedDate>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_66fa96157cee7cc450879e2c</uniqueId>
+			<name>Oli Sturms Best Practices: Real-World App System Live</name>
+			<type>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a8</type>
+			<startDate>2025-03-07T08:00:00.000Z</startDate>
+			<endDate>2025-03-07T15:30:00.000Z</endDate>
+			<details>&lt;p&gt;Der Workshop &amp;#34;Programmierer und Architekten - Strategien 2025&amp;#34; (Montag bei dieser BASTA!) bringt im Anschluss an die angeregten Diskussionen des Tages jedes Mal eine wichtige Frage mit: Was ist denn die &amp;#34;Rundum Best Practices&amp;#34;-Empfehlung von Oli Sturm selbst, wie man ein Anwendungssystem bauen sollte? Hier gibt es nun die detaillierte Antwort zur Frage am Freitag, mit viel Code und Demos. Oli stellt ein komplettes funktionierendes Anwendungssystem vor, das auf vielen der architekturellen Ideen basiert, die gewöhnlich montags auf theoretischer Basis zur Sprache kommen: Microservices, Modularisierung nach CQRS und Event Sourcing, optimierte Dienstkommunikation, dynamische Datenzugriffsendpunkte mit GraphQL, bidirektionale Kommunikation mit Change Notifications zum Umgang mit Eventual Consistency. Demos reichen vom Monolithen bis zur verteilen Umgebung und basieren auf JavaScript und .NET/C#, mit einem besonderen Fokus auf der Freiheit der Sprach- und Plattformwahl. Es gibt Quelltext für alles, und wer mag, kann während des Tages gleich mit in den Code schauen!&lt;/p&gt;</details>
+			<lastSavedDate>2025-03-18T10:14:00.000Z</lastSavedDate>
 			<redsysPrimaryTrackId>bbrhptpLkagnsFkvL</redsysPrimaryTrackId>
-			<redsysType>JBPD73cH534W8FFEx</redsysType>
+			<redsysType>Z4cc6W6iPKt8yeA34</redsysType>
 			<slugs>
-				<_id>67dbe0c04ddcdb0728f3c27b</_id>
+				<_id>67dbe0bf4ddcdb0728f3c26c</_id>
 				<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-				<slug>dotnet-desktop-wpf-winforms-winui</slug>
+				<slug>workshop-best-practice-app-systeme</slug>
 			</slugs>
 			<__v>119</__v>
-			<roomName>Gold 2</roomName>
+			<roomName>Matrix WS</roomName>
 			<speakers>
 				<speaker>
-					<speakerId>6656ce9ff952db9d1df7d2a3_66f464855eef0724066a5c31</speakerId>
+					<speakerId>6656ce9ff952db9d1df7d2a3_66fa59dcb71bf92b06e1c29c</speakerId>
 				</speaker>
 			</speakers>
 			<tracks>
 				<track>
+					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d299</trackId>
+				</track>
+				<track>
+					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29b</trackId>
+				</track>
+				<track>
 					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29d</trackId>
+				</track>
+				<track>
+					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a0</trackId>
 				</track>
 			</tracks>
 		</session>
@@ -3454,67 +3515,6 @@ This talk will delve into the stages of enhancing documentation quality, complet
 				</track>
 				<track>
 					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29e</trackId>
-				</track>
-			</tracks>
-		</session>
-		<session>
-			<workflowState>Live</workflowState>
-			<language>de</language>
-			<qualifications>
-			</qualifications>
-			<workshopShortLabel>Best Practices Workshop</workshopShortLabel>
-			<workshopRequirements/>
-			<longAbstract/>
-			<primaryTrackUniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29d</primaryTrackUniqueId>
-			<versionId>119</versionId>
-			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-			<redsysExpertIds>61e68f0fd6b114001dad4c54</redsysExpertIds>
-			<redsysTrackIds>oWL542WsjR4YQeLrJ</redsysTrackIds>
-			<redsysTrackIds>EGYE6YvXFMXibJPBb</redsysTrackIds>
-			<redsysTrackIds>bbrhptpLkagnsFkvL</redsysTrackIds>
-			<redsysTrackIds>rHrPqX2KbFPwjtDSb</redsysTrackIds>
-			<isVideoStream>false</isVideoStream>
-			<videoStreamUrl/>
-			<isZoomStream>true</isZoomStream>
-			<onboardingZoomLink/>
-			<liveStreamZoomLink>https://sandsmedia.zoom.us/j/85468897146?pwd=dvuHQ8FJuBBJ9HlbNofcBPvlBd1o0s.1</liveStreamZoomLink>
-			<workshopAttendeeInformationsDe>&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;!--StartFragment--&gt;&lt;p&gt;Liebe Teilnehmer/innen,&lt;/p&gt;&lt;p&gt;&lt;span&gt;dieser Workshop findet für Remote-Teilnehmer/innen ausschließlich in Zoom statt. Die Kommunikation läuft via Zoom Chat.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;u&gt;Onsite Teilnehmer:&lt;/u&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Sie benötigen ein Laptop + Headset&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;u&gt;Remote Teilnehmer:&lt;/u&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Sie benötigen ein Laptop + Headset&lt;/p&gt;&lt;p&gt;&lt;u&gt;Alle Teilnehmer:&lt;/u&gt;&lt;/p&gt;&lt;p&gt;Installation von&lt;/p&gt;&lt;ul&gt;&lt;li&gt;.NET&lt;/li&gt;&lt;li&gt;Node.js&lt;/li&gt;&lt;li&gt;Visual Studio Code&lt;/li&gt;&lt;li&gt;Docker Desktop&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Beste Grüße,&lt;/p&gt;&lt;p&gt;Conference Team&lt;/p&gt;&lt;!--EndFragment--&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;</workshopAttendeeInformationsDe>
-			<workshopAttendeeInformationsEn/>
-			<_id>673b2887702fee076a23e3b3</_id>
-			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_66fa96157cee7cc450879e2c</uniqueId>
-			<name>Oli Sturms Best Practices: Real-World App System Live</name>
-			<type>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a8</type>
-			<startDate>2025-03-07T08:00:00.000Z</startDate>
-			<endDate>2025-03-07T15:30:00.000Z</endDate>
-			<details>&lt;p&gt;Der Workshop &amp;#34;Programmierer und Architekten - Strategien 2025&amp;#34; (Montag bei dieser BASTA!) bringt im Anschluss an die angeregten Diskussionen des Tages jedes Mal eine wichtige Frage mit: Was ist denn die &amp;#34;Rundum Best Practices&amp;#34;-Empfehlung von Oli Sturm selbst, wie man ein Anwendungssystem bauen sollte? Hier gibt es nun die detaillierte Antwort zur Frage am Freitag, mit viel Code und Demos. Oli stellt ein komplettes funktionierendes Anwendungssystem vor, das auf vielen der architekturellen Ideen basiert, die gewöhnlich montags auf theoretischer Basis zur Sprache kommen: Microservices, Modularisierung nach CQRS und Event Sourcing, optimierte Dienstkommunikation, dynamische Datenzugriffsendpunkte mit GraphQL, bidirektionale Kommunikation mit Change Notifications zum Umgang mit Eventual Consistency. Demos reichen vom Monolithen bis zur verteilen Umgebung und basieren auf JavaScript und .NET/C#, mit einem besonderen Fokus auf der Freiheit der Sprach- und Plattformwahl. Es gibt Quelltext für alles, und wer mag, kann während des Tages gleich mit in den Code schauen!&lt;/p&gt;</details>
-			<lastSavedDate>2025-03-18T10:14:00.000Z</lastSavedDate>
-			<redsysPrimaryTrackId>bbrhptpLkagnsFkvL</redsysPrimaryTrackId>
-			<redsysType>Z4cc6W6iPKt8yeA34</redsysType>
-			<slugs>
-				<_id>67dbe0bf4ddcdb0728f3c26c</_id>
-				<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-				<slug>workshop-best-practice-app-systeme</slug>
-			</slugs>
-			<__v>119</__v>
-			<roomName>Matrix WS</roomName>
-			<speakers>
-				<speaker>
-					<speakerId>6656ce9ff952db9d1df7d2a3_66fa59dcb71bf92b06e1c29c</speakerId>
-				</speaker>
-			</speakers>
-			<tracks>
-				<track>
-					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d299</trackId>
-				</track>
-				<track>
-					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29b</trackId>
-				</track>
-				<track>
-					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29d</trackId>
-				</track>
-				<track>
-					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a0</trackId>
 				</track>
 			</tracks>
 		</session>
@@ -3683,59 +3683,6 @@ This talk will delve into the stages of enhancing documentation quality, complet
 			<workshopShortLabel/>
 			<workshopRequirements/>
 			<longAbstract/>
-			<primaryTrackUniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29c</primaryTrackUniqueId>
-			<versionId>119</versionId>
-			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-			<redsysExpertIds>61e68dfa5642af001d4a6f30</redsysExpertIds>
-			<redsysTrackIds>fEYwXYGi3Af2bqcPX</redsysTrackIds>
-			<redsysTrackIds>x5uJwZ4cgL2Yengi3</redsysTrackIds>
-			<isVideoStream>true</isVideoStream>
-			<videoStreamUrl>https://vimeo.com/event/4869048/embed</videoStreamUrl>
-			<isZoomStream>false</isZoomStream>
-			<onboardingZoomLink/>
-			<liveStreamZoomLink/>
-			<workshopAttendeeInformationsDe/>
-			<workshopAttendeeInformationsEn/>
-			<_id>673b2887702fee076a23e3bd</_id>
-			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_66fee8d814a393a2066c0231</uniqueId>
-			<name>GitHub Advanced Security mit GitHub und Azure DevOps</name>
-			<type>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a6</type>
-			<startDate>2025-03-05T08:00:00.000Z</startDate>
-			<endDate>2025-03-05T09:00:00.000Z</endDate>
-			<details>&lt;p&gt;Anwendungen sind Ziel von Angriffen und Entwickler sind die erste Verteidigungslinie, indem sie den Code schützen und sicherstellen, dass die besten Sicherheitspraktiken anwendet werden. Es gibt verschiedene Methoden, um Ihren Code anzugreifen, vom direkten Einfügen bösartigen Codes in Ihr Repo bis hin zur Übernahme eines Accounts oder die Kompromittierung eines Signierschlüssels, um Software zu verteilen, die nicht offiziell Teil einer Komponente ist, und viele andere Möglichkeiten. Es ist leicht, über Shift-left im Zusammenhang mit Sicherheit zu sprechen, aber wie genau soll man das tun? Welche Werkzeuge sollte man verwenden und wie kann man sie so einsetzen, dass man mit Zuversicht veröffentlichen kann? Wir werden uns mit dem Konzept der Anwendungssicherheit beschäftigen, über die verfügbaren Werkzeuge sprechen und Wege aufzeigen, wie man sicherstellt, dass diese Werkzeuge die Entwicklung nicht behindern. Sie lernen GitHub Advanced Security auf Basis der Azure-DevOps- und GitHub-Plattformen kennen und werden verstehen, was Shift-left in der Sicherheit und im Entwicklungsprozess bedeutet, außerdem, was sie als Entwickler tun können, um die Sicherheit Ihrer Anwendung zu verbessern.&lt;/p&gt;</details>
-			<lastSavedDate>2025-02-04T09:15:00.000Z</lastSavedDate>
-			<redsysPrimaryTrackId>fEYwXYGi3Af2bqcPX</redsysPrimaryTrackId>
-			<redsysType>JBPD73cH534W8FFEx</redsysType>
-			<slugs>
-				<_id>67dbe0bf4ddcdb0728f3c251</_id>
-				<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-				<slug>github-advanced-security-azure-devops</slug>
-			</slugs>
-			<__v>119</__v>
-			<roomName>Gold 3</roomName>
-			<speakers>
-				<speaker>
-					<speakerId>6656ce9ff952db9d1df7d2a3_66fee74c739844650657bbc2</speakerId>
-				</speaker>
-			</speakers>
-			<tracks>
-				<track>
-					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29c</trackId>
-				</track>
-				<track>
-					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a1</trackId>
-				</track>
-			</tracks>
-		</session>
-		<session>
-			<workflowState>Live</workflowState>
-			<language>de</language>
-			<qualifications>
-			</qualifications>
-			<workshopShortLabel/>
-			<workshopRequirements/>
-			<longAbstract/>
 			<primaryTrackUniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29b</primaryTrackUniqueId>
 			<versionId>119</versionId>
 			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
@@ -3783,6 +3730,59 @@ Am Ende dieser Session haben die Entwickler ein klares Verständnis dafür, wie 
 				</track>
 				<track>
 					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29f</trackId>
+				</track>
+			</tracks>
+		</session>
+		<session>
+			<workflowState>Live</workflowState>
+			<language>de</language>
+			<qualifications>
+			</qualifications>
+			<workshopShortLabel/>
+			<workshopRequirements/>
+			<longAbstract/>
+			<primaryTrackUniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29c</primaryTrackUniqueId>
+			<versionId>119</versionId>
+			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+			<redsysExpertIds>61e68dfa5642af001d4a6f30</redsysExpertIds>
+			<redsysTrackIds>fEYwXYGi3Af2bqcPX</redsysTrackIds>
+			<redsysTrackIds>x5uJwZ4cgL2Yengi3</redsysTrackIds>
+			<isVideoStream>true</isVideoStream>
+			<videoStreamUrl>https://vimeo.com/event/4869048/embed</videoStreamUrl>
+			<isZoomStream>false</isZoomStream>
+			<onboardingZoomLink/>
+			<liveStreamZoomLink/>
+			<workshopAttendeeInformationsDe/>
+			<workshopAttendeeInformationsEn/>
+			<_id>673b2887702fee076a23e3bd</_id>
+			<published>true</published>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_66fee8d814a393a2066c0231</uniqueId>
+			<name>GitHub Advanced Security mit GitHub und Azure DevOps</name>
+			<type>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a6</type>
+			<startDate>2025-03-05T08:00:00.000Z</startDate>
+			<endDate>2025-03-05T09:00:00.000Z</endDate>
+			<details>&lt;p&gt;Anwendungen sind Ziel von Angriffen und Entwickler sind die erste Verteidigungslinie, indem sie den Code schützen und sicherstellen, dass die besten Sicherheitspraktiken anwendet werden. Es gibt verschiedene Methoden, um Ihren Code anzugreifen, vom direkten Einfügen bösartigen Codes in Ihr Repo bis hin zur Übernahme eines Accounts oder die Kompromittierung eines Signierschlüssels, um Software zu verteilen, die nicht offiziell Teil einer Komponente ist, und viele andere Möglichkeiten. Es ist leicht, über Shift-left im Zusammenhang mit Sicherheit zu sprechen, aber wie genau soll man das tun? Welche Werkzeuge sollte man verwenden und wie kann man sie so einsetzen, dass man mit Zuversicht veröffentlichen kann? Wir werden uns mit dem Konzept der Anwendungssicherheit beschäftigen, über die verfügbaren Werkzeuge sprechen und Wege aufzeigen, wie man sicherstellt, dass diese Werkzeuge die Entwicklung nicht behindern. Sie lernen GitHub Advanced Security auf Basis der Azure-DevOps- und GitHub-Plattformen kennen und werden verstehen, was Shift-left in der Sicherheit und im Entwicklungsprozess bedeutet, außerdem, was sie als Entwickler tun können, um die Sicherheit Ihrer Anwendung zu verbessern.&lt;/p&gt;</details>
+			<lastSavedDate>2025-02-04T09:15:00.000Z</lastSavedDate>
+			<redsysPrimaryTrackId>fEYwXYGi3Af2bqcPX</redsysPrimaryTrackId>
+			<redsysType>JBPD73cH534W8FFEx</redsysType>
+			<slugs>
+				<_id>67dbe0bf4ddcdb0728f3c251</_id>
+				<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+				<slug>github-advanced-security-azure-devops</slug>
+			</slugs>
+			<__v>119</__v>
+			<roomName>Gold 3</roomName>
+			<speakers>
+				<speaker>
+					<speakerId>6656ce9ff952db9d1df7d2a3_66fee74c739844650657bbc2</speakerId>
+				</speaker>
+			</speakers>
+			<tracks>
+				<track>
+					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29c</trackId>
+				</track>
+				<track>
+					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a1</trackId>
 				</track>
 			</tracks>
 		</session>
@@ -4857,45 +4857,53 @@ Am Ende dieser Session haben die Entwickler ein klares Verständnis dafür, wie 
 			<workshopShortLabel/>
 			<workshopRequirements/>
 			<longAbstract/>
-			<primaryTrackUniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29e</primaryTrackUniqueId>
+			<primaryTrackUniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a2</primaryTrackUniqueId>
 			<versionId>119</versionId>
 			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-			<redsysExpertIds>622b3b4642a941001d8618da</redsysExpertIds>
+			<redsysExpertIds>61e68c105642af001d4a6f27</redsysExpertIds>
+			<redsysTrackIds>fEYwXYGi3Af2bqcPX</redsysTrackIds>
 			<redsysTrackIds>KFhbqzmMxqkkEd7Ni</redsysTrackIds>
+			<redsysTrackIds>HiYrk8EikrLTAMJgF</redsysTrackIds>
 			<isVideoStream>true</isVideoStream>
 			<videoStreamUrl>https://vimeo.com/event/4869041/embed</videoStreamUrl>
 			<isZoomStream>false</isZoomStream>
 			<onboardingZoomLink/>
 			<liveStreamZoomLink/>
-			<specialDayIds>6656ce9ff952db9d1df7d2a3_6703ea6d8094c54f062dd18b</specialDayIds>
+			<specialDayIds>6656ce9ff952db9d1df7d2a3_67090a2b2611732c065af299</specialDayIds>
 			<workshopAttendeeInformationsDe/>
 			<workshopAttendeeInformationsEn/>
-			<_id>673b2887702fee076a23e3e5</_id>
+			<_id>673b2887702fee076a23e3f7</_id>
 			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_66f58e20d2591452067dab26</uniqueId>
-			<name>Software richtig testen – ganz praktisch!</name>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_6709048183e6275c0623906d</uniqueId>
+			<name>Halluzinationen, Prompt-Injections &amp; Co.: LLMs sicher in die Schranken weisen</name>
 			<type>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a6</type>
-			<startDate>2025-03-06T08:00:00.000Z</startDate>
-			<endDate>2025-03-06T09:00:00.000Z</endDate>
-			<details>&lt;p&gt;Die Frage, wie man effektiv testet, löst oft Diskussionen aus. Viele von uns kennen die Testpyramide, bei der traditionell der Schwerpunkt auf Unit-Tests liegt, da sie schnell und effizient sind. Doch mit dem technologischen Fortschritt und den Lehren aus der Praxis scheint die Branche einen Konsens erreicht zu haben: Die Zeiten der Testpyramide liegen hinter uns. Der Fokus hat sich mehr in Richtung der Mitte der Pyramide verschoben. In diesem Vortrag werde ich die Gründe für diesen Wandel anhand objektiver Einblicke und einer Live-Coding-Demo erläutern, um die praktischen Auswirkungen zu verdeutlichen.&lt;/p&gt;</details>
-			<lastSavedDate>2025-02-04T09:09:00.000Z</lastSavedDate>
-			<redsysPrimaryTrackId>KFhbqzmMxqkkEd7Ni</redsysPrimaryTrackId>
+			<startDate>2025-03-04T11:15:00.000Z</startDate>
+			<endDate>2025-03-04T12:15:00.000Z</endDate>
+			<details>&lt;p&gt;Ein Chatbot halluziniert einem Kunden eine sehr großzügige Erstattungsrichtline herbei und ein Richter entscheidet, dass diese KI-Erfindung für die Firma bindend ist. Ein Benutzer &amp;#34;überredet&amp;#34; ein LLM, alles tun zu können, und erhält prompt Zugriff auf sensible Daten. Beides sind Albtraumszenarien für ein Unternehmen. Aber dennoch: Mit dem großen Erfolg von Chatbots und LLM-Apps erhält die Integration von Generative AI in Businessanwendungen heute eine zentrale Rolle in der Geschäftsstrategie vieler Unternehmen. In dieser Session beleuchtet Sebastian Gingter, wie wir robuste LLM-basierte Lösungen entwickeln können, die sowohl innovativ als auch sicher sind. Wir diskutieren reale Beispiele von Problemen in Anwendungen, die direkt durch ein LLM entstehen, wie eben Halluzinationen oder Prompt-Injection-Angriffe. Sie sehen, welche Maßnahmen führende Anbieter ergriffen haben, um solche Risiken zu verhindern und welche konkreten Möglichkeiten Sie haben, Generative AI in ihre Schranken zu verweisen und zu einem sicheren, vertrauenswürdigen und wertschöpfenden Bestandteil Ihrer Produkte zu machen.&lt;!--EndFragment--&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;</details>
+			<lastSavedDate>2025-02-04T09:16:00.000Z</lastSavedDate>
+			<redsysPrimaryTrackId>HiYrk8EikrLTAMJgF</redsysPrimaryTrackId>
 			<redsysType>JBPD73cH534W8FFEx</redsysType>
 			<slugs>
-				<_id>67dbe0c04ddcdb0728f3c28d</_id>
+				<_id>67dbe0c04ddcdb0728f3c2eb</_id>
 				<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-				<slug>software-richtig-testen</slug>
+				<slug>secure-generative-ai-llms</slug>
 			</slugs>
 			<__v>119</__v>
 			<roomName>Ballsaal 1</roomName>
 			<speakers>
 				<speaker>
-					<speakerId>6656ce9ff952db9d1df7d2a3_66f58e17d2591452067dab25</speakerId>
+					<speakerId>6656ce9ff952db9d1df7d2a3_67090182b1d96961068f8201</speakerId>
 				</speaker>
 			</speakers>
 			<tracks>
 				<track>
+					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29c</trackId>
+				</track>
+				<track>
 					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29e</trackId>
+				</track>
+				<track>
+					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a2</trackId>
 				</track>
 			</tracks>
 		</session>
@@ -4967,53 +4975,45 @@ Am Ende dieser Session haben die Entwickler ein klares Verständnis dafür, wie 
 			<workshopShortLabel/>
 			<workshopRequirements/>
 			<longAbstract/>
-			<primaryTrackUniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a2</primaryTrackUniqueId>
+			<primaryTrackUniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29e</primaryTrackUniqueId>
 			<versionId>119</versionId>
 			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-			<redsysExpertIds>61e68c105642af001d4a6f27</redsysExpertIds>
-			<redsysTrackIds>fEYwXYGi3Af2bqcPX</redsysTrackIds>
+			<redsysExpertIds>622b3b4642a941001d8618da</redsysExpertIds>
 			<redsysTrackIds>KFhbqzmMxqkkEd7Ni</redsysTrackIds>
-			<redsysTrackIds>HiYrk8EikrLTAMJgF</redsysTrackIds>
 			<isVideoStream>true</isVideoStream>
 			<videoStreamUrl>https://vimeo.com/event/4869041/embed</videoStreamUrl>
 			<isZoomStream>false</isZoomStream>
 			<onboardingZoomLink/>
 			<liveStreamZoomLink/>
-			<specialDayIds>6656ce9ff952db9d1df7d2a3_67090a2b2611732c065af299</specialDayIds>
+			<specialDayIds>6656ce9ff952db9d1df7d2a3_6703ea6d8094c54f062dd18b</specialDayIds>
 			<workshopAttendeeInformationsDe/>
 			<workshopAttendeeInformationsEn/>
-			<_id>673b2887702fee076a23e3f7</_id>
+			<_id>673b2887702fee076a23e3e5</_id>
 			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_6709048183e6275c0623906d</uniqueId>
-			<name>Halluzinationen, Prompt-Injections &amp; Co.: LLMs sicher in die Schranken weisen</name>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_66f58e20d2591452067dab26</uniqueId>
+			<name>Software richtig testen – ganz praktisch!</name>
 			<type>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a6</type>
-			<startDate>2025-03-04T11:15:00.000Z</startDate>
-			<endDate>2025-03-04T12:15:00.000Z</endDate>
-			<details>&lt;p&gt;Ein Chatbot halluziniert einem Kunden eine sehr großzügige Erstattungsrichtline herbei und ein Richter entscheidet, dass diese KI-Erfindung für die Firma bindend ist. Ein Benutzer &amp;#34;überredet&amp;#34; ein LLM, alles tun zu können, und erhält prompt Zugriff auf sensible Daten. Beides sind Albtraumszenarien für ein Unternehmen. Aber dennoch: Mit dem großen Erfolg von Chatbots und LLM-Apps erhält die Integration von Generative AI in Businessanwendungen heute eine zentrale Rolle in der Geschäftsstrategie vieler Unternehmen. In dieser Session beleuchtet Sebastian Gingter, wie wir robuste LLM-basierte Lösungen entwickeln können, die sowohl innovativ als auch sicher sind. Wir diskutieren reale Beispiele von Problemen in Anwendungen, die direkt durch ein LLM entstehen, wie eben Halluzinationen oder Prompt-Injection-Angriffe. Sie sehen, welche Maßnahmen führende Anbieter ergriffen haben, um solche Risiken zu verhindern und welche konkreten Möglichkeiten Sie haben, Generative AI in ihre Schranken zu verweisen und zu einem sicheren, vertrauenswürdigen und wertschöpfenden Bestandteil Ihrer Produkte zu machen.&lt;!--EndFragment--&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;</details>
-			<lastSavedDate>2025-02-04T09:16:00.000Z</lastSavedDate>
-			<redsysPrimaryTrackId>HiYrk8EikrLTAMJgF</redsysPrimaryTrackId>
+			<startDate>2025-03-06T08:00:00.000Z</startDate>
+			<endDate>2025-03-06T09:00:00.000Z</endDate>
+			<details>&lt;p&gt;Die Frage, wie man effektiv testet, löst oft Diskussionen aus. Viele von uns kennen die Testpyramide, bei der traditionell der Schwerpunkt auf Unit-Tests liegt, da sie schnell und effizient sind. Doch mit dem technologischen Fortschritt und den Lehren aus der Praxis scheint die Branche einen Konsens erreicht zu haben: Die Zeiten der Testpyramide liegen hinter uns. Der Fokus hat sich mehr in Richtung der Mitte der Pyramide verschoben. In diesem Vortrag werde ich die Gründe für diesen Wandel anhand objektiver Einblicke und einer Live-Coding-Demo erläutern, um die praktischen Auswirkungen zu verdeutlichen.&lt;/p&gt;</details>
+			<lastSavedDate>2025-02-04T09:09:00.000Z</lastSavedDate>
+			<redsysPrimaryTrackId>KFhbqzmMxqkkEd7Ni</redsysPrimaryTrackId>
 			<redsysType>JBPD73cH534W8FFEx</redsysType>
 			<slugs>
-				<_id>67dbe0c04ddcdb0728f3c2eb</_id>
+				<_id>67dbe0c04ddcdb0728f3c28d</_id>
 				<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-				<slug>secure-generative-ai-llms</slug>
+				<slug>software-richtig-testen</slug>
 			</slugs>
 			<__v>119</__v>
 			<roomName>Ballsaal 1</roomName>
 			<speakers>
 				<speaker>
-					<speakerId>6656ce9ff952db9d1df7d2a3_67090182b1d96961068f8201</speakerId>
+					<speakerId>6656ce9ff952db9d1df7d2a3_66f58e17d2591452067dab25</speakerId>
 				</speaker>
 			</speakers>
 			<tracks>
 				<track>
-					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29c</trackId>
-				</track>
-				<track>
 					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29e</trackId>
-				</track>
-				<track>
-					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a2</trackId>
 				</track>
 			</tracks>
 		</session>
@@ -5795,14 +5795,14 @@ Am Ende dieser Session haben die Entwickler ein klares Verständnis dafür, wie 
 			<liveStreamZoomLink/>
 			<workshopAttendeeInformationsDe/>
 			<workshopAttendeeInformationsEn/>
-			<_id>677bce8d6c98760769828b54</_id>
+			<_id>677bce8d6c98760769828b56</_id>
 			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_677bcbe77186844b06a2f9be</uniqueId>
-			<name>Konferenz Check-in</name>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_677bcd9a7186844b06a2f9c1</uniqueId>
+			<name>Mittagspause</name>
 			<type>Break</type>
-			<startDate>2025-03-04T06:30:00.000Z</startDate>
-			<endDate>2025-03-04T08:00:00.000Z</endDate>
-			<lastSavedDate>2025-01-06T12:26:00.000Z</lastSavedDate>
+			<startDate>2025-03-06T12:00:00.000Z</startDate>
+			<endDate>2025-03-06T13:15:00.000Z</endDate>
+			<lastSavedDate>2025-01-06T12:33:00.000Z</lastSavedDate>
 			<__v>0</__v>
 			<speakers>
 			</speakers>
@@ -5827,14 +5827,14 @@ Am Ende dieser Session haben die Entwickler ein klares Verständnis dafür, wie 
 			<liveStreamZoomLink/>
 			<workshopAttendeeInformationsDe/>
 			<workshopAttendeeInformationsEn/>
-			<_id>677bce8d6c98760769828b56</_id>
+			<_id>677bce8d6c98760769828b54</_id>
 			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_677bcd9a7186844b06a2f9c1</uniqueId>
-			<name>Mittagspause</name>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_677bcbe77186844b06a2f9be</uniqueId>
+			<name>Konferenz Check-in</name>
 			<type>Break</type>
-			<startDate>2025-03-06T12:00:00.000Z</startDate>
-			<endDate>2025-03-06T13:15:00.000Z</endDate>
-			<lastSavedDate>2025-01-06T12:33:00.000Z</lastSavedDate>
+			<startDate>2025-03-04T06:30:00.000Z</startDate>
+			<endDate>2025-03-04T08:00:00.000Z</endDate>
+			<lastSavedDate>2025-01-06T12:26:00.000Z</lastSavedDate>
 			<__v>0</__v>
 			<speakers>
 			</speakers>
@@ -6115,13 +6115,13 @@ Am Ende dieser Session haben die Entwickler ein klares Verständnis dafür, wie 
 			<liveStreamZoomLink/>
 			<workshopAttendeeInformationsDe/>
 			<workshopAttendeeInformationsEn/>
-			<_id>677bce8d6c98760769828b57</_id>
+			<_id>677bce8d6c98760769828b64</_id>
 			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_677bcd070016535106bac712</uniqueId>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_677bcd317186844b06a2f9c0</uniqueId>
 			<name>Pause</name>
 			<type>Break</type>
-			<startDate>2025-03-05T14:00:00.000Z</startDate>
-			<endDate>2025-03-05T14:30:00.000Z</endDate>
+			<startDate>2025-03-05T15:30:00.000Z</startDate>
+			<endDate>2025-03-05T16:00:00.000Z</endDate>
 			<lastSavedDate>2025-01-06T12:31:00.000Z</lastSavedDate>
 			<__v>0</__v>
 			<speakers>
@@ -6147,13 +6147,13 @@ Am Ende dieser Session haben die Entwickler ein klares Verständnis dafür, wie 
 			<liveStreamZoomLink/>
 			<workshopAttendeeInformationsDe/>
 			<workshopAttendeeInformationsEn/>
-			<_id>677bce8d6c98760769828b64</_id>
+			<_id>677bce8d6c98760769828b57</_id>
 			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_677bcd317186844b06a2f9c0</uniqueId>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_677bcd070016535106bac712</uniqueId>
 			<name>Pause</name>
 			<type>Break</type>
-			<startDate>2025-03-05T15:30:00.000Z</startDate>
-			<endDate>2025-03-05T16:00:00.000Z</endDate>
+			<startDate>2025-03-05T14:00:00.000Z</startDate>
+			<endDate>2025-03-05T14:30:00.000Z</endDate>
 			<lastSavedDate>2025-01-06T12:31:00.000Z</lastSavedDate>
 			<__v>0</__v>
 			<speakers>

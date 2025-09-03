@@ -1,317 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><conferences><conferenceData>
-	<tracks>
-		<track>
-			<startDate>2025-03-20T09:32:00.000Z</startDate>
-			<endDate>2025-03-20T09:32:00.000Z</endDate>
-			<details/>
-			<specialDay>false</specialDay>
-			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-			<versionId>115</versionId>
-			<_id>673b2887702fee076a23e459</_id>
-			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a0</uniqueId>
-			<name>Microservices &amp; APIs</name>
-			<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
-			<redsysId>rHrPqX2KbFPwjtDSb</redsysId>
-			<__v>0</__v>
-		</track>
-		<track>
-			<startDate>2025-03-20T09:32:00.000Z</startDate>
-			<endDate>2025-03-20T09:32:00.000Z</endDate>
-			<details/>
-			<specialDay>false</specialDay>
-			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-			<versionId>115</versionId>
-			<_id>673b2887702fee076a23e458</_id>
-			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29b</uniqueId>
-			<name>JavaScript</name>
-			<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
-			<redsysId>EGYE6YvXFMXibJPBb</redsysId>
-			<__v>0</__v>
-		</track>
-		<track>
-			<startDate>2025-03-20T09:32:00.000Z</startDate>
-			<endDate>2025-03-20T09:32:00.000Z</endDate>
-			<details/>
-			<specialDay>false</specialDay>
-			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-			<versionId>115</versionId>
-			<_id>673b2887702fee076a23e45c</_id>
-			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d299</uniqueId>
-			<name>Data Access &amp; Storage</name>
-			<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
-			<redsysId>oWL542WsjR4YQeLrJ</redsysId>
-			<__v>0</__v>
-		</track>
-		<track>
-			<startDate>2025-03-20T09:32:00.000Z</startDate>
-			<endDate>2025-03-20T09:32:00.000Z</endDate>
-			<details/>
-			<specialDay>false</specialDay>
-			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-			<versionId>115</versionId>
-			<_id>673b2887702fee076a23e45b</_id>
-			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a2</uniqueId>
-			<name>AI — Artificial Intelligence</name>
-			<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
-			<redsysId>HiYrk8EikrLTAMJgF</redsysId>
-			<__v>0</__v>
-		</track>
-		<track>
-			<startDate>2025-03-20T09:32:00.000Z</startDate>
-			<endDate>2025-03-20T09:32:00.000Z</endDate>
-			<details/>
-			<specialDay>false</specialDay>
-			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-			<versionId>115</versionId>
-			<_id>673b2887702fee076a23e45a</_id>
-			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29d</uniqueId>
-			<name>.NET Framework &amp; C#</name>
-			<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
-			<redsysId>bbrhptpLkagnsFkvL</redsysId>
-			<__v>0</__v>
-		</track>
-		<track>
-			<startDate>2025-03-20T09:32:00.000Z</startDate>
-			<endDate>2025-03-20T09:32:00.000Z</endDate>
-			<details/>
-			<specialDay>false</specialDay>
-			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-			<versionId>115</versionId>
-			<_id>673b2887702fee076a23e45e</_id>
-			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29a</uniqueId>
-			<name>UI Technology</name>
-			<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
-			<redsysId>WyEPvNyjueeLdzdfh</redsysId>
-			<__v>0</__v>
-		</track>
-		<track>
-			<startDate>2025-03-20T09:32:00.000Z</startDate>
-			<endDate>2025-03-20T09:32:00.000Z</endDate>
-			<details/>
-			<specialDay>false</specialDay>
-			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-			<versionId>115</versionId>
-			<_id>673b2887702fee076a23e45d</_id>
-			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29e</uniqueId>
-			<name>Web Development</name>
-			<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
-			<redsysId>KFhbqzmMxqkkEd7Ni</redsysId>
-			<__v>0</__v>
-		</track>
-		<track>
-			<startDate>2025-03-20T09:32:00.000Z</startDate>
-			<endDate>2025-03-20T09:32:00.000Z</endDate>
-			<details/>
-			<specialDay>false</specialDay>
-			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-			<versionId>115</versionId>
-			<_id>673b2887702fee076a23e460</_id>
-			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29c</uniqueId>
-			<name>Security</name>
-			<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
-			<redsysId>fEYwXYGi3Af2bqcPX</redsysId>
-			<__v>0</__v>
-		</track>
-		<track>
-			<startDate>2025-03-20T09:32:00.000Z</startDate>
-			<endDate>2025-03-20T09:32:00.000Z</endDate>
-			<details/>
-			<specialDay>false</specialDay>
-			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-			<versionId>115</versionId>
-			<_id>673b2887702fee076a23e461</_id>
-			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a1</uniqueId>
-			<name>Agile &amp; DevOps</name>
-			<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
-			<redsysId>x5uJwZ4cgL2Yengi3</redsysId>
-			<__v>0</__v>
-		</track>
-		<track>
-			<startDate>2025-03-20T09:32:00.000Z</startDate>
-			<endDate>2025-03-20T09:32:00.000Z</endDate>
-			<details/>
-			<specialDay>false</specialDay>
-			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-			<versionId>115</versionId>
-			<_id>673b2887702fee076a23e45f</_id>
-			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29f</uniqueId>
-			<name>Azure &amp; Cloud</name>
-			<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
-			<redsysId>s5Lbe3yH2JHAr9mdb</redsysId>
-			<__v>0</__v>
-		</track>
-	</tracks>
-	<sponsors>
-	</sponsors>
-	<sponsor-types>
-	</sponsor-types>
-	<specialDays>
-		<order>0</order>
-		<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-		<_id>673b2888702fee076a23e4f2</_id>
-		<uniqueId>6656ce9ff952db9d1df7d2a3_66fd0da281a8b48e0638e33b</uniqueId>
-		<name>.NET Framework &amp; C# Days</name>
-		<startDate>2025-03-04T08:00:00.000Z</startDate>
-		<endDate>2025-03-05T18:00:00.000Z</endDate>
-		<details>Back to the roots: die wichtigsten Kernthemen vieler BASTA-Besucher sind und bleiben .NET und C#. Daran kann auch JavaScript nichts ändern. Daher gibt es diese Themen jetzt endlich wieder an zwei Special Days! An den beiden Tagen gibt es neben neuen Features in der Sprache C# und den .NET-Bibliotheken auch Best Practices sowie Tipps und Tricks zu bereits etablierten Sprachkonstrukten, Techniken und Tools. Ob Anfänger oder Fortgeschrittene, unsere Experten haben hochkarätige Fachvorträge mit aktuellsten Informationen vorbereitet, um Sie im Umgang mit .NET und C# noch effektiver und erfolgreicher zu machen.
-
--- DIE .NET &amp; C# DAYS FINDEN AM DIENSTAG, 04.03.2025 + MITTWOCH, 05.03.2025  STATT --</details>
-		<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
-		<__v>0</__v>
-	</specialDays>
-	<specialDays>
-		<order>0</order>
-		<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-		<_id>673b2888702fee076a23e4f4</_id>
-		<uniqueId>6656ce9ff952db9d1df7d2a3_6703cdea0157cd560623515e</uniqueId>
-		<name>Architektur Day</name>
-		<startDate>2025-03-04T08:00:00.000Z</startDate>
-		<endDate>2025-03-04T18:00:00.000Z</endDate>
-		<details>Moderne Anwendungssysteme bestehen aus einer Vielzahl von Komponenten, die miteinander interagieren und ein komplexes Geflecht bilden. Doch wie ordnet man diese Technologiebausteine in ein kohärentes Gesamtbild ein? Genau das steht im Fokus des Architecture Day.
-Auf dem Architecture Day bei BASTA! erleben Teilnehmer nicht nur theoretische Konzepte, sondern auch praktische Demos, die zeigen, wie diese Konzepte in der realen Welt umgesetzt werden können. Von Microservices-Architekturen über Event-Driven Design bis hin zu Containerisierung und Serverless Computing - hier erhalten Entwickler und Architekten wertvolle Einblicke in bewährte Methoden und innovative Ansätze.</details>
-		<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
-		<__v>0</__v>
-	</specialDays>
-	<specialDays>
-		<order>0</order>
-		<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-		<_id>673b2888702fee076a23e4f3</_id>
-		<uniqueId>6656ce9ff952db9d1df7d2a3_67090a2b2611732c065af299</uniqueId>
-		<name>Generative AI Day</name>
-		<startDate>2025-03-04T08:00:00.000Z</startDate>
-		<endDate>2025-03-04T18:00:00.000Z</endDate>
-		<details>Generative AI ist gekommen, um zu bleiben. Der Generative AI Day auf der BASTA! beleuchtet Möglichkeiten, die Large Language Models (LLMs) und generative KI für die Softwareentwicklung bieten. Dieser Tag bietet einen Einblick sowohl in aktuelle Entwicklungen als auch in Best Practices für den Einsatz von KI-Technologien in realen Anwendungsfällen. Der Fokus liegt auf der praktischen Anwendung von LLMs, der Optimierung bestehender Workflows und der Bewältigung von Herausforderungen wie Effizienz, Sicherheit und Kosten. Live-Demonstrationen und interaktive Coding-Sessions ermöglichen den Teilnehmern, die Technologien in Aktion zu erleben und konkrete Anregungen für ihre eigenen Projekte mitzunehmen.</details>
-		<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
-		<__v>0</__v>
-	</specialDays>
-	<specialDays>
-		<order>0</order>
-		<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-		<_id>673b2888702fee076a23e4f6</_id>
-		<uniqueId>6656ce9ff952db9d1df7d2a3_6703eaf74bc7a15f069a9a8c</uniqueId>
-		<name>UI Technology Day</name>
-		<startDate>2025-03-06T08:00:00.000Z</startDate>
-		<endDate>2025-03-06T17:00:00.000Z</endDate>
-		<details>Die Gestaltung von Oberflächen ist nicht so einfach wie es vielleicht scheint. Denn hierbei geht es weniger um schickes Aussehen, sondern vielmehr um Usability oder neudeutsch User Experience. Sie entscheidet, ob eine App akzeptiert und vor allem verwendet wird.
-Doch um eine gelungenes Oberflächendesign umsetzen zu können benötigt man auch ein gutes Technikverständnis - egal ob die Oberfläche auf HTML/CSS, XAML oder anderen Technologien basiert.
-
-Der UI Technology Day befasst sich genau mit diesen Themen. Er vermittelt nicht nur das grundlegende Verständnis intelligent gestalteter User Interfaces, sondern diskutiert auch neue technologische Ansätze in diesem Bereich und dies natürlich Plattform- und Technologie übergreifend.</details>
-		<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
-		<__v>0</__v>
-	</specialDays>
-	<specialDays>
-		<order>0</order>
-		<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-		<_id>673b2888702fee076a23e4f5</_id>
-		<uniqueId>6656ce9ff952db9d1df7d2a3_6703ea6d8094c54f062dd18b</uniqueId>
-		<name>Web Development Days</name>
-		<startDate>2025-03-05T08:00:00.000Z</startDate>
-		<endDate>2025-03-06T17:00:00.000Z</endDate>
-		<details>Die Web Development Days der BASTA! stehen für die Vielfältigkeit moderner Webentwicklung für .NET-Entwickler:innen. Von Microsofts hauseigenen Blazor-Lösungen bis hin zu beeindruckenden Web-Apps mit Node.js, Angular, Vue.js und React. Es werden sowohl client-seitige als auch serverseitige Lösungen besprochen, um robuste und skalierbare Web-Anwendungen zu erstellen, die nativen Desktop-Anwendungen in nichts nachstehen. Unsere Expert:innen geben auf den Special Days wertvolle Einblicke und Praxistipps und zeigen wie aktuelle Trends und auch neueste Ansätze aus der Web-Welt, wie Hydration mit Frameworks wie Astro, Next.js, Qwik oder Svelte, mit .NET-Technologien zusammenspielen. Die Web Development Days bieten eine einzigartige Gelegenheit zum Wissensaustausch und zur Vernetzung mit Gleichgesinnten. Also: Seien Sie dabei.
-
---. DIE WEB DEVELOPMENT DASYS FINDEN AM MITTWOCH, 05.03.2025 + DONNERSTAG, 06.03.2025  STATT --</details>
-		<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
-		<__v>0</__v>
-	</specialDays>
-	<specialDays>
-		<order>0</order>
-		<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-		<_id>673b2888702fee076a23e4f7</_id>
-		<uniqueId>6656ce9ff952db9d1df7d2a3_66fd6b2470db79570622e31a</uniqueId>
-		<name>Data Access Day</name>
-		<startDate>2025-03-06T08:00:00.000Z</startDate>
-		<endDate>2025-03-06T17:00:00.000Z</endDate>
-		<details>Der Datenzugriff auf Datenbanken und andere Datenquellen ist eine zentrale Funktion in den meisten Anwendungen, egal ob auf dem Client, Server oder in der Cloud. Dabei bildet sowohl die Auswahl der Datenbanktechnik, das Datenbankdesign und die Datenhaltung als auch die Implementierung der Datenzugriffsschicht die Grundlage für eine effiziente und performante Softwareentwicklung.
-
-Der Data Access Day beginnt dieses Mal mit einem Vortrag von Robert Panther über KI-gestützte Datenbankentwicklung mit Azure Data Studio und GitHub Copilot. Dieser Vortrag bietet einen Einblick in die neuen Möglichkeiten, die sich daraus ergeben, beleuchtet aber auch technische Grenzen und andere Aspekte, die beim Einsatz von KI-generiertem Code zu berücksichtigen sind. 
-
-Entity Framework-Guru Holger Schwichtenberg zeigt die Neuerungen in Entity Framework Core 9.0, das im November 2024 erschienen ist. Olaf Lischke stellt danach mit NHibernate eine Alternative zu Entity Framework Core vor. In seinem Vortrag beleuchtet er die Unterschiede in Architektur, Logik und Anwendung genauso wie die möglichen Einsatzbereiche für verschiedene Szenarien.
-
-Anschließend erörtert Thorsten Kansy das Sicherheitskonzept von Microsoft SQL Server und den Möglichkeiten (einfach) eigene Inhalte in Datenbanken zu verschlüsseln.
- 
-Am Ende des Tages erörtert Gregor Biswanger das Microsoft Semantic Kernel (Memory) SDK. Diese Technologien ermöglichen es, eigene Daten nahtlos mit Generativer KI zu kombinieren. Verschiedene Vektordatenbanken werden analysiert, ihre Stärken und Schwächen aufgezeigt, sowie Kriterien zur Bewertung der Qualität einer Vektordatenbank im Vergleich zu Embedding Models besprochen.</details>
-		<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
-		<__v>0</__v>
-	</specialDays>
-	<specialDays>
-		<order>0</order>
-		<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-		<_id>673b2888702fee076a23e4f8</_id>
-		<uniqueId>6656ce9ff952db9d1df7d2a3_670f8474a8fe756f06447001</uniqueId>
-		<name>DevOps &amp; Cloud Developer Day</name>
-		<startDate>2025-03-05T08:00:00.000Z</startDate>
-		<endDate>2025-03-05T18:00:00.000Z</endDate>
-		<details>Entdecken Sie an diesem Special Day die essentiellen Elemente moderner Softwareentwicklung: Cloud-Technologien und Continuous Delivery. Erfahren Sie, warum diese nahezu unverzichtbar sind und wie sie Ihre Projekte damit zum Erfolg bringen. Tauchen Sie ein in moderne Pipelines und hochautomatisierte CI/CD-Prozesse, die Ihre Arbeit revolutionieren und eine reibungslose Continuous Delivery ermöglichen. Erfahren Sie, wie Sie durch Platform Engineering Ihrem Unternehmen eine flexible Infrastruktur ermöglichen, die nahtlos in Ihre DevOps-Strategie integriert ist.
-An diesem Special Day erhalten Sie einen umfassenden Überblick über die neuesten Microsoft Azure Services, von Azure Functions über Azure Kubernetes Service bis hin zu Azure Cosmos DB. Der „DevOps &amp; Cloud Development Day” bietet dabei praktische Einblicke in Sessions und Workshops und hilft, ein tiefes Verständnis für Azure, DevOps, Platform Engineering und mehr zu entwickeln.</details>
-		<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
-		<__v>0</__v>
-	</specialDays>
 	<speakers>
-		<speaker>
-			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-			<qualifications>
-			</qualifications>
-			<versionId>119</versionId>
-			<_id>673b2887702fee076a23e472</_id>
-			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_66d47c6bfb59bb8d10f09958</uniqueId>
-			<firstName>Thorsten</firstName>
-			<lastName>Kansy</lastName>
-			<company>www.dotnetconsulting.eu</company>
-			<details>Mit Herz und Seele und gefühlt seit einer Ewigkeit Entwickler, Software Architekt und Mentor. Full Stack Developer meets Microsoft SQL Server. Thorsten Kansy ist seit mehr als 30 Jahren als unabhängiger Softwarearchitekt, Entwickler und Trainer international tätig. Zudem schreibt er Bücher und Artikel rund um seine Spezialthemen: die Entwicklung komplexer Anwendungen mit .NET im Microsoft-Umfeld, insbesondere SQL Server. Er ist MCITP, MCTS, MCDBA, MCSD, MCAD, MCPD und MCSE+I zertifiziert. Sie erreichen ihn unter tkansy@dotnetconsulting.eu oder auf Twitter: @tkansy.</details>
-			<email>tkansy@dotnetconsulting.eu</email>
-			<lastSavedDate>2025-03-11T09:48:00.000Z</lastSavedDate>
-			<expertId>61e68caf5642af001d4a6f2b</expertId>
-			<userId>57e6186b18fb72cb2ff49d4f</userId>
-			<slug>thorsten-kansy</slug>
-			<__v>0</__v>
-		</speaker>
-		<speaker>
-			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-			<qualifications>
-			</qualifications>
-			<versionId>119</versionId>
-			<_id>673b2887702fee076a23e476</_id>
-			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_66f42394b5f32d4e06f7e0b9</uniqueId>
-			<firstName>Johannes</firstName>
-			<lastName>Dienst</lastName>
-			<company>AskUI</company>
-			<details>Johannes Dienst ist Developer Advocate bei AskUI. Sein Fokus liegt auf Automatisierung, Dokumentation und Softwarequalität.</details>
-			<email>info@johannesdienst.net</email>
-			<lastSavedDate>2025-03-12T14:06:00.000Z</lastSavedDate>
-			<expertId>62a87af34312ed001daa3bb9</expertId>
-			<slug>johannes-dienst</slug>
-			<__v>0</__v>
-		</speaker>
-		<speaker>
-			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-			<qualifications>
-			</qualifications>
-			<versionId>119</versionId>
-			<_id>673b2887702fee076a23e474</_id>
-			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_66f2a45f38207f8506414111</uniqueId>
-			<firstName>Dino</firstName>
-			<lastName>Esposito</lastName>
-			<company>Crionet</company>
-			<details>Dino Esposito hat in seiner bisher 25-jährigen Karriere über zwanzig Bücher und tausend Artikel verfasst. Derzeit ist er einer der Köpfe hinter der digitalen Transformation des Profi-Tennis.</details>
-			<email>dino.esposito@youbiquitous.net</email>
-			<lastSavedDate>2025-03-11T09:48:00.000Z</lastSavedDate>
-			<expertId>61e68bf65642af001d4a6f26</expertId>
-			<slug>dino-esposito</slug>
-			<__v>0</__v>
-		</speaker>
 		<speaker>
 			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
 			<qualifications>
@@ -336,6 +24,43 @@ An diesem Special Day erhalten Sie einen umfassenden Überblick über die neuest
 		<speaker>
 			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
 			<qualifications>
+			</qualifications>
+			<versionId>119</versionId>
+			<_id>673b2887702fee076a23e474</_id>
+			<published>true</published>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_66f2a45f38207f8506414111</uniqueId>
+			<firstName>Dino</firstName>
+			<lastName>Esposito</lastName>
+			<company>Crionet</company>
+			<details>Dino Esposito hat in seiner bisher 25-jährigen Karriere über zwanzig Bücher und tausend Artikel verfasst. Derzeit ist er einer der Köpfe hinter der digitalen Transformation des Profi-Tennis.</details>
+			<email>dino.esposito@youbiquitous.net</email>
+			<lastSavedDate>2025-03-11T09:48:00.000Z</lastSavedDate>
+			<expertId>61e68bf65642af001d4a6f26</expertId>
+			<slug>dino-esposito</slug>
+			<__v>0</__v>
+		</speaker>
+		<speaker>
+			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+			<qualifications>
+			</qualifications>
+			<versionId>119</versionId>
+			<_id>673b2887702fee076a23e472</_id>
+			<published>true</published>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_66d47c6bfb59bb8d10f09958</uniqueId>
+			<firstName>Thorsten</firstName>
+			<lastName>Kansy</lastName>
+			<company>www.dotnetconsulting.eu</company>
+			<details>Mit Herz und Seele und gefühlt seit einer Ewigkeit Entwickler, Software Architekt und Mentor. Full Stack Developer meets Microsoft SQL Server. Thorsten Kansy ist seit mehr als 30 Jahren als unabhängiger Softwarearchitekt, Entwickler und Trainer international tätig. Zudem schreibt er Bücher und Artikel rund um seine Spezialthemen: die Entwicklung komplexer Anwendungen mit .NET im Microsoft-Umfeld, insbesondere SQL Server. Er ist MCITP, MCTS, MCDBA, MCSD, MCAD, MCPD und MCSE+I zertifiziert. Sie erreichen ihn unter tkansy@dotnetconsulting.eu oder auf Twitter: @tkansy.</details>
+			<email>tkansy@dotnetconsulting.eu</email>
+			<lastSavedDate>2025-03-11T09:48:00.000Z</lastSavedDate>
+			<expertId>61e68caf5642af001d4a6f2b</expertId>
+			<userId>57e6186b18fb72cb2ff49d4f</userId>
+			<slug>thorsten-kansy</slug>
+			<__v>0</__v>
+		</speaker>
+		<speaker>
+			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+			<qualifications>
 				<qualification>6656ce9ff952db9d1df7d2a3_673d9f4bd02da66c06af66b4</qualification>
 			</qualifications>
 			<redsysQualifications>dcb6638bd109e09bc20340f2</redsysQualifications>
@@ -352,6 +77,24 @@ An diesem Special Day erhalten Sie einen umfassenden Überblick über die neuest
 			<expertId>61a4b517eeea2e001d2d7252</expertId>
 			<slug>martina-kraus</slug>
 			<__v>1</__v>
+		</speaker>
+		<speaker>
+			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+			<qualifications>
+			</qualifications>
+			<versionId>119</versionId>
+			<_id>673b2887702fee076a23e476</_id>
+			<published>true</published>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_66f42394b5f32d4e06f7e0b9</uniqueId>
+			<firstName>Johannes</firstName>
+			<lastName>Dienst</lastName>
+			<company>AskUI</company>
+			<details>Johannes Dienst ist Developer Advocate bei AskUI. Sein Fokus liegt auf Automatisierung, Dokumentation und Softwarequalität.</details>
+			<email>info@johannesdienst.net</email>
+			<lastSavedDate>2025-03-12T14:06:00.000Z</lastSavedDate>
+			<expertId>62a87af34312ed001daa3bb9</expertId>
+			<slug>johannes-dienst</slug>
+			<__v>0</__v>
 		</speaker>
 		<speaker>
 			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
@@ -394,6 +137,25 @@ An diesem Special Day erhalten Sie einen umfassenden Überblick über die neuest
 		<speaker>
 			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
 			<qualifications>
+			</qualifications>
+			<versionId>119</versionId>
+			<_id>673b2887702fee076a23e477</_id>
+			<published>true</published>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_66f464855eef0724066a5c31</uniqueId>
+			<firstName>Thomas Claudius</firstName>
+			<lastName>Huber</lastName>
+			<company>Accenture</company>
+			<details>Thomas Claudius Huber ist Microsoft MVP für .NET und Windows Development und beschäftigt sich schwerpunktmäßig mit allen XAML-basierten Frameworks: WPF, WinUI und .NET MAUI. Er freut sich über Feedback.</details>
+			<email>thomas@thomasclaudiushuber.com</email>
+			<lastSavedDate>2025-03-11T09:48:00.000Z</lastSavedDate>
+			<expertId>61e68c705642af001d4a6f29</expertId>
+			<userId>57df9a71d2972c861f72b22d</userId>
+			<slug>thomas-claudius-huber</slug>
+			<__v>0</__v>
+		</speaker>
+		<speaker>
+			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+			<qualifications>
 				<qualification>6656ce9ff952db9d1df7d2a3_67adb828e301739306ee34bd</qualification>
 			</qualifications>
 			<redsysQualifications>3aa879aeda3168f069f503e1</redsysQualifications>
@@ -410,25 +172,6 @@ An diesem Special Day erhalten Sie einen umfassenden Überblick über die neuest
 			<expertId>619d0a1e94e919001d77cc5d</expertId>
 			<slug>joerg-neumann</slug>
 			<__v>1</__v>
-		</speaker>
-		<speaker>
-			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-			<qualifications>
-			</qualifications>
-			<versionId>119</versionId>
-			<_id>673b2887702fee076a23e477</_id>
-			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_66f464855eef0724066a5c31</uniqueId>
-			<firstName>Thomas Claudius</firstName>
-			<lastName>Huber</lastName>
-			<company>Accenture</company>
-			<details>Thomas Claudius Huber ist Microsoft MVP für .NET und Windows Development und beschäftigt sich schwerpunktmäßig mit allen XAML-basierten Frameworks: WPF, WinUI und .NET MAUI. Er freut sich über Feedback.</details>
-			<email>thomas@thomasclaudiushuber.com</email>
-			<lastSavedDate>2025-03-11T09:48:00.000Z</lastSavedDate>
-			<expertId>61e68c705642af001d4a6f29</expertId>
-			<userId>57df9a71d2972c861f72b22d</userId>
-			<slug>thomas-claudius-huber</slug>
-			<__v>0</__v>
 		</speaker>
 		<speaker>
 			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
@@ -507,24 +250,6 @@ An diesem Special Day erhalten Sie einen umfassenden Überblick über die neuest
 		<speaker>
 			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
 			<qualifications>
-			</qualifications>
-			<versionId>119</versionId>
-			<_id>673b2887702fee076a23e47c</_id>
-			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_6702730bc7d73c5206b96f03</uniqueId>
-			<firstName>Patrick</firstName>
-			<lastName>Koch</lastName>
-			<company>AVL List GmbH</company>
-			<details>Patrick Koch ist DevOps-Ingenieur, Blogger, Mitorganisator der MS Developer User Group Graz, Azure Hero und Dozent, der gerne alles automatisiert. Sein Interesse an DevOps begann während seines Studiums der Softwareentwicklung an der Technischen Universität Graz. Zu dieser Zeit arbeitete er auch an einem gemeinnützigen Free and Open Source Software Projekt mit. Seit 2014 ist er in seiner Abteilung für die Themen CICD/Cloud/Container/Kubernetes zuständig. Seit mehreren Jahren betreibt er einen eigenen Blog zum Thema DevOps auf Azure und hält Vorträge/Workshops auf internationalen Konferenzen.</details>
-			<email>patrick.koch@avl.com</email>
-			<lastSavedDate>2025-03-11T09:48:00.000Z</lastSavedDate>
-			<expertId>636904fd20e20c002137bad1</expertId>
-			<slug>patrick-koch</slug>
-			<__v>0</__v>
-		</speaker>
-		<speaker>
-			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-			<qualifications>
 				<qualification>6656ce9ff952db9d1df7d2a3_6167e70121806921479d4f51</qualification>
 			</qualifications>
 			<versionId>119</versionId>
@@ -539,6 +264,24 @@ An diesem Special Day erhalten Sie einen umfassenden Überblick über die neuest
 			<lastSavedDate>2025-03-11T09:48:00.000Z</lastSavedDate>
 			<expertId>61a4caa294e919001d77cd7d</expertId>
 			<userId>61a4ca9f69958004737b5a3c</userId>
+			<__v>0</__v>
+		</speaker>
+		<speaker>
+			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+			<qualifications>
+			</qualifications>
+			<versionId>119</versionId>
+			<_id>673b2887702fee076a23e47c</_id>
+			<published>true</published>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_6702730bc7d73c5206b96f03</uniqueId>
+			<firstName>Patrick</firstName>
+			<lastName>Koch</lastName>
+			<company>AVL List GmbH</company>
+			<details>Patrick Koch ist DevOps-Ingenieur, Blogger, Mitorganisator der MS Developer User Group Graz, Azure Hero und Dozent, der gerne alles automatisiert. Sein Interesse an DevOps begann während seines Studiums der Softwareentwicklung an der Technischen Universität Graz. Zu dieser Zeit arbeitete er auch an einem gemeinnützigen Free and Open Source Software Projekt mit. Seit 2014 ist er in seiner Abteilung für die Themen CICD/Cloud/Container/Kubernetes zuständig. Seit mehreren Jahren betreibt er einen eigenen Blog zum Thema DevOps auf Azure und hält Vorträge/Workshops auf internationalen Konferenzen.</details>
+			<email>patrick.koch@avl.com</email>
+			<lastSavedDate>2025-03-11T09:48:00.000Z</lastSavedDate>
+			<expertId>636904fd20e20c002137bad1</expertId>
+			<slug>patrick-koch</slug>
 			<__v>0</__v>
 		</speaker>
 		<speaker>
@@ -996,24 +739,6 @@ Das 30-köpfige Team betreut Unternehmen im Bundesgebiet mit der Stellung des ex
 			<qualifications>
 			</qualifications>
 			<versionId>119</versionId>
-			<_id>673b2887702fee076a23e495</_id>
-			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_670401b028df965006211647</uniqueId>
-			<firstName>Marco</firstName>
-			<lastName>Frodl</lastName>
-			<company>Thinktecture AG</company>
-			<details>Marco Frodl ist Principal Consultant für Generative AI bei der Thinktecture AG und konzentriert sich im Bereich der künstlichen Intelligenz auf Generative AI. Ihn fasziniert die Vision, in natürlicher Sprache mit Apps und Devices kommunizieren zu können. Sein Beratungsfokus ist die Entwicklung von AI-Workflows unter Verwendung von LLMs von OpenAI oder Mistral sowie community-getriebene Large Language Models wie Metas Llama2, Mixtral, Intel NeuralChat oder DeepSeek Coder. Er ist Fan von LangChain und LangFuse, weil sich damit komplexe AI-Abläufe kompakt verpacken und gut tracen lassen.</details>
-			<email>marco.frodl@thinktecture.com</email>
-			<lastSavedDate>2025-03-11T09:48:00.000Z</lastSavedDate>
-			<expertId>6331d64ec302686eb9097419</expertId>
-			<slug>marco-frodl</slug>
-			<__v>0</__v>
-		</speaker>
-		<speaker>
-			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-			<qualifications>
-			</qualifications>
-			<versionId>119</versionId>
 			<_id>673b2887702fee076a23e499</_id>
 			<published>true</published>
 			<uniqueId>6656ce9ff952db9d1df7d2a3_670f722dd05449ae161c6b4a</uniqueId>
@@ -1025,6 +750,24 @@ Das 30-köpfige Team betreut Unternehmen im Bundesgebiet mit der Stellung des ex
 			<lastSavedDate>2025-03-11T09:48:00.000Z</lastSavedDate>
 			<expertId>c348a541c4d22e31aa8d2aed</expertId>
 			<slug>marcel-philipp-strauss</slug>
+			<__v>0</__v>
+		</speaker>
+		<speaker>
+			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+			<qualifications>
+			</qualifications>
+			<versionId>119</versionId>
+			<_id>673b2887702fee076a23e495</_id>
+			<published>true</published>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_670401b028df965006211647</uniqueId>
+			<firstName>Marco</firstName>
+			<lastName>Frodl</lastName>
+			<company>Thinktecture AG</company>
+			<details>Marco Frodl ist Principal Consultant für Generative AI bei der Thinktecture AG und konzentriert sich im Bereich der künstlichen Intelligenz auf Generative AI. Ihn fasziniert die Vision, in natürlicher Sprache mit Apps und Devices kommunizieren zu können. Sein Beratungsfokus ist die Entwicklung von AI-Workflows unter Verwendung von LLMs von OpenAI oder Mistral sowie community-getriebene Large Language Models wie Metas Llama2, Mixtral, Intel NeuralChat oder DeepSeek Coder. Er ist Fan von LangChain und LangFuse, weil sich damit komplexe AI-Abläufe kompakt verpacken und gut tracen lassen.</details>
+			<email>marco.frodl@thinktecture.com</email>
+			<lastSavedDate>2025-03-11T09:48:00.000Z</lastSavedDate>
+			<expertId>6331d64ec302686eb9097419</expertId>
+			<slug>marco-frodl</slug>
 			<__v>0</__v>
 		</speaker>
 		<speaker>
@@ -1252,10 +995,10 @@ Heute bringt er seine Expertise als Softwarearchitekt bei der Thinktecture AG ei
 			<details/>
 			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
 			<versionId>0</versionId>
-			<_id>673b2888702fee076a23e4ea</_id>
+			<_id>673b2888702fee076a23e4ec</_id>
 			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_670d1460a8fe756f06446ff4</uniqueId>
-			<name>BAS 1.25 .NET</name>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_670d14284cfa3654065f955a</uniqueId>
+			<name>BAS 1.25 Azure</name>
 			<__v>0</__v>
 		</qualification>
 		<qualification>
@@ -1272,10 +1015,10 @@ Heute bringt er seine Expertise als Softwarearchitekt bei der Thinktecture AG ei
 			<details/>
 			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
 			<versionId>0</versionId>
-			<_id>673b2888702fee076a23e4ec</_id>
+			<_id>673b2888702fee076a23e4ea</_id>
 			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_670d14284cfa3654065f955a</uniqueId>
-			<name>BAS 1.25 Azure</name>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_670d1460a8fe756f06446ff4</uniqueId>
+			<name>BAS 1.25 .NET</name>
 			<__v>0</__v>
 		</qualification>
 		<qualification>
@@ -1289,6 +1032,283 @@ Heute bringt er seine Expertise als Softwarearchitekt bei der Thinktecture AG ei
 			<__v>0</__v>
 		</qualification>
 	</qualifications>
+	<tracks>
+		<track>
+			<startDate>2025-03-20T09:32:00.000Z</startDate>
+			<endDate>2025-03-20T09:32:00.000Z</endDate>
+			<details/>
+			<specialDay>false</specialDay>
+			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+			<versionId>115</versionId>
+			<_id>673b2887702fee076a23e458</_id>
+			<published>true</published>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29b</uniqueId>
+			<name>JavaScript</name>
+			<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
+			<redsysId>EGYE6YvXFMXibJPBb</redsysId>
+			<__v>0</__v>
+		</track>
+		<track>
+			<startDate>2025-03-20T09:32:00.000Z</startDate>
+			<endDate>2025-03-20T09:32:00.000Z</endDate>
+			<details/>
+			<specialDay>false</specialDay>
+			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+			<versionId>115</versionId>
+			<_id>673b2887702fee076a23e459</_id>
+			<published>true</published>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a0</uniqueId>
+			<name>Microservices &amp; APIs</name>
+			<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
+			<redsysId>rHrPqX2KbFPwjtDSb</redsysId>
+			<__v>0</__v>
+		</track>
+		<track>
+			<startDate>2025-03-20T09:32:00.000Z</startDate>
+			<endDate>2025-03-20T09:32:00.000Z</endDate>
+			<details/>
+			<specialDay>false</specialDay>
+			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+			<versionId>115</versionId>
+			<_id>673b2887702fee076a23e45b</_id>
+			<published>true</published>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a2</uniqueId>
+			<name>AI — Artificial Intelligence</name>
+			<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
+			<redsysId>HiYrk8EikrLTAMJgF</redsysId>
+			<__v>0</__v>
+		</track>
+		<track>
+			<startDate>2025-03-20T09:32:00.000Z</startDate>
+			<endDate>2025-03-20T09:32:00.000Z</endDate>
+			<details/>
+			<specialDay>false</specialDay>
+			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+			<versionId>115</versionId>
+			<_id>673b2887702fee076a23e45c</_id>
+			<published>true</published>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d299</uniqueId>
+			<name>Data Access &amp; Storage</name>
+			<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
+			<redsysId>oWL542WsjR4YQeLrJ</redsysId>
+			<__v>0</__v>
+		</track>
+		<track>
+			<startDate>2025-03-20T09:32:00.000Z</startDate>
+			<endDate>2025-03-20T09:32:00.000Z</endDate>
+			<details/>
+			<specialDay>false</specialDay>
+			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+			<versionId>115</versionId>
+			<_id>673b2887702fee076a23e45a</_id>
+			<published>true</published>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29d</uniqueId>
+			<name>.NET Framework &amp; C#</name>
+			<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
+			<redsysId>bbrhptpLkagnsFkvL</redsysId>
+			<__v>0</__v>
+		</track>
+		<track>
+			<startDate>2025-03-20T09:32:00.000Z</startDate>
+			<endDate>2025-03-20T09:32:00.000Z</endDate>
+			<details/>
+			<specialDay>false</specialDay>
+			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+			<versionId>115</versionId>
+			<_id>673b2887702fee076a23e45e</_id>
+			<published>true</published>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29a</uniqueId>
+			<name>UI Technology</name>
+			<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
+			<redsysId>WyEPvNyjueeLdzdfh</redsysId>
+			<__v>0</__v>
+		</track>
+		<track>
+			<startDate>2025-03-20T09:32:00.000Z</startDate>
+			<endDate>2025-03-20T09:32:00.000Z</endDate>
+			<details/>
+			<specialDay>false</specialDay>
+			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+			<versionId>115</versionId>
+			<_id>673b2887702fee076a23e45d</_id>
+			<published>true</published>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29e</uniqueId>
+			<name>Web Development</name>
+			<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
+			<redsysId>KFhbqzmMxqkkEd7Ni</redsysId>
+			<__v>0</__v>
+		</track>
+		<track>
+			<startDate>2025-03-20T09:32:00.000Z</startDate>
+			<endDate>2025-03-20T09:32:00.000Z</endDate>
+			<details/>
+			<specialDay>false</specialDay>
+			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+			<versionId>115</versionId>
+			<_id>673b2887702fee076a23e460</_id>
+			<published>true</published>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29c</uniqueId>
+			<name>Security</name>
+			<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
+			<redsysId>fEYwXYGi3Af2bqcPX</redsysId>
+			<__v>0</__v>
+		</track>
+		<track>
+			<startDate>2025-03-20T09:32:00.000Z</startDate>
+			<endDate>2025-03-20T09:32:00.000Z</endDate>
+			<details/>
+			<specialDay>false</specialDay>
+			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+			<versionId>115</versionId>
+			<_id>673b2887702fee076a23e461</_id>
+			<published>true</published>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a1</uniqueId>
+			<name>Agile &amp; DevOps</name>
+			<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
+			<redsysId>x5uJwZ4cgL2Yengi3</redsysId>
+			<__v>0</__v>
+		</track>
+		<track>
+			<startDate>2025-03-20T09:32:00.000Z</startDate>
+			<endDate>2025-03-20T09:32:00.000Z</endDate>
+			<details/>
+			<specialDay>false</specialDay>
+			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+			<versionId>115</versionId>
+			<_id>673b2887702fee076a23e45f</_id>
+			<published>true</published>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29f</uniqueId>
+			<name>Azure &amp; Cloud</name>
+			<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
+			<redsysId>s5Lbe3yH2JHAr9mdb</redsysId>
+			<__v>0</__v>
+		</track>
+	</tracks>
+	<speakerqualifications>
+		<details/>
+		<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+		<versionId>0</versionId>
+		<_id>673da0cb702fee076a4a696e</_id>
+		<published>true</published>
+		<uniqueId>6656ce9ff952db9d1df7d2a3_673d9f4bd02da66c06af66b4</uniqueId>
+		<name>BAS125 Speakerquali</name>
+		<__v>0</__v>
+	</speakerqualifications>
+	<speakerqualifications>
+		<details/>
+		<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+		<versionId>0</versionId>
+		<_id>67adbb702ed0fe07298d1767</_id>
+		<published>true</published>
+		<uniqueId>6656ce9ff952db9d1df7d2a3_67adb828e301739306ee34bd</uniqueId>
+		<name>A Speaker BAS 125</name>
+		<__v>0</__v>
+	</speakerqualifications>
+	<sponsor-types>
+	</sponsor-types>
+	<sponsors>
+	</sponsors>
+	<specialDays>
+		<order>0</order>
+		<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+		<_id>673b2888702fee076a23e4f4</_id>
+		<uniqueId>6656ce9ff952db9d1df7d2a3_6703cdea0157cd560623515e</uniqueId>
+		<name>Architektur Day</name>
+		<startDate>2025-03-04T08:00:00.000Z</startDate>
+		<endDate>2025-03-04T18:00:00.000Z</endDate>
+		<details>Moderne Anwendungssysteme bestehen aus einer Vielzahl von Komponenten, die miteinander interagieren und ein komplexes Geflecht bilden. Doch wie ordnet man diese Technologiebausteine in ein kohärentes Gesamtbild ein? Genau das steht im Fokus des Architecture Day.
+Auf dem Architecture Day bei BASTA! erleben Teilnehmer nicht nur theoretische Konzepte, sondern auch praktische Demos, die zeigen, wie diese Konzepte in der realen Welt umgesetzt werden können. Von Microservices-Architekturen über Event-Driven Design bis hin zu Containerisierung und Serverless Computing - hier erhalten Entwickler und Architekten wertvolle Einblicke in bewährte Methoden und innovative Ansätze.</details>
+		<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
+		<__v>0</__v>
+	</specialDays>
+	<specialDays>
+		<order>0</order>
+		<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+		<_id>673b2888702fee076a23e4f6</_id>
+		<uniqueId>6656ce9ff952db9d1df7d2a3_6703eaf74bc7a15f069a9a8c</uniqueId>
+		<name>UI Technology Day</name>
+		<startDate>2025-03-06T08:00:00.000Z</startDate>
+		<endDate>2025-03-06T17:00:00.000Z</endDate>
+		<details>Die Gestaltung von Oberflächen ist nicht so einfach wie es vielleicht scheint. Denn hierbei geht es weniger um schickes Aussehen, sondern vielmehr um Usability oder neudeutsch User Experience. Sie entscheidet, ob eine App akzeptiert und vor allem verwendet wird.
+Doch um eine gelungenes Oberflächendesign umsetzen zu können benötigt man auch ein gutes Technikverständnis - egal ob die Oberfläche auf HTML/CSS, XAML oder anderen Technologien basiert.
+
+Der UI Technology Day befasst sich genau mit diesen Themen. Er vermittelt nicht nur das grundlegende Verständnis intelligent gestalteter User Interfaces, sondern diskutiert auch neue technologische Ansätze in diesem Bereich und dies natürlich Plattform- und Technologie übergreifend.</details>
+		<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
+		<__v>0</__v>
+	</specialDays>
+	<specialDays>
+		<order>0</order>
+		<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+		<_id>673b2888702fee076a23e4f5</_id>
+		<uniqueId>6656ce9ff952db9d1df7d2a3_6703ea6d8094c54f062dd18b</uniqueId>
+		<name>Web Development Days</name>
+		<startDate>2025-03-05T08:00:00.000Z</startDate>
+		<endDate>2025-03-06T17:00:00.000Z</endDate>
+		<details>Die Web Development Days der BASTA! stehen für die Vielfältigkeit moderner Webentwicklung für .NET-Entwickler:innen. Von Microsofts hauseigenen Blazor-Lösungen bis hin zu beeindruckenden Web-Apps mit Node.js, Angular, Vue.js und React. Es werden sowohl client-seitige als auch serverseitige Lösungen besprochen, um robuste und skalierbare Web-Anwendungen zu erstellen, die nativen Desktop-Anwendungen in nichts nachstehen. Unsere Expert:innen geben auf den Special Days wertvolle Einblicke und Praxistipps und zeigen wie aktuelle Trends und auch neueste Ansätze aus der Web-Welt, wie Hydration mit Frameworks wie Astro, Next.js, Qwik oder Svelte, mit .NET-Technologien zusammenspielen. Die Web Development Days bieten eine einzigartige Gelegenheit zum Wissensaustausch und zur Vernetzung mit Gleichgesinnten. Also: Seien Sie dabei.
+
+--. DIE WEB DEVELOPMENT DASYS FINDEN AM MITTWOCH, 05.03.2025 + DONNERSTAG, 06.03.2025  STATT --</details>
+		<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
+		<__v>0</__v>
+	</specialDays>
+	<specialDays>
+		<order>0</order>
+		<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+		<_id>673b2888702fee076a23e4f3</_id>
+		<uniqueId>6656ce9ff952db9d1df7d2a3_67090a2b2611732c065af299</uniqueId>
+		<name>Generative AI Day</name>
+		<startDate>2025-03-04T08:00:00.000Z</startDate>
+		<endDate>2025-03-04T18:00:00.000Z</endDate>
+		<details>Generative AI ist gekommen, um zu bleiben. Der Generative AI Day auf der BASTA! beleuchtet Möglichkeiten, die Large Language Models (LLMs) und generative KI für die Softwareentwicklung bieten. Dieser Tag bietet einen Einblick sowohl in aktuelle Entwicklungen als auch in Best Practices für den Einsatz von KI-Technologien in realen Anwendungsfällen. Der Fokus liegt auf der praktischen Anwendung von LLMs, der Optimierung bestehender Workflows und der Bewältigung von Herausforderungen wie Effizienz, Sicherheit und Kosten. Live-Demonstrationen und interaktive Coding-Sessions ermöglichen den Teilnehmern, die Technologien in Aktion zu erleben und konkrete Anregungen für ihre eigenen Projekte mitzunehmen.</details>
+		<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
+		<__v>0</__v>
+	</specialDays>
+	<specialDays>
+		<order>0</order>
+		<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+		<_id>673b2888702fee076a23e4f2</_id>
+		<uniqueId>6656ce9ff952db9d1df7d2a3_66fd0da281a8b48e0638e33b</uniqueId>
+		<name>.NET Framework &amp; C# Days</name>
+		<startDate>2025-03-04T08:00:00.000Z</startDate>
+		<endDate>2025-03-05T18:00:00.000Z</endDate>
+		<details>Back to the roots: die wichtigsten Kernthemen vieler BASTA-Besucher sind und bleiben .NET und C#. Daran kann auch JavaScript nichts ändern. Daher gibt es diese Themen jetzt endlich wieder an zwei Special Days! An den beiden Tagen gibt es neben neuen Features in der Sprache C# und den .NET-Bibliotheken auch Best Practices sowie Tipps und Tricks zu bereits etablierten Sprachkonstrukten, Techniken und Tools. Ob Anfänger oder Fortgeschrittene, unsere Experten haben hochkarätige Fachvorträge mit aktuellsten Informationen vorbereitet, um Sie im Umgang mit .NET und C# noch effektiver und erfolgreicher zu machen.
+
+-- DIE .NET &amp; C# DAYS FINDEN AM DIENSTAG, 04.03.2025 + MITTWOCH, 05.03.2025  STATT --</details>
+		<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
+		<__v>0</__v>
+	</specialDays>
+	<specialDays>
+		<order>0</order>
+		<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+		<_id>673b2888702fee076a23e4f7</_id>
+		<uniqueId>6656ce9ff952db9d1df7d2a3_66fd6b2470db79570622e31a</uniqueId>
+		<name>Data Access Day</name>
+		<startDate>2025-03-06T08:00:00.000Z</startDate>
+		<endDate>2025-03-06T17:00:00.000Z</endDate>
+		<details>Der Datenzugriff auf Datenbanken und andere Datenquellen ist eine zentrale Funktion in den meisten Anwendungen, egal ob auf dem Client, Server oder in der Cloud. Dabei bildet sowohl die Auswahl der Datenbanktechnik, das Datenbankdesign und die Datenhaltung als auch die Implementierung der Datenzugriffsschicht die Grundlage für eine effiziente und performante Softwareentwicklung.
+
+Der Data Access Day beginnt dieses Mal mit einem Vortrag von Robert Panther über KI-gestützte Datenbankentwicklung mit Azure Data Studio und GitHub Copilot. Dieser Vortrag bietet einen Einblick in die neuen Möglichkeiten, die sich daraus ergeben, beleuchtet aber auch technische Grenzen und andere Aspekte, die beim Einsatz von KI-generiertem Code zu berücksichtigen sind. 
+
+Entity Framework-Guru Holger Schwichtenberg zeigt die Neuerungen in Entity Framework Core 9.0, das im November 2024 erschienen ist. Olaf Lischke stellt danach mit NHibernate eine Alternative zu Entity Framework Core vor. In seinem Vortrag beleuchtet er die Unterschiede in Architektur, Logik und Anwendung genauso wie die möglichen Einsatzbereiche für verschiedene Szenarien.
+
+Anschließend erörtert Thorsten Kansy das Sicherheitskonzept von Microsoft SQL Server und den Möglichkeiten (einfach) eigene Inhalte in Datenbanken zu verschlüsseln.
+ 
+Am Ende des Tages erörtert Gregor Biswanger das Microsoft Semantic Kernel (Memory) SDK. Diese Technologien ermöglichen es, eigene Daten nahtlos mit Generativer KI zu kombinieren. Verschiedene Vektordatenbanken werden analysiert, ihre Stärken und Schwächen aufgezeigt, sowie Kriterien zur Bewertung der Qualität einer Vektordatenbank im Vergleich zu Embedding Models besprochen.</details>
+		<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
+		<__v>0</__v>
+	</specialDays>
+	<specialDays>
+		<order>0</order>
+		<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+		<_id>673b2888702fee076a23e4f8</_id>
+		<uniqueId>6656ce9ff952db9d1df7d2a3_670f8474a8fe756f06447001</uniqueId>
+		<name>DevOps &amp; Cloud Developer Day</name>
+		<startDate>2025-03-05T08:00:00.000Z</startDate>
+		<endDate>2025-03-05T18:00:00.000Z</endDate>
+		<details>Entdecken Sie an diesem Special Day die essentiellen Elemente moderner Softwareentwicklung: Cloud-Technologien und Continuous Delivery. Erfahren Sie, warum diese nahezu unverzichtbar sind und wie sie Ihre Projekte damit zum Erfolg bringen. Tauchen Sie ein in moderne Pipelines und hochautomatisierte CI/CD-Prozesse, die Ihre Arbeit revolutionieren und eine reibungslose Continuous Delivery ermöglichen. Erfahren Sie, wie Sie durch Platform Engineering Ihrem Unternehmen eine flexible Infrastruktur ermöglichen, die nahtlos in Ihre DevOps-Strategie integriert ist.
+An diesem Special Day erhalten Sie einen umfassenden Überblick über die neuesten Microsoft Azure Services, von Azure Functions über Azure Kubernetes Service bis hin zu Azure Cosmos DB. Der „DevOps &amp; Cloud Development Day” bietet dabei praktische Einblicke in Sessions und Workshops und hilft, ein tiefes Verständnis für Azure, DevOps, Platform Engineering und mehr zu entwickeln.</details>
+		<lastSavedDate>2025-03-05T16:07:00.000Z</lastSavedDate>
+		<__v>0</__v>
+	</specialDays>
 	<sessionTypes>
 		<sessiontype>
 			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
@@ -1333,26 +1353,6 @@ Heute bringt er seine Expertise als Softwarearchitekt bei der Thinktecture AG ei
 			<imageUrl>https://petrol.signsoft.com/api/sessionType/image/673b2888702fee076a23e4e7?version=0</imageUrl>
 		</sessiontype>
 	</sessionTypes>
-	<speakerqualifications>
-		<details/>
-		<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-		<versionId>0</versionId>
-		<_id>673da0cb702fee076a4a696e</_id>
-		<published>true</published>
-		<uniqueId>6656ce9ff952db9d1df7d2a3_673d9f4bd02da66c06af66b4</uniqueId>
-		<name>BAS125 Speakerquali</name>
-		<__v>0</__v>
-	</speakerqualifications>
-	<speakerqualifications>
-		<details/>
-		<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-		<versionId>0</versionId>
-		<_id>67adbb702ed0fe07298d1767</_id>
-		<published>true</published>
-		<uniqueId>6656ce9ff952db9d1df7d2a3_67adb828e301739306ee34bd</uniqueId>
-		<name>A Speaker BAS 125</name>
-		<__v>0</__v>
-	</speakerqualifications>
 	<allSessions><session day="20250303">
 			<workflowState>Live</workflowState>
 			<language/>
@@ -4841,6 +4841,59 @@ This talk will delve into the stages of enhancing documentation quality, complet
 			<workshopShortLabel/>
 			<workshopRequirements/>
 			<longAbstract/>
+			<primaryTrackUniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29b</primaryTrackUniqueId>
+			<versionId>119</versionId>
+			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+			<redsysExpertIds>622b3b4642a941001d8618da</redsysExpertIds>
+			<redsysTrackIds>EGYE6YvXFMXibJPBb</redsysTrackIds>
+			<redsysTrackIds>KFhbqzmMxqkkEd7Ni</redsysTrackIds>
+			<isVideoStream>true</isVideoStream>
+			<videoStreamUrl>https://vimeo.com/event/4869041/embed</videoStreamUrl>
+			<isZoomStream>false</isZoomStream>
+			<onboardingZoomLink/>
+			<liveStreamZoomLink/>
+			<specialDayIds>6656ce9ff952db9d1df7d2a3_6703ea6d8094c54f062dd18b</specialDayIds>
+			<workshopAttendeeInformationsDe/>
+			<workshopAttendeeInformationsEn/>
+			<_id>673b2887702fee076a23e3a7</_id>
+			<published>true</published>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_66f5d569b0bc2e5e06e9ff55</uniqueId>
+			<name>Qualität mit Angular: Werkzeuge und Prozesse</name>
+			<type>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a6</type>
+			<startDate>2025-03-05T16:00:00.000Z</startDate>
+			<endDate>2025-03-05T17:00:00.000Z</endDate>
+			<details>In diesem Vortrag werden wesentliche Tools vorgestellt, die den gesamten Entwicklungsprozess einer Angular-Anwendung begleiten, von der ersten Analyse bis zum Deployment und der darüber hinausgehenden Wartung. Besprochen werden unter anderem ESLint, Husky, Commit Citizen, Sheriff, Sonarqube, Detective, Sentry, GitHub Actions und Nx Release. Zudem beleuchten wir die Rolle von Storybook für UI-Komponenten, Docusaurus für die Dokumentation und allgemeine Integrationstests. Ziel ist es, zu zeigen, wie diese Tools die Qualität sichern, Entwicklungsprozesse beschleunigen und die Arbeit effizienter gestalten können.</details>
+			<lastSavedDate>2025-02-04T09:09:00.000Z</lastSavedDate>
+			<redsysPrimaryTrackId>EGYE6YvXFMXibJPBb</redsysPrimaryTrackId>
+			<redsysType>JBPD73cH534W8FFEx</redsysType>
+			<slugs>
+				<_id>67dbe0bf4ddcdb0728f3c245</_id>
+				<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+				<slug>angular-werkzeuge-prozesse</slug>
+			</slugs>
+			<__v>119</__v>
+			<roomName>Ballsaal 1</roomName>
+			<speakers>
+				<speaker>
+					<speakerId>6656ce9ff952db9d1df7d2a3_66f58e17d2591452067dab25</speakerId>
+				</speaker>
+			</speakers>
+			<tracks>
+				<track>
+					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29b</trackId>
+				</track>
+				<track>
+					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29e</trackId>
+				</track>
+			</tracks>
+		</session><session day="20250305">
+			<workflowState>Live</workflowState>
+			<language>de</language>
+			<qualifications>
+			</qualifications>
+			<workshopShortLabel/>
+			<workshopRequirements/>
+			<longAbstract/>
 			<primaryTrackUniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29d</primaryTrackUniqueId>
 			<versionId>119</versionId>
 			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
@@ -4899,59 +4952,6 @@ This talk will delve into the stages of enhancing documentation quality, complet
 				</track>
 				<track>
 					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a0</trackId>
-				</track>
-			</tracks>
-		</session><session day="20250305">
-			<workflowState>Live</workflowState>
-			<language>de</language>
-			<qualifications>
-			</qualifications>
-			<workshopShortLabel/>
-			<workshopRequirements/>
-			<longAbstract/>
-			<primaryTrackUniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29b</primaryTrackUniqueId>
-			<versionId>119</versionId>
-			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-			<redsysExpertIds>622b3b4642a941001d8618da</redsysExpertIds>
-			<redsysTrackIds>EGYE6YvXFMXibJPBb</redsysTrackIds>
-			<redsysTrackIds>KFhbqzmMxqkkEd7Ni</redsysTrackIds>
-			<isVideoStream>true</isVideoStream>
-			<videoStreamUrl>https://vimeo.com/event/4869041/embed</videoStreamUrl>
-			<isZoomStream>false</isZoomStream>
-			<onboardingZoomLink/>
-			<liveStreamZoomLink/>
-			<specialDayIds>6656ce9ff952db9d1df7d2a3_6703ea6d8094c54f062dd18b</specialDayIds>
-			<workshopAttendeeInformationsDe/>
-			<workshopAttendeeInformationsEn/>
-			<_id>673b2887702fee076a23e3a7</_id>
-			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_66f5d569b0bc2e5e06e9ff55</uniqueId>
-			<name>Qualität mit Angular: Werkzeuge und Prozesse</name>
-			<type>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a6</type>
-			<startDate>2025-03-05T16:00:00.000Z</startDate>
-			<endDate>2025-03-05T17:00:00.000Z</endDate>
-			<details>In diesem Vortrag werden wesentliche Tools vorgestellt, die den gesamten Entwicklungsprozess einer Angular-Anwendung begleiten, von der ersten Analyse bis zum Deployment und der darüber hinausgehenden Wartung. Besprochen werden unter anderem ESLint, Husky, Commit Citizen, Sheriff, Sonarqube, Detective, Sentry, GitHub Actions und Nx Release. Zudem beleuchten wir die Rolle von Storybook für UI-Komponenten, Docusaurus für die Dokumentation und allgemeine Integrationstests. Ziel ist es, zu zeigen, wie diese Tools die Qualität sichern, Entwicklungsprozesse beschleunigen und die Arbeit effizienter gestalten können.</details>
-			<lastSavedDate>2025-02-04T09:09:00.000Z</lastSavedDate>
-			<redsysPrimaryTrackId>EGYE6YvXFMXibJPBb</redsysPrimaryTrackId>
-			<redsysType>JBPD73cH534W8FFEx</redsysType>
-			<slugs>
-				<_id>67dbe0bf4ddcdb0728f3c245</_id>
-				<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-				<slug>angular-werkzeuge-prozesse</slug>
-			</slugs>
-			<__v>119</__v>
-			<roomName>Ballsaal 1</roomName>
-			<speakers>
-				<speaker>
-					<speakerId>6656ce9ff952db9d1df7d2a3_66f58e17d2591452067dab25</speakerId>
-				</speaker>
-			</speakers>
-			<tracks>
-				<track>
-					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29b</trackId>
-				</track>
-				<track>
-					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29e</trackId>
 				</track>
 			</tracks>
 		</session><session day="20250305">
@@ -9735,6 +9735,59 @@ This talk will delve into the stages of enhancing documentation quality, complet
 			<workshopShortLabel/>
 			<workshopRequirements/>
 			<longAbstract/>
+			<primaryTrackUniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29b</primaryTrackUniqueId>
+			<versionId>119</versionId>
+			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+			<redsysExpertIds>622b3b4642a941001d8618da</redsysExpertIds>
+			<redsysTrackIds>EGYE6YvXFMXibJPBb</redsysTrackIds>
+			<redsysTrackIds>KFhbqzmMxqkkEd7Ni</redsysTrackIds>
+			<isVideoStream>true</isVideoStream>
+			<videoStreamUrl>https://vimeo.com/event/4869041/embed</videoStreamUrl>
+			<isZoomStream>false</isZoomStream>
+			<onboardingZoomLink/>
+			<liveStreamZoomLink/>
+			<specialDayIds>6656ce9ff952db9d1df7d2a3_6703ea6d8094c54f062dd18b</specialDayIds>
+			<workshopAttendeeInformationsDe/>
+			<workshopAttendeeInformationsEn/>
+			<_id>673b2887702fee076a23e3a7</_id>
+			<published>true</published>
+			<uniqueId>6656ce9ff952db9d1df7d2a3_66f5d569b0bc2e5e06e9ff55</uniqueId>
+			<name>Qualität mit Angular: Werkzeuge und Prozesse</name>
+			<type>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a6</type>
+			<startDate>2025-03-05T16:00:00.000Z</startDate>
+			<endDate>2025-03-05T17:00:00.000Z</endDate>
+			<details>In diesem Vortrag werden wesentliche Tools vorgestellt, die den gesamten Entwicklungsprozess einer Angular-Anwendung begleiten, von der ersten Analyse bis zum Deployment und der darüber hinausgehenden Wartung. Besprochen werden unter anderem ESLint, Husky, Commit Citizen, Sheriff, Sonarqube, Detective, Sentry, GitHub Actions und Nx Release. Zudem beleuchten wir die Rolle von Storybook für UI-Komponenten, Docusaurus für die Dokumentation und allgemeine Integrationstests. Ziel ist es, zu zeigen, wie diese Tools die Qualität sichern, Entwicklungsprozesse beschleunigen und die Arbeit effizienter gestalten können.</details>
+			<lastSavedDate>2025-02-04T09:09:00.000Z</lastSavedDate>
+			<redsysPrimaryTrackId>EGYE6YvXFMXibJPBb</redsysPrimaryTrackId>
+			<redsysType>JBPD73cH534W8FFEx</redsysType>
+			<slugs>
+				<_id>67dbe0bf4ddcdb0728f3c245</_id>
+				<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
+				<slug>angular-werkzeuge-prozesse</slug>
+			</slugs>
+			<__v>119</__v>
+			<roomName>Ballsaal 1</roomName>
+			<speakers>
+				<speaker>
+					<speakerId>6656ce9ff952db9d1df7d2a3_66f58e17d2591452067dab25</speakerId>
+				</speaker>
+			</speakers>
+			<tracks>
+				<track>
+					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29b</trackId>
+				</track>
+				<track>
+					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29e</trackId>
+				</track>
+			</tracks>
+		</session><session day="20250305">
+			<workflowState>Live</workflowState>
+			<language>de</language>
+			<qualifications>
+			</qualifications>
+			<workshopShortLabel/>
+			<workshopRequirements/>
+			<longAbstract/>
 			<primaryTrackUniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29d</primaryTrackUniqueId>
 			<versionId>119</versionId>
 			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
@@ -9793,59 +9846,6 @@ This talk will delve into the stages of enhancing documentation quality, complet
 				</track>
 				<track>
 					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a0</trackId>
-				</track>
-			</tracks>
-		</session><session day="20250305">
-			<workflowState>Live</workflowState>
-			<language>de</language>
-			<qualifications>
-			</qualifications>
-			<workshopShortLabel/>
-			<workshopRequirements/>
-			<longAbstract/>
-			<primaryTrackUniqueId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29b</primaryTrackUniqueId>
-			<versionId>119</versionId>
-			<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-			<redsysExpertIds>622b3b4642a941001d8618da</redsysExpertIds>
-			<redsysTrackIds>EGYE6YvXFMXibJPBb</redsysTrackIds>
-			<redsysTrackIds>KFhbqzmMxqkkEd7Ni</redsysTrackIds>
-			<isVideoStream>true</isVideoStream>
-			<videoStreamUrl>https://vimeo.com/event/4869041/embed</videoStreamUrl>
-			<isZoomStream>false</isZoomStream>
-			<onboardingZoomLink/>
-			<liveStreamZoomLink/>
-			<specialDayIds>6656ce9ff952db9d1df7d2a3_6703ea6d8094c54f062dd18b</specialDayIds>
-			<workshopAttendeeInformationsDe/>
-			<workshopAttendeeInformationsEn/>
-			<_id>673b2887702fee076a23e3a7</_id>
-			<published>true</published>
-			<uniqueId>6656ce9ff952db9d1df7d2a3_66f5d569b0bc2e5e06e9ff55</uniqueId>
-			<name>Qualität mit Angular: Werkzeuge und Prozesse</name>
-			<type>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d2a6</type>
-			<startDate>2025-03-05T16:00:00.000Z</startDate>
-			<endDate>2025-03-05T17:00:00.000Z</endDate>
-			<details>In diesem Vortrag werden wesentliche Tools vorgestellt, die den gesamten Entwicklungsprozess einer Angular-Anwendung begleiten, von der ersten Analyse bis zum Deployment und der darüber hinausgehenden Wartung. Besprochen werden unter anderem ESLint, Husky, Commit Citizen, Sheriff, Sonarqube, Detective, Sentry, GitHub Actions und Nx Release. Zudem beleuchten wir die Rolle von Storybook für UI-Komponenten, Docusaurus für die Dokumentation und allgemeine Integrationstests. Ziel ist es, zu zeigen, wie diese Tools die Qualität sichern, Entwicklungsprozesse beschleunigen und die Arbeit effizienter gestalten können.</details>
-			<lastSavedDate>2025-02-04T09:09:00.000Z</lastSavedDate>
-			<redsysPrimaryTrackId>EGYE6YvXFMXibJPBb</redsysPrimaryTrackId>
-			<redsysType>JBPD73cH534W8FFEx</redsysType>
-			<slugs>
-				<_id>67dbe0bf4ddcdb0728f3c245</_id>
-				<conferenceId>6656ce9ff952db9d1df7d298_6656ce9ff952db9d1df7d2a5</conferenceId>
-				<slug>angular-werkzeuge-prozesse</slug>
-			</slugs>
-			<__v>119</__v>
-			<roomName>Ballsaal 1</roomName>
-			<speakers>
-				<speaker>
-					<speakerId>6656ce9ff952db9d1df7d2a3_66f58e17d2591452067dab25</speakerId>
-				</speaker>
-			</speakers>
-			<tracks>
-				<track>
-					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29b</trackId>
-				</track>
-				<track>
-					<trackId>6656ce9ff952db9d1df7d2a3_6656ce9ff952db9d1df7d29e</trackId>
 				</track>
 			</tracks>
 		</session><session day="20250305">
