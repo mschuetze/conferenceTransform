@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- v0.3.0 -->
+<!-- v0.4.0 -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/"
     exclude-result-prefixes="xs" version="2.0">
@@ -302,10 +302,15 @@ Timetable – Raumplan-->
         <item>
             <!-- Titel generieren -->
             <title>
-                <xsl:value-of select="name"/>
-                <xsl:if test="not($isSoMe)"> <!-- Zeilenumbruch nur für die normale Datei, nicht für SoMe -->
-                    <xsl:text>&#x0A;</xsl:text> 
-                </xsl:if>
+                <xsl:choose>
+                    <xsl:when test="$isSoMe">
+                        <xsl:value-of select="replace(name, '^Workshop: ', '')"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="name"/>
+                        <xsl:text>&#x0A;</xsl:text>
+                    </xsl:otherwise>
+                </xsl:choose>
             </title>
             <!-- Speakername + Firma generieren -->
             <xsl:apply-templates select="speakers">
