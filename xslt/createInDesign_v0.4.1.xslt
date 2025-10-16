@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- v0.4.0 -->
+<!-- v0.4.1 -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/"
     exclude-result-prefixes="xs" version="2.0">
@@ -304,7 +304,13 @@ Timetable – Raumplan-->
             <title>
                 <xsl:choose>
                     <xsl:when test="$isSoMe">
-                        <xsl:value-of select="replace(name, '^Workshop: ', '')"/>
+                        <xsl:value-of select="
+                            replace(
+                                replace(name, '^Workshop: ', ''),
+                                '\s*\[((Montag)|(Dienstag)|(Mittwoch)|(Donnerstag)|(Freitag)|(Monday)|(Tuesday)|(Wednesday)|(Thursday)|(Friday)),.*\]',
+                                ''
+                            )
+                        "/>
                     </xsl:when>
                     <xsl:otherwise>
                         <xsl:value-of select="name"/>
@@ -344,27 +350,36 @@ Timetable – Raumplan-->
         <speakers>
             <xsl:choose>
                 <xsl:when test="$isSoMe">
-                    <!-- Handle output for SoMe -->
-                    <xsl:apply-templates/>
+                    <xsl:apply-templates>
+                        <xsl:with-param name="isSoMe" select="$isSoMe"/>
+                    </xsl:apply-templates>
                 </xsl:when>
                 <xsl:otherwise>
-                    <!-- Handle output for non-SoMe -->
-                    <xsl:apply-templates/>
-                    <xsl:text>&#x0A;</xsl:text> <!-- Add line break for non-SoMe -->
+                    <xsl:apply-templates>
+                        <xsl:with-param name="isSoMe" select="$isSoMe"/>
+                    </xsl:apply-templates>
+                    <xsl:text>&#x0A;</xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
         </speakers>
     </xsl:template>
 
 
+
     <!--   mode weil fehlender Zeilenumbruch, weil speaker in Tabellenzelle steht -->
     <xsl:template match="session/speakers" mode="table">
+        <xsl:param name="isSoMe" select="false()"/>
         <speakers>
-            <xsl:apply-templates/>
+            <xsl:apply-templates>
+                <xsl:with-param name="isSoMe" select="$isSoMe"/>
+            </xsl:apply-templates>
         </speakers>
     </xsl:template>
     <xsl:template match="session/speakers/speaker">
-        <xsl:apply-templates select="key('speakers', speakerId)"/>
+        <xsl:param name="isSoMe" select="false()"/>
+        <xsl:apply-templates select="key('speakers', speakerId)">
+            <xsl:with-param name="isSoMe" select="$isSoMe"/>
+        </xsl:apply-templates>
         <xsl:if test="following-sibling::speaker">
             <xsl:text>, </xsl:text>
         </xsl:if>
@@ -374,15 +389,17 @@ Timetable – Raumplan-->
         <xsl:param name="isSoMe" select="false()"/>
         <xsl:choose>
             <xsl:when test="$isSoMe">
-                <!-- Format for SoMe -->
-                <xsl:value-of select="firstName"/>
-                <xsl:text> </xsl:text>
-                <xsl:value-of select="lastName"/>
-                <xsl:text> | </xsl:text>
-                <xsl:value-of select="company"/>
+                <!-- Apply replace pattern for SoMe output files -->
+                <xsl:value-of select="
+                    replace(
+                        concat(firstName, ' ', lastName, ' (', company, ')'),
+                        '\s*\((.+)\)',
+                        ' | $1'
+                    )
+                "/>
             </xsl:when>
             <xsl:otherwise>
-                <!-- Default format -->
+                <!-- Default format for other files -->
                 <xsl:value-of select="firstName"/>
                 <xsl:text> </xsl:text>
                 <xsl:value-of select="lastName"/>
