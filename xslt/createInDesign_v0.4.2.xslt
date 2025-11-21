@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- v0.4.1 -->
+<!-- v0.4.2 -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/"
     exclude-result-prefixes="xs" version="2.0">
@@ -318,7 +318,27 @@ Timetable – Raumplan-->
                     </xsl:otherwise>
                 </xsl:choose>
             </title>
-            <!-- Speakername + Firma generieren -->
+
+            <!-- Nur in SoMe-Dateien: alle firstNames/lastNames zusammenführen -->
+            <xsl:if test="$isSoMe">
+                <firstName>
+                    <xsl:value-of
+                        select="string-join(
+                                    speakers/speaker/key('speakers', speakerId)/firstName,
+                                    ', '
+                            )"/>
+                </firstName>
+
+                <lastName>
+                    <xsl:value-of
+                        select="string-join(
+                                    speakers/speaker/key('speakers', speakerId)/lastName,
+                                    ', '
+                            )"/>
+                </lastName>
+            </xsl:if>
+
+            <!-- Speakers-Ausgabe wie bisher -->
             <xsl:apply-templates select="speakers">
                 <xsl:with-param name="isSoMe" select="$isSoMe"/>
             </xsl:apply-templates>
