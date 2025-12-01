@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- v0.4.2 -->
+<!-- v0.4.3 -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/"
+    xmlns:px="http://www.publishingx.de"
     exclude-result-prefixes="xs" version="2.0">
 
     <xsl:strip-space elements="*"/>
@@ -250,36 +251,56 @@ Timetable – Raumplan-->
         <xsl:param name="date"/>
         <xsl:param name="room"/>
         <xsl:param name="isSoMe"/>
-        <xsl:for-each-group select="session" group-by="xs:dateTime(startDate)">
-            <xsl:for-each-group select="current-group()" group-by="xs:dateTime(endDate)">
-                <xsl:variable name="startDate" select="xs:dateTime(startDate)"/>
-                <xsl:variable name="endDate" select="xs:dateTime(endDate)"/>
+
+        <xsl:for-each-group select="session" group-by="startDate">
+            <xsl:for-each-group select="current-group()" group-by="endDate">
+
+                <xsl:variable name="startDateDT" select="
+                    px:adjust-dateTime-to-local-time(
+                        xs:dateTime(
+                            if (matches(startDate, '^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}$'))
+                            then concat(startDate, ':00')
+                            else startDate
+                        )
+                    )
+                "/>
+
+                <xsl:variable name="endDateDT" select="
+                    px:adjust-dateTime-to-local-time(
+                        xs:dateTime(
+                            if (matches(endDate, '^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}$'))
+                            then concat(endDate, ':00')
+                            else endDate
+                        )
+                    )
+                "/>
+
                 <xsl:choose>
                     <xsl:when test="$date">
+                        <!-- emit day as its own top-level item -->
                         <item>
                             <day>
-                                <xsl:value-of
-                                    select="format-dateTime($startDate, '[F], [D01]. [MNn] [Y0001]')"/>
+                                <xsl:value-of select="format-dateTime($startDateDT, '[F], [D01]. [MNn] [Y0001]')"/>
                                 <xsl:text> </xsl:text>
                                 <xsl:text>&#x0A;</xsl:text>
                             </day>
                         </item>
+
+                        <!-- ORIGINAL-LIKE: open one outer <item> that contains <time> and all session <item>s -->
                         <item>
                             <time>
-                                <xsl:value-of select="format-dateTime($startDate, '[H01]:[m01] - ')"/>
-                                <xsl:value-of select="format-dateTime($endDate, '[H01]:[m01] ')"/>
-                                <xsl:value-of select="$uhr"/>
-                                <xsl:text> | </xsl:text>
-                                <xsl:value-of
-                                    select="format-dateTime($startDate, '[F], [D01]. [MNn] [Y0001]')"/>
+                                <xsl:value-of select="concat(format-dateTime($startDateDT, '[H01]:[m01]'), ' - ', format-dateTime($endDateDT, '[H01]:[m01]'), ' ', $uhr, ' | ', format-dateTime($startDateDT, '[F], [D01]. [MNn] [Y0001]'))"/>
                                 <xsl:text>&#x0A;</xsl:text>
                             </time>
+
+                            <!-- nested session <item> elements -->
                             <xsl:apply-templates select="current-group()">
                                 <xsl:with-param name="date" select="$date"/>
                                 <xsl:with-param name="room" select="$room"/>
                                 <xsl:with-param name="isSoMe" select="$isSoMe"/>
                             </xsl:apply-templates>
                         </item>
+
                     </xsl:when>
                     <xsl:otherwise>
                         <xsl:apply-templates select="current-group()">
@@ -291,7 +312,6 @@ Timetable – Raumplan-->
                 </xsl:choose>
             </xsl:for-each-group>
         </xsl:for-each-group>
-
     </xsl:template>
 
     <xsl:template match="session">
@@ -311,6 +331,7 @@ Timetable – Raumplan-->
                                 ''
                             )
                         "/>
+                        <xsl:text>&#x0A;</xsl:text>
                     </xsl:when>
                     <xsl:otherwise>
                         <xsl:value-of select="name"/>
@@ -378,9 +399,9 @@ Timetable – Raumplan-->
                     <xsl:apply-templates>
                         <xsl:with-param name="isSoMe" select="$isSoMe"/>
                     </xsl:apply-templates>
-                    <xsl:text>&#x0A;</xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:text>&#x0A;</xsl:text>
         </speakers>
     </xsl:template>
 
@@ -432,30 +453,59 @@ Timetable – Raumplan-->
 
     <!-- Erstellt Tabelle_Zeitplaner_sortiert_nach_SpecialDays.xml  -->
     <xsl:template match="specialDay">
-        <xsl:if test="session">
-            <xsl:variable name="rows" select="count(session) + 1"/>
-            <Tabelle xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table"
+    <xsl:if test="session">
+        <xsl:variable name="rows" select="count(session) + 1"/>
+        <Tabelle xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table"
                 aid:trows="{$rows}" aid:tcols="2">
-                <Zelle aid:table="cell" aid:crows="1" aid:ccols="2">
-                    <specialday>
-                        <xsl:value-of select="name"/>
-                    </specialday>
+            <Zelle aid:table="cell" aid:crows="1" aid:ccols="2">
+                <specialday>
+                    <xsl:value-of select="name"/>
+                </specialday>
+                <xsl:text>&#x0A;</xsl:text>
+                <day>
+                    <xsl:variable name="startDateDT" select="
+                        px:adjust-dateTime-to-local-time(
+                            xs:dateTime(
+                                if (matches(startDate, '^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}$'))
+                                then concat(startDate, ':00')
+                                else startDate
+                            )
+                        )
+                    "/>
+                    <xsl:value-of select="format-dateTime($startDateDT, '[F], [D01]. [MNn] [Y0001]')"/>
+                    <xsl:text> </xsl:text>
                     <xsl:text>&#x0A;</xsl:text>
-                    <day>
-                        <xsl:value-of
-                            select="format-dateTime(xs:dateTime(startDate), '[F], [D01]. [MNn] [Y0001]')"
-                        />
-                    </day>
-                </Zelle>
-                <xsl:apply-templates select="session" mode="specialDay"> </xsl:apply-templates>
-            </Tabelle>
-        </xsl:if>
-    </xsl:template>
+                </day>
+            </Zelle>
+            <xsl:apply-templates select="session" mode="specialDay"/>
+        </Tabelle>
+    </xsl:if>
+</xsl:template>
+
     <xsl:template match="session" mode="specialDay">
         <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.52755905511811">
             <time>
-                <xsl:value-of select="format-dateTime(xs:dateTime(startDate), '[H01]:[m01] - ')"/>
-                <xsl:value-of select="format-dateTime(xs:dateTime(endDate), '[H01]:[m01] ')"/>
+                <xsl:variable name="startDateDT" select="
+                    px:adjust-dateTime-to-local-time(
+                        xs:dateTime(
+                            if (matches(startDate, '^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}$'))
+                            then concat(startDate, ':00')
+                            else startDate
+                        )
+                    )
+                "/>
+                <xsl:variable name="endDateDT" select="
+                    px:adjust-dateTime-to-local-time(
+                        xs:dateTime(
+                            if (matches(endDate, '^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}$'))
+                            then concat(endDate, ':00')
+                            else endDate
+                        )
+                    )
+                "/>
+                <xsl:value-of select="format-dateTime($startDateDT, '[H01]:[m01] - ')"/>
+                <xsl:value-of select="format-dateTime($endDateDT, '[H01]:[m01] ')"/>
+                <xsl:text>&#x0A;</xsl:text>
             </time>
         </Zelle>
         <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="192.12519685030313">
@@ -471,41 +521,60 @@ Timetable – Raumplan-->
     <xsl:template match="allSessions" mode="dayListing">
         <xsl:for-each-group select="session" group-by="@day">
             <xsl:variable name="rows" select="count(current-group()) + 1"/>
-
             <Tabelle xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table"
-                aid:trows="{$rows}" aid:tcols="4">
+                    aid:trows="{$rows}" aid:tcols="4">
                 <Zelle aid:table="cell" aid:crows="1" aid:ccols="4">
                     <day>
-                        <xsl:value-of
-                            select="format-dateTime(xs:dateTime(current-group()[1]/startDate), '[F], [D01]. [MNn] [Y0001]')"
-                        />
+                        <xsl:variable name="startDateDT" select="
+                            px:adjust-dateTime-to-local-time(
+                                xs:dateTime(
+                                    if (matches(current-group()[1]/startDate, '^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}$'))
+                                    then concat(current-group()[1]/startDate, ':00')
+                                    else current-group()[1]/startDate
+                                )
+                            )
+                        "/>
+                        <xsl:value-of select="format-dateTime($startDateDT, '[F], [D01]. [MNn] [Y0001]')"/>
                     </day>
                 </Zelle>
 
-                <xsl:for-each-group select="current-group()" group-by="xs:dateTime(startDate)">
-                    <xsl:for-each-group select="current-group()" group-by="xs:dateTime(endDate)">
-                        <xsl:variable name="startDate" select="xs:dateTime(startDate)"/>
-                        <xsl:variable name="endDate" select="xs:dateTime(endDate)"/>
+                <xsl:for-each-group select="current-group()" group-by="startDate">
+                    <xsl:for-each-group select="current-group()" group-by="endDate">
+                        <xsl:variable name="startDateDT" select="
+                            px:adjust-dateTime-to-local-time(
+                                xs:dateTime(
+                                    if (matches(startDate, '^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}$'))
+                                    then concat(StartDate, ':00')
+                                    else startDate
+                                )
+                            )"/>
+                        <xsl:variable name="endDateDT" select="
+                            px:adjust-dateTime-to-local-time(
+                                xs:dateTime(
+                                    if (matches(endDate, '^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}$'))
+                                    then concat(endDate, ':00')
+                                    else endDate
+                                )
+                            )"/>
+
                         <xsl:variable name="rowspan" select="count(current-group())"/>
                         <Zelle aid:table="cell" aid:crows="{$rowspan}" aid:ccols="1"
                             aid:ccolwidth="73.39614155471884">
                             <time>
-                                <xsl:value-of
-                                    select="format-dateTime(xs:dateTime(startDate), '[H01]:[m01] - ')"/>
-                                <xsl:value-of
-                                    select="format-dateTime(xs:dateTime(endDate), '[H01]:[m01] ')"/>
+                                <xsl:value-of select="format-dateTime($startDateDT, '[H01]:[m01] - ')"/>
+                                <xsl:value-of select="format-dateTime($endDateDT, '[H01]:[m01] ')"/>
+                                <xsl:text>&#x0A;</xsl:text>
                             </time>
                         </Zelle>
 
                         <xsl:apply-templates select="current-group()" mode="dayListing"/>
-
                     </xsl:for-each-group>
                 </xsl:for-each-group>
 
             </Tabelle>
         </xsl:for-each-group>
-
     </xsl:template>
+
     <xsl:template match="session" mode="dayListing">
         <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="201.25984251968504">
             <title>
@@ -534,7 +603,7 @@ Timetable – Raumplan-->
             <xsl:variable name="rows" select="count($rowGroups/group) + $rowTemp"/>
 
             <Tabelle xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table"
-                aid:trows="{$rows}" aid:tcols="3">
+                    aid:trows="{$rows}" aid:tcols="3">
                 <Zelle aid:table="cell" aid:crows="1" aid:ccols="3">
                     <room>
                         <xsl:value-of select="roomName"/>
@@ -544,37 +613,54 @@ Timetable – Raumplan-->
                 <xsl:for-each-group select="current-group()" group-by="@day">
                     <Zelle aid:table="cell" aid:crows="1" aid:ccols="3">
                         <day>
-                            <xsl:value-of
-                                select="format-dateTime(xs:dateTime(current-group()[1]/startDate), '[F], [D01]. [MNn] [Y0001]')"
-                            />
+                            <xsl:variable name="startDateDT" select="
+                                px:adjust-dateTime-to-local-time(
+                                    xs:dateTime(
+                                        if (matches(current-group()[1]/startDate, '^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}$'))
+                                        then concat(current-group()[1]/startDate, ':00')
+                                        else current-group()[1]/startDate
+                                    )
+                                )
+                            "/>
+                            <xsl:value-of select="format-dateTime($startDateDT, '[F], [D01]. [MNn] [Y0001]')"/>
                         </day>
                     </Zelle>
 
-                    <xsl:for-each-group select="current-group()" group-by="xs:dateTime(startDate)">
-                        <xsl:for-each-group select="current-group()" group-by="xs:dateTime(endDate)">
-                            <xsl:variable name="startDate" select="xs:dateTime(startDate)"/>
-                            <xsl:variable name="endDate" select="xs:dateTime(endDate)"/>
+                    <xsl:for-each-group select="current-group()" group-by="startDate">
+                        <xsl:for-each-group select="current-group()" group-by="endDate">
+                            <xsl:variable name="startDateDT" select="
+                                px:adjust-dateTime-to-local-time(
+                                    xs:dateTime(
+                                        if (matches(startDate, '^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}$'))
+                                        then concat(StartDate, ':00')
+                                        else startDate
+                                    )
+                                )"/>
+                            <xsl:variable name="endDateDT" select="
+                                px:adjust-dateTime-to-local-time(
+                                    xs:dateTime(
+                                        if (matches(endDate, '^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}$'))
+                                        then concat(endDate, ':00')
+                                        else endDate
+                                    )
+                                )"/>
+
                             <Zelle aid:table="cell" aid:crows="1" aid:ccols="1">
                                 <time>
-                                    <xsl:value-of
-                                        select="format-dateTime(xs:dateTime(startDate), '[H01]:[m01] - ')"/>
-                                    <xsl:value-of
-                                        select="format-dateTime(xs:dateTime(endDate), '[H01]:[m01] ')"
-                                    />
+                                    <xsl:value-of select="format-dateTime($startDateDT, '[H01]:[m01] - ')"/>
+                                    <xsl:value-of select="format-dateTime($endDateDT, '[H01]:[m01] ')"/>
+                                    <xsl:text>&#x0A;</xsl:text>
                                 </time>
                             </Zelle>
 
                             <xsl:apply-templates select="current-group()" mode="roomListing"/>
-
                         </xsl:for-each-group>
                     </xsl:for-each-group>
                 </xsl:for-each-group>
-
-
             </Tabelle>
         </xsl:for-each-group>
-
     </xsl:template>
+
     <xsl:template match="session" mode="roomListing">
         <Zelle aid:table="cell" aid:crows="1" aid:ccols="1">
             <title>
@@ -584,7 +670,6 @@ Timetable – Raumplan-->
         <Zelle aid:table="cell" aid:crows="1" aid:ccols="1">
             <xsl:apply-templates select="speakers" mode="table"/>
         </Zelle>
-
     </xsl:template>
 
     <!-- Nur Namen der Speaker für die Speaker_Namen.xml -->
@@ -595,6 +680,25 @@ Timetable – Raumplan-->
             </name>
         </speaker>
     </xsl:template>
+
+    <!-- adjusts a dateTime to UK local time account for GMT/BST -->
+    <xsl:function name="px:adjust-dateTime-to-local-time"  as="xs:dateTime">
+        <xsl:param name="DATETIMEIN" as="xs:dateTime"/>
+        <xsl:variable name="ADJUSTGMT" select="adjust-dateTime-to-timezone($DATETIMEIN, xs:dayTimeDuration('PT1H'))"/>
+        <!-- ST starts at 1 a.m UTC on last Sunday in March -->
+        <xsl:variable name="BSTSTARTS" select="xs:dateTime(concat(year-from-dateTime($ADJUSTGMT), '-03-', 31 - xs:integer(replace(replace(replace(replace(replace(replace(replace(format-date(xs:date(concat(year-from-dateTime($ADJUSTGMT), '-03-31Z')),  '[Fn, 2-2]') , 'su', '0'), 'mo', '1'), 'tu', '2'), 'we', '3'), 'th', '4'), 'fr', '5'), 'sa', '6')), 'T01:00:00Z'))" as="xs:dateTime"/>
+        <!-- ST ends at 1 a.m UTC on last Sunday in October -->
+        <xsl:variable name="BSTENDS" select="xs:dateTime(concat(year-from-dateTime($ADJUSTGMT), '-10-', 31 - xs:integer(replace(replace(replace(replace(replace(replace(replace(format-date(xs:date(concat(year-from-dateTime($ADJUSTGMT), '-10-31Z')), '[Fn, 2-2]'), 'su', '0'), 'mo', '1'), 'tu', '2'), 'we', '3'), 'th', '4'), 'fr', '5'), 'sa', '6')), 'T01:00:00Z'))" as="xs:dateTime"/>
+        <xsl:choose>
+            <xsl:when test="$ADJUSTGMT ge $BSTSTARTS and $ADJUSTGMT lt $BSTENDS">    
+                <!--return UTC +1 in summer-->
+                <xsl:value-of select="adjust-dateTime-to-timezone($DATETIMEIN, xs:dayTimeDuration('PT2H'))"/>
+            </xsl:when>
+            <xsl:otherwise>    <!--return UTC +0 in winter -->
+                <xsl:value-of select="$ADJUSTGMT"/>
+            </xsl:otherwise> 
+        </xsl:choose>
+    </xsl:function>
 
 
 </xsl:stylesheet>
