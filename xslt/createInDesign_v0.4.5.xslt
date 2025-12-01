@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- v0.4.4 -->
+<!-- v0.4.5 -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/"
     xmlns:px="http://www.publishingx.de"
@@ -44,7 +44,7 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
             </speakers>
         </xsl:result-document>
 
-        <!-- Keynotes -->
+        <!-- Keynotes (preserve trailing whitespace/newlines) -->
         <xsl:variable name="outPath"
             select="concat('file:///', $p-folder-out, '/Keynotes_mitDatum_mitRauemen.xml')"/>
         <xsl:result-document href="{$outPath}">
@@ -53,6 +53,7 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
                     <xsl:with-param name="date" select="true()"/>
                     <xsl:with-param name="room" select="true()"/>
                     <xsl:with-param name="isSoMe" select="false()"/>
+                    <xsl:with-param name="preserveTrailing" select="true()"/>
                 </xsl:apply-templates>
             </result>
         </xsl:result-document>
@@ -64,6 +65,7 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
                     <xsl:with-param name="date" select="true()"/>
                     <xsl:with-param name="room" select="false()"/>
                     <xsl:with-param name="isSoMe" select="false()"/>
+                    <xsl:with-param name="preserveTrailing" select="true()"/>
                 </xsl:apply-templates>
             </result>
         </xsl:result-document>
@@ -75,6 +77,7 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
                     <xsl:with-param name="date" select="false()"/>
                     <xsl:with-param name="room" select="true()"/>
                     <xsl:with-param name="isSoMe" select="false()"/>
+                    <xsl:with-param name="preserveTrailing" select="true()"/>
                 </xsl:apply-templates>
             </result>
         </xsl:result-document>
@@ -86,6 +89,7 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
                     <xsl:with-param name="date" select="false()"/>
                     <xsl:with-param name="room" select="false()"/>
                     <xsl:with-param name="isSoMe" select="false()"/>
+                    <xsl:with-param name="preserveTrailing" select="true()"/>
                 </xsl:apply-templates>
             </result>
         </xsl:result-document>
@@ -97,11 +101,12 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
                     <xsl:with-param name="date" select="false()"/>
                     <xsl:with-param name="room" select="false()"/>
                     <xsl:with-param name="isSoMe" select="true()"/>
+                    <xsl:with-param name="preserveTrailing" select="true()"/>
                 </xsl:apply-templates>
             </result>
         </xsl:result-document>
 
-        <!-- Sessions -->
+        <!-- Sessions (preserve trailing whitespace/newlines) -->
         <xsl:variable name="outPath"
             select="concat('file:///', $p-folder-out, '/Sessions_mitDatum_mitRauemen.xml')"/>
         <xsl:result-document href="{$outPath}">
@@ -110,6 +115,7 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
                     <xsl:with-param name="date" select="true()"/>
                     <xsl:with-param name="room" select="true()"/>
                     <xsl:with-param name="isSoMe" select="false()"/>
+                    <xsl:with-param name="preserveTrailing" select="true()"/>
                 </xsl:apply-templates>
             </result>
         </xsl:result-document>
@@ -121,6 +127,7 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
                     <xsl:with-param name="date" select="true()"/>
                     <xsl:with-param name="room" select="false()"/>
                     <xsl:with-param name="isSoMe" select="false()"/>
+                    <xsl:with-param name="preserveTrailing" select="true()"/>
                 </xsl:apply-templates>
             </result>
         </xsl:result-document>
@@ -132,6 +139,7 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
                     <xsl:with-param name="date" select="false()"/>
                     <xsl:with-param name="room" select="true()"/>
                     <xsl:with-param name="isSoMe" select="false()"/>
+                    <xsl:with-param name="preserveTrailing" select="true()"/>
                 </xsl:apply-templates>
             </result>
         </xsl:result-document>
@@ -143,6 +151,7 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
                     <xsl:with-param name="date" select="false()"/>
                     <xsl:with-param name="room" select="false()"/>
                     <xsl:with-param name="isSoMe" select="false()"/>
+                    <xsl:with-param name="preserveTrailing" select="true()"/>
                 </xsl:apply-templates>
             </result>
         </xsl:result-document>
@@ -154,11 +163,12 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
                     <xsl:with-param name="date" select="false()"/>
                     <xsl:with-param name="room" select="false()"/>
                     <xsl:with-param name="isSoMe" select="true()"/>
+                    <xsl:with-param name="preserveTrailing" select="true()"/>
                 </xsl:apply-templates>
             </result>
         </xsl:result-document>
 
-        <!-- Workshops -->
+        <!-- Workshops (preserve trailing whitespace/newlines) -->
         <xsl:variable name="outPath"
             select="concat('file:///', $p-folder-out, '/Workshops_mitDatum_mitRauemen.xml')"/>
         <xsl:result-document href="{$outPath}">
@@ -167,6 +177,7 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
                     <xsl:with-param name="date" select="true()"/>
                     <xsl:with-param name="room" select="true()"/>
                     <xsl:with-param name="isSoMe" select="false()"/>
+                    <xsl:with-param name="preserveTrailing" select="true()"/>
                 </xsl:apply-templates>
             </result>
         </xsl:result-document>
@@ -178,6 +189,7 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
                     <xsl:with-param name="date" select="true()"/>
                     <xsl:with-param name="room" select="false()"/>
                     <xsl:with-param name="isSoMe" select="false()"/>
+                    <xsl:with-param name="preserveTrailing" select="true()"/>
                 </xsl:apply-templates>
             </result>
         </xsl:result-document>
@@ -189,6 +201,7 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
                     <xsl:with-param name="date" select="false()"/>
                     <xsl:with-param name="room" select="true()"/>
                     <xsl:with-param name="isSoMe" select="false()"/>
+                    <xsl:with-param name="preserveTrailing" select="true()"/>
                 </xsl:apply-templates>
             </result>
         </xsl:result-document>
@@ -200,6 +213,7 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
                     <xsl:with-param name="date" select="false()"/>
                     <xsl:with-param name="room" select="false()"/>
                     <xsl:with-param name="isSoMe" select="false()"/>
+                    <xsl:with-param name="preserveTrailing" select="true()"/>
                 </xsl:apply-templates>
             </result>
         </xsl:result-document>
@@ -211,6 +225,7 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
                     <xsl:with-param name="date" select="false()"/>
                     <xsl:with-param name="room" select="false()"/>
                     <xsl:with-param name="isSoMe" select="true()"/>
+                    <xsl:with-param name="preserveTrailing" select="true()"/>
                 </xsl:apply-templates>
             </result>
         </xsl:result-document>
@@ -223,7 +238,9 @@ Timetable – Raumplan-->
             select="concat('file:///', $p-folder-out, '/Tabelle_Raumplaene_sortiert_nach_Raeumen.xml')"/>
         <xsl:result-document href="{$outPath}">
             <story>
-                <xsl:apply-templates select="//allSessions" mode="roomListing"/>
+                <xsl:apply-templates select="//allSessions" mode="roomListing">
+                    <xsl:with-param name="trim" select="true()"/>
+                </xsl:apply-templates>
             </story>
         </xsl:result-document>
         <xsl:variable name="outPath"
@@ -237,7 +254,9 @@ Timetable – Raumplan-->
             select="concat('file:///', $p-folder-out, '/Tabelle_Zeitplaner_sortiert_nach_Tagen.xml')"/>
         <xsl:result-document href="{$outPath}">
             <story>
-                <xsl:apply-templates select="//allSessions" mode="dayListing"/>
+                <xsl:apply-templates select="//allSessions" mode="dayListing">
+                    <xsl:with-param name="trim" select="true()"/>
+                </xsl:apply-templates>
             </story>
         </xsl:result-document>
         <xsl:variable name="outPath"
@@ -246,10 +265,14 @@ Timetable – Raumplan-->
             <story>
                 <xsl:choose>
                     <xsl:when test="/conferences/mergedSessions">
-                        <xsl:apply-templates select="/conferences/mergedSessions" mode="dayListingConf"/>
+                        <xsl:apply-templates select="/conferences/mergedSessions" mode="dayListingConf">
+                            <xsl:with-param name="trim" select="true()"/>
+                        </xsl:apply-templates>
                     </xsl:when>
                     <xsl:when test="//allSessions">
-                        <xsl:apply-templates select="//allSessions" mode="dayListingConf"/>
+                        <xsl:apply-templates select="//allSessions" mode="dayListingConf">
+                            <xsl:with-param name="trim" select="true()"/>
+                        </xsl:apply-templates>
                     </xsl:when>
                     <xsl:otherwise/>
                 </xsl:choose>
@@ -261,6 +284,7 @@ Timetable – Raumplan-->
         <xsl:param name="date"/>
         <xsl:param name="room"/>
         <xsl:param name="isSoMe"/>
+        <xsl:param name="preserveTrailing" select="false()"/>
 
         <xsl:for-each-group select="session" group-by="startDate">
             <xsl:for-each-group select="current-group()" group-by="endDate">
@@ -291,8 +315,7 @@ Timetable – Raumplan-->
                         <item>
                             <day>
                                 <xsl:value-of select="format-dateTime($startDateDT, '[F], [D01]. [MNn] [Y0001]')"/>
-                                <xsl:text> </xsl:text>
-                                <xsl:text>&#x0A;</xsl:text>
+                                <xsl:if test="$preserveTrailing"><xsl:text>&#x0A;</xsl:text></xsl:if>
                             </day>
                         </item>
 
@@ -300,7 +323,7 @@ Timetable – Raumplan-->
                         <item>
                             <time>
                                 <xsl:value-of select="concat(format-dateTime($startDateDT, '[H01]:[m01]'), ' - ', format-dateTime($endDateDT, '[H01]:[m01]'), ' ', $uhr, ' | ', format-dateTime($startDateDT, '[F], [D01]. [MNn] [Y0001]'))"/>
-                                <xsl:text>&#x0A;</xsl:text>
+                                <xsl:if test="$preserveTrailing"><xsl:text>&#x0A;</xsl:text></xsl:if>
                             </time>
 
                             <!-- nested session <item> elements -->
@@ -308,6 +331,7 @@ Timetable – Raumplan-->
                                 <xsl:with-param name="date" select="$date"/>
                                 <xsl:with-param name="room" select="$room"/>
                                 <xsl:with-param name="isSoMe" select="$isSoMe"/>
+                                <xsl:with-param name="preserveTrailing" select="$preserveTrailing"/>
                             </xsl:apply-templates>
                         </item>
 
@@ -317,6 +341,7 @@ Timetable – Raumplan-->
                             <xsl:with-param name="date" select="$date"/>
                             <xsl:with-param name="room" select="$room"/>
                             <xsl:with-param name="isSoMe" select="$isSoMe"/>
+                            <xsl:with-param name="preserveTrailing" select="$preserveTrailing"/>
                         </xsl:apply-templates>
                     </xsl:otherwise>
                 </xsl:choose>
@@ -328,6 +353,7 @@ Timetable – Raumplan-->
         <xsl:param name="date"/>
         <xsl:param name="room"/>
         <xsl:param name="isSoMe"/>
+        <xsl:param name="preserveTrailing" select="false()"/>
 
         <item>
             <!-- Titel generieren -->
@@ -341,13 +367,12 @@ Timetable – Raumplan-->
                                 ''
                             )
                         "/>
-                        <xsl:text>&#x0A;</xsl:text>
                     </xsl:when>
                     <xsl:otherwise>
                         <xsl:value-of select="name"/>
-                        <xsl:text>&#x0A;</xsl:text>
                     </xsl:otherwise>
                 </xsl:choose>
+                <xsl:if test="$preserveTrailing"><xsl:text>&#x0A;</xsl:text></xsl:if>
             </title>
 
             <!-- Nur in SoMe-Dateien: alle firstNames/lastNames zusammenführen -->
@@ -359,6 +384,7 @@ Timetable – Raumplan-->
                                     ', '
                             )"/>
                 </firstName>
+                <xsl:if test="$preserveTrailing"><xsl:text>&#x0A;</xsl:text></xsl:if>
 
                 <lastName>
                     <xsl:value-of
@@ -367,66 +393,81 @@ Timetable – Raumplan-->
                                     ', '
                             )"/>
                 </lastName>
+                <xsl:if test="$preserveTrailing"><xsl:text>&#x0A;</xsl:text></xsl:if>
             </xsl:if>
 
-            <!-- Speakers-Ausgabe wie bisher -->
+            <!-- Speakers-Ausgabe wie bisher (speakers template emits its own trailing newline) -->
             <xsl:apply-templates select="speakers">
                 <xsl:with-param name="isSoMe" select="$isSoMe"/>
+                <xsl:with-param name="preserveTrailing" select="$preserveTrailing"/>
             </xsl:apply-templates>
+
             <!-- Abstract generieren -->
             <xsl:if test="details and details != ''">
                 <xsl:if test="not($isSoMe)"> <!-- Unterschiedliche Behandlung von SoMe und Rest -->
                     <abstract>
-                        <xsl:apply-templates select="details"/>
+                        <xsl:apply-templates select="details">
+                            <xsl:with-param name="preserveTrailing" select="$preserveTrailing"/>
+                        </xsl:apply-templates>
                     </abstract>
                 </xsl:if>
             </xsl:if>
+
             <xsl:if test="$room and roomName and roomName != ''">
                 <room>
                     <xsl:value-of select="roomName"/>
-                    <xsl:text>&#x0A;</xsl:text>
+                    <xsl:if test="$preserveTrailing"><xsl:text>&#x0A;</xsl:text></xsl:if>
                 </room>
             </xsl:if>
         </item>
     </xsl:template>
 
     <xsl:template match="details">
+        <xsl:param name="preserveTrailing" select="false()"/>
         <xsl:value-of select="."/>
-        <xsl:text>&#x0A;</xsl:text>
+        <xsl:if test="$preserveTrailing"><xsl:text>&#x0A;</xsl:text></xsl:if>
     </xsl:template>
 
     <xsl:template match="session/speakers">
         <xsl:param name="isSoMe" select="false()"/>
+        <xsl:param name="preserveTrailing" select="false()"/>
         <speakers>
             <xsl:choose>
                 <xsl:when test="$isSoMe">
                     <xsl:apply-templates>
                         <xsl:with-param name="isSoMe" select="$isSoMe"/>
+                        <xsl:with-param name="preserveTrailing" select="$preserveTrailing"/>
                     </xsl:apply-templates>
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:apply-templates>
                         <xsl:with-param name="isSoMe" select="$isSoMe"/>
+                        <xsl:with-param name="preserveTrailing" select="$preserveTrailing"/>
                     </xsl:apply-templates>
                 </xsl:otherwise>
             </xsl:choose>
-            <xsl:text>&#x0A;</xsl:text>
+            <xsl:if test="$preserveTrailing"><xsl:text>&#x0A;</xsl:text></xsl:if>
         </speakers>
     </xsl:template>
 
     <!--   mode weil fehlender Zeilenumbruch, weil speaker in Tabellenzelle steht -->
     <xsl:template match="session/speakers" mode="table">
         <xsl:param name="isSoMe" select="false()"/>
+        <xsl:param name="preserveTrailing" select="false()"/>
         <speakers>
             <xsl:apply-templates>
                 <xsl:with-param name="isSoMe" select="$isSoMe"/>
+                <xsl:with-param name="preserveTrailing" select="$preserveTrailing"/>
             </xsl:apply-templates>
         </speakers>
+        <xsl:if test="$preserveTrailing"><xsl:text>&#x0A;</xsl:text></xsl:if>
     </xsl:template>
     <xsl:template match="session/speakers/speaker">
         <xsl:param name="isSoMe" select="false()"/>
+        <xsl:param name="preserveTrailing" select="false()"/>
         <xsl:apply-templates select="key('speakers', speakerId)">
             <xsl:with-param name="isSoMe" select="$isSoMe"/>
+            <xsl:with-param name="preserveTrailing" select="$preserveTrailing"/>
         </xsl:apply-templates>
         <xsl:if test="following-sibling::speaker">
             <xsl:text>, </xsl:text>
@@ -435,6 +476,7 @@ Timetable – Raumplan-->
 
     <xsl:template match="conferenceData/speakers/speaker">
         <xsl:param name="isSoMe" select="false()"/>
+        <xsl:param name="preserveTrailing" select="false()"/>
         <xsl:choose>
             <xsl:when test="$isSoMe">
                 <!-- Apply replace pattern for SoMe output files -->
@@ -526,6 +568,7 @@ Timetable – Raumplan-->
 
     <!--Tabelle_Zeitplaner_sortiert_nach_Tagen.xml-->
     <xsl:template match="allSessions | mergedSessions" mode="dayListing">
+        <xsl:param name="trim" select="false()"/>
         <xsl:for-each-group select="session" group-by="@day">
             <xsl:variable name="rows" select="count(current-group()) + 1"/>
             <Tabelle xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table"
@@ -570,11 +613,12 @@ Timetable – Raumplan-->
                             <time>
                                 <xsl:value-of select="format-dateTime($startDateDT, '[H01]:[m01] - ')"/>
                                 <xsl:value-of select="format-dateTime($endDateDT, '[H01]:[m01] ')"/>
-                                <xsl:text>&#x0A;</xsl:text>
                             </time>
                         </Zelle>
 
-                        <xsl:apply-templates select="current-group()" mode="dayListing"/>
+                        <xsl:apply-templates select="current-group()" mode="dayListing">
+                            <xsl:with-param name="trim" select="$trim"/>
+                        </xsl:apply-templates>
                     </xsl:for-each-group>
                 </xsl:for-each-group>
 
@@ -583,6 +627,7 @@ Timetable – Raumplan-->
     </xsl:template>
 
     <xsl:template match="session" mode="dayListing">
+        <xsl:param name="trim" select="false()"/>
         <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="201.25984251968504">
             <title>
                 <xsl:value-of select="name"/>
@@ -600,6 +645,7 @@ Timetable – Raumplan-->
 
     <!--Tabelle_Raumplaene_sortiert_nach_Raeumen.xml-->
     <xsl:template match="allSessions | mergedSessions" mode="roomListing">
+        <xsl:param name="trim" select="false()"/>
         <xsl:for-each-group select="session" group-by="roomName">
             <xsl:variable name="rowTemp" select="count(current-group()) + 1"/>
             <xsl:variable name="rowGroups">
@@ -656,11 +702,12 @@ Timetable – Raumplan-->
                                 <time>
                                     <xsl:value-of select="format-dateTime($startDateDT, '[H01]:[m01] - ')"/>
                                     <xsl:value-of select="format-dateTime($endDateDT, '[H01]:[m01] ')"/>
-                                    <xsl:text>&#x0A;</xsl:text>
                                 </time>
                             </Zelle>
 
-                            <xsl:apply-templates select="current-group()" mode="roomListing"/>
+                            <xsl:apply-templates select="current-group()" mode="roomListing">
+                                <xsl:with-param name="trim" select="$trim"/>
+                            </xsl:apply-templates>
                         </xsl:for-each-group>
                     </xsl:for-each-group>
                 </xsl:for-each-group>
@@ -669,6 +716,7 @@ Timetable – Raumplan-->
     </xsl:template>
 
     <xsl:template match="session" mode="roomListing">
+        <xsl:param name="trim" select="false()"/>
         <Zelle aid:table="cell" aid:crows="1" aid:ccols="1">
             <title>
                 <xsl:value-of select="name"/>
@@ -690,6 +738,7 @@ Timetable – Raumplan-->
 
     <!-- Tabelle_Zeitplaner_sortiert_nach_Tagen_Konferenzspalte templates -->
     <xsl:template match="allSessions | mergedSessions" mode="dayListingConf">
+        <xsl:param name="trim" select="false()"/>
         <xsl:for-each-group select="session" group-by="@day">
             <xsl:variable name="rows" select="count(current-group()) + 1"/>
             <Tabelle xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table"
@@ -736,11 +785,12 @@ Timetable – Raumplan-->
                             <time>
                                 <xsl:value-of select="format-dateTime($startDateDT, '[H01]:[m01] - ')"/>
                                 <xsl:value-of select="format-dateTime($endDateDT, '[H01]:[m01] ')"/>
-                                <xsl:text>&#x0A;</xsl:text>
                             </time>
                         </Zelle>
 
-                        <xsl:apply-templates select="current-group()" mode="dayListingConf"/>
+                        <xsl:apply-templates select="current-group()" mode="dayListingConf">
+                            <xsl:with-param name="trim" select="$trim"/>
+                        </xsl:apply-templates>
                     </xsl:for-each-group>
                 </xsl:for-each-group>
             </Tabelle>
@@ -748,6 +798,7 @@ Timetable – Raumplan-->
     </xsl:template>
 
     <xsl:template match="session" mode="dayListingConf">
+        <xsl:param name="trim" select="false()"/>
         <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="172.91338582677167">
             <title>
                 <xsl:value-of select="name"/>
