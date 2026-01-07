@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- v0.4.5 -->
+<!-- v0.5.0 -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/"
     xmlns:px="http://www.publishingx.de"
@@ -733,6 +733,12 @@ Timetable – Raumplan-->
             <name>
                 <xsl:value-of select="concat(firstName, ' ', lastName)"/>
             </name>
+            <firstName>
+                <xsl:value-of select="firstName"/>
+            </firstName>
+            <lastName>
+                <xsl:value-of select="lastName"/>
+            </lastName>
         </speaker>
     </xsl:template>
 

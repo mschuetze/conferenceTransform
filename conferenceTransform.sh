@@ -34,7 +34,7 @@ java -jar "$SAXON_JAR" -o:"$TEMP_FILE2" -s:"$TEMP_FILE1" -xsl:"${XSLT_PATH}fix.x
 echo
 echo InDesign Transform ...
 echo Speichere Ergebnisse in $OUTPATH 
-java -jar -Duser.language=en -Duser.region=US "$SAXON_JAR" -s:"$TEMP_FILE2" -xsl:"${XSLT_PATH}createInDesign_v0.4.5.xslt" p-folder-out=$OUTPATH
+java -jar -Duser.language=en -Duser.region=US "$SAXON_JAR" -s:"$TEMP_FILE2" -xsl:"${XSLT_PATH}createInDesign_v0.5.0.xslt" p-folder-out=$OUTPATH
 
 echo
 echo Fertig 
