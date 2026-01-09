@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- v0.5.0 -->
+<!-- v0.5.1 -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/"
     xmlns:px="http://www.publishingx.de"
     exclude-result-prefixes="xs" version="2.0">
 
     <xsl:strip-space elements="*"/>
+
+    <xsl:output method="xml" indent="no" encoding="UTF-8"/>
 
     <xsl:param name="p-folder-out" select="'out'"/>
 
@@ -101,7 +103,7 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
                     <xsl:with-param name="date" select="false()"/>
                     <xsl:with-param name="room" select="false()"/>
                     <xsl:with-param name="isSoMe" select="true()"/>
-                    <xsl:with-param name="preserveTrailing" select="true()"/>
+                    <xsl:with-param name="preserveTrailing" select="false()"/>
                 </xsl:apply-templates>
             </result>
         </xsl:result-document>
@@ -163,7 +165,7 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
                     <xsl:with-param name="date" select="false()"/>
                     <xsl:with-param name="room" select="false()"/>
                     <xsl:with-param name="isSoMe" select="true()"/>
-                    <xsl:with-param name="preserveTrailing" select="true()"/>
+                    <xsl:with-param name="preserveTrailing" select="false()"/>
                 </xsl:apply-templates>
             </result>
         </xsl:result-document>
@@ -225,7 +227,7 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
                     <xsl:with-param name="date" select="false()"/>
                     <xsl:with-param name="room" select="false()"/>
                     <xsl:with-param name="isSoMe" select="true()"/>
-                    <xsl:with-param name="preserveTrailing" select="true()"/>
+                    <xsl:with-param name="preserveTrailing" select="false()"/>
                 </xsl:apply-templates>
             </result>
         </xsl:result-document>
