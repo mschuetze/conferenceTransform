@@ -365,7 +365,7 @@ Timetable – Raumplan-->
                         <xsl:value-of select="
                             replace(
                                 replace(name, '^Workshop: ', ''),
-                                '\s*\[((Montag)|(Dienstag)|(Mittwoch)|(Donnerstag)|(Freitag)|(Monday)|(Tuesday)|(Wednesday)|(Thursday)|(Friday)),.*\]',
+                                '\s*\[((Montag)|(Dienstag)|(Mittwoch)|(Donnerstag)|(Freitag)|(Monday)|(Tuesday)|(Wednesday)|(Thursday)|(Friday)),?.*?\]',
                                 ''
                             )
                         "/>
