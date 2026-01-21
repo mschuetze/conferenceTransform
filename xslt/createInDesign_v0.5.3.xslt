@@ -16,6 +16,16 @@
     <xsl:variable name="uhr">Uhr</xsl:variable>
 
     <xsl:variable name="isSoMe" select="false()"/>
+    
+    <!-- Extraktion der Eingabedateinamen aus den source-file Elementen -->
+    <xsl:variable name="sourceFileNames">
+        <xsl:value-of select="string-join(//source-file/@name, '__')"/>
+    </xsl:variable>
+    
+    <!-- Entfernung der .xml Endungen -->
+    <xsl:variable name="sourceFileNameSuffix">
+        <xsl:value-of select="replace($sourceFileNames, '\.xml', '')"/>
+    </xsl:variable>
 
     <!-- Identity Pattern -->
     <xsl:template match="node() | @*" priority="-1">
@@ -39,7 +49,7 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
 -->
         <!-- Speakers -->
         <xsl:variable name="outPath"
-            select="concat('file:///', $p-folder-out, '/Speaker_Namen.xml')"/>
+            select="concat('file:///', $p-folder-out, '/Speaker_Namen--', $sourceFileNameSuffix, '.xml')"/>
         <xsl:result-document href="{$outPath}">
             <speakers>
                 <xsl:apply-templates select="//conferenceData/speakers/speaker" mode="nameOnly"/>
@@ -48,7 +58,7 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
 
         <!-- Keynotes (preserve trailing whitespace/newlines) -->
         <xsl:variable name="outPath"
-            select="concat('file:///', $p-folder-out, '/Keynotes_mitDatum_mitRauemen.xml')"/>
+            select="concat('file:///', $p-folder-out, '/Keynotes_mitDatum_mitRauemen--', $sourceFileNameSuffix, '.xml')"/>
         <xsl:result-document href="{$outPath}">
             <result is_array="true">
                 <xsl:apply-templates select="//keynotes">
@@ -60,7 +70,7 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
             </result>
         </xsl:result-document>
         <xsl:variable name="outPath"
-            select="concat('file:///', $p-folder-out, '/Keynotes_mitDatum_ohneRaueme.xml')"/>
+            select="concat('file:///', $p-folder-out, '/Keynotes_mitDatum_ohneRaueme--', $sourceFileNameSuffix, '.xml')"/>
         <xsl:result-document href="{$outPath}">
             <result is_array="true">
                 <xsl:apply-templates select="//keynotes">
@@ -72,7 +82,7 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
             </result>
         </xsl:result-document>
         <xsl:variable name="outPath"
-            select="concat('file:///', $p-folder-out, '/Keynotes_ohneDatum_mitRauemen.xml')"/>
+            select="concat('file:///', $p-folder-out, '/Keynotes_ohneDatum_mitRauemen--', $sourceFileNameSuffix, '.xml')"/>
         <xsl:result-document href="{$outPath}">
             <result is_array="true">
                 <xsl:apply-templates select="//keynotes">
@@ -84,7 +94,7 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
             </result>
         </xsl:result-document>
         <xsl:variable name="outPath"
-            select="concat('file:///', $p-folder-out, '/Keynotes_ohneDatum_ohneRaueme.xml')"/>
+            select="concat('file:///', $p-folder-out, '/Keynotes_ohneDatum_ohneRaueme--', $sourceFileNameSuffix, '.xml')"/>
         <xsl:result-document href="{$outPath}">
             <result is_array="true">
                 <xsl:apply-templates select="//keynotes">
@@ -96,7 +106,7 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
             </result>
         </xsl:result-document>
         <xsl:variable name="outPath"
-            select="concat('file:///', $p-folder-out, '/SoMe_Keynotes_ohneDatum_ohneRaueme_ohneAbstract.xml')"/>
+            select="concat('file:///', $p-folder-out, '/SoMe_Keynotes_ohneDatum_ohneRaueme_ohneAbstract--', $sourceFileNameSuffix, '.xml')"/>
         <xsl:result-document href="{$outPath}">
             <result is_array="true">
                 <xsl:apply-templates select="//keynotes">
@@ -110,7 +120,7 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
 
         <!-- Sessions (preserve trailing whitespace/newlines) -->
         <xsl:variable name="outPath"
-            select="concat('file:///', $p-folder-out, '/Sessions_mitDatum_mitRauemen.xml')"/>
+            select="concat('file:///', $p-folder-out, '/Sessions_mitDatum_mitRauemen--', $sourceFileNameSuffix, '.xml')"/>
         <xsl:result-document href="{$outPath}">
             <result is_array="true">
                 <xsl:apply-templates select="//sessions">
@@ -122,7 +132,7 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
             </result>
         </xsl:result-document>
         <xsl:variable name="outPath"
-            select="concat('file:///', $p-folder-out, '/Sessions_mitDatum_ohneRaueme.xml')"/>
+            select="concat('file:///', $p-folder-out, '/Sessions_mitDatum_ohneRaueme--', $sourceFileNameSuffix, '.xml')"/>
         <xsl:result-document href="{$outPath}">
             <result is_array="true">
                 <xsl:apply-templates select="//sessions">
@@ -134,7 +144,7 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
             </result>
         </xsl:result-document>
         <xsl:variable name="outPath"
-            select="concat('file:///', $p-folder-out, '/Sessions_ohneDatum_mitRauemen.xml')"/>
+            select="concat('file:///', $p-folder-out, '/Sessions_ohneDatum_mitRauemen--', $sourceFileNameSuffix, '.xml')"/>
         <xsl:result-document href="{$outPath}">
             <result is_array="true">
                 <xsl:apply-templates select="//sessions">
@@ -146,7 +156,7 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
             </result>
         </xsl:result-document>
         <xsl:variable name="outPath"
-            select="concat('file:///', $p-folder-out, '/Sessions_ohneDatum_ohneRaueme.xml')"/>
+            select="concat('file:///', $p-folder-out, '/Sessions_ohneDatum_ohneRaueme--', $sourceFileNameSuffix, '.xml')"/>
         <xsl:result-document href="{$outPath}">
             <result is_array="true">
                 <xsl:apply-templates select="//sessions">
@@ -158,7 +168,7 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
             </result>
         </xsl:result-document>
         <xsl:variable name="outPath"
-            select="concat('file:///', $p-folder-out, '/SoMe_Sessions_ohneDatum_ohneRaueme_ohneAbstract.xml')"/>
+            select="concat('file:///', $p-folder-out, '/SoMe_Sessions_ohneDatum_ohneRaueme_ohneAbstract--', $sourceFileNameSuffix, '.xml')"/>
         <xsl:result-document href="{$outPath}">
             <result is_array="true">
                 <xsl:apply-templates select="//sessions">
@@ -172,7 +182,7 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
 
         <!-- Workshops (preserve trailing whitespace/newlines) -->
         <xsl:variable name="outPath"
-            select="concat('file:///', $p-folder-out, '/Workshops_mitDatum_mitRauemen.xml')"/>
+            select="concat('file:///', $p-folder-out, '/Workshops_mitDatum_mitRauemen--', $sourceFileNameSuffix, '.xml')"/>
         <xsl:result-document href="{$outPath}">
             <result is_array="true">
                 <xsl:apply-templates select="//workshops">
@@ -184,7 +194,7 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
             </result>
         </xsl:result-document>
         <xsl:variable name="outPath"
-            select="concat('file:///', $p-folder-out, '/Workshops_mitDatum_ohneRaueme.xml')"/>
+            select="concat('file:///', $p-folder-out, '/Workshops_mitDatum_ohneRaueme--', $sourceFileNameSuffix, '.xml')"/>
         <xsl:result-document href="{$outPath}">
             <result is_array="true">
                 <xsl:apply-templates select="//workshops">
@@ -196,7 +206,7 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
             </result>
         </xsl:result-document>
         <xsl:variable name="outPath"
-            select="concat('file:///', $p-folder-out, '/Workshops_ohneDatum_mitRauemen.xml')"/>
+            select="concat('file:///', $p-folder-out, '/Workshops_ohneDatum_mitRauemen--', $sourceFileNameSuffix, '.xml')"/>
         <xsl:result-document href="{$outPath}">
             <result is_array="true">
                 <xsl:apply-templates select="//workshops">
@@ -208,7 +218,7 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
             </result>
         </xsl:result-document>
         <xsl:variable name="outPath"
-            select="concat('file:///', $p-folder-out, '/Workshops_ohneDatum_ohneRaueme.xml')"/>
+            select="concat('file:///', $p-folder-out, '/Workshops_ohneDatum_ohneRaueme--', $sourceFileNameSuffix, '.xml')"/>
         <xsl:result-document href="{$outPath}">
             <result is_array="true">
                 <xsl:apply-templates select="//workshops">
@@ -220,7 +230,7 @@ Es werden alle Varianten als einzelne Datei erstellt => 12 Dateien.
             </result>
         </xsl:result-document>
         <xsl:variable name="outPath"
-            select="concat('file:///', $p-folder-out, '/SoMe_Workshops_ohneDatum_ohneRaueme_ohneAbstract.xml')"/>
+            select="concat('file:///', $p-folder-out, '/SoMe_Workshops_ohneDatum_ohneRaueme_ohneAbstract--', $sourceFileNameSuffix, '.xml')"/>
         <xsl:result-document href="{$outPath}">
             <result is_array="true">
                 <xsl:apply-templates select="//workshops">
@@ -237,7 +247,7 @@ Timetable – Sessions Konferenztabelle
 Timetable – Special Days + Keynotes
 Timetable – Raumplan-->
         <xsl:variable name="outPath"
-            select="concat('file:///', $p-folder-out, '/Tabelle_Raumplaene_sortiert_nach_Raeumen.xml')"/>
+            select="concat('file:///', $p-folder-out, '/Tabelle_Raumplaene_sortiert_nach_Raeumen--', $sourceFileNameSuffix, '.xml')"/>
         <xsl:result-document href="{$outPath}">
             <story>
                 <xsl:apply-templates select="//allSessions" mode="roomListing">
@@ -246,14 +256,14 @@ Timetable – Raumplan-->
             </story>
         </xsl:result-document>
         <xsl:variable name="outPath"
-            select="concat('file:///', $p-folder-out, '/Tabelle_Zeitplaner_sortiert_nach_SpecialDays.xml')"/>
+            select="concat('file:///', $p-folder-out, '/Tabelle_Zeitplaner_sortiert_nach_SpecialDays--', $sourceFileNameSuffix, '.xml')"/>
         <xsl:result-document href="{$outPath}">
             <story>
                 <xsl:apply-templates select="//specialDay"/>
             </story>
         </xsl:result-document>
         <xsl:variable name="outPath"
-            select="concat('file:///', $p-folder-out, '/Tabelle_Zeitplaner_sortiert_nach_Tagen.xml')"/>
+            select="concat('file:///', $p-folder-out, '/Tabelle_Zeitplaner_sortiert_nach_Tagen--', $sourceFileNameSuffix, '.xml')"/>
         <xsl:result-document href="{$outPath}">
             <story>
                 <xsl:apply-templates select="//allSessions" mode="dayListing">
@@ -262,7 +272,7 @@ Timetable – Raumplan-->
             </story>
         </xsl:result-document>
         <xsl:variable name="outPath"
-            select="concat('file:///', $p-folder-out, '/Tabelle_Zeitplaner_sortiert_nach_Tagen_Konferenzspalte.xml')"/>
+            select="concat('file:///', $p-folder-out, '/Tabelle_Zeitplaner_sortiert_nach_Tagen_Konferenzspalte--', $sourceFileNameSuffix, '.xml')"/>
         <xsl:result-document href="{$outPath}">
             <story>
                 <xsl:choose>

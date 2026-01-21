@@ -46,6 +46,21 @@
             <xsl:apply-templates select="node() | @*"/>
         </xsl:copy>
     </xsl:template>
+    
+    <!-- Preserve conferences wrapper and source-file metadata -->
+    <xsl:template match="conferences">
+        <conferences>
+            <xsl:apply-templates select="source-file"/>
+        </conferences>
+    </xsl:template>
+    
+    <!-- Process each source file -->
+    <xsl:template match="source-file">
+        <xsl:copy>
+            <xsl:copy-of select="@*"/>
+            <xsl:apply-templates select="node()"/>
+        </xsl:copy>
+    </xsl:template>
     <!--Alle HTML Elemente werden entfernt-->
     <xsl:template match="details">
         <xsl:copy>

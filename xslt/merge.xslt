@@ -10,7 +10,12 @@
             <xsl:message terminate="yes">Bitte geben Sie einen Ordner mit mindestens einer Konferenz-XML als Parameter an.</xsl:message>
         </xsl:if>
         <conferences>
-            <xsl:copy-of select="collection(concat('file:///', replace($folder-in, '\\', '/'), '?select=*.xml'))"/>
+            <xsl:for-each select="collection(concat('file:///', replace($folder-in, '\\', '/'), '?select=*.xml'))">
+                <xsl:variable name="fileName" select="tokenize(base-uri(), '/')[last()]"/>
+                <source-file name="{$fileName}">
+                    <xsl:copy-of select="."/>
+                </source-file>
+            </xsl:for-each>
         </conferences>
     </xsl:template>
 
