@@ -369,7 +369,9 @@ Timetable – Raumplan-->
 
         <item>
             <xsl:if test="$isSoMe">
-                <xsl:value-of select="uniqueId"/>
+                <uniqueId>
+                    <xsl:value-of select="uniqueId"/>
+                </uniqueId>
             </xsl:if>
 
             <!-- Titel generieren -->
