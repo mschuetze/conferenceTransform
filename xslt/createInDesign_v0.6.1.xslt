@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- v0.6.0 -->
+<!-- v0.6.1 -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/"
     xmlns:px="http://www.publishingx.de"
@@ -369,7 +369,9 @@ Timetable – Raumplan-->
 
         <item>
             <xsl:if test="$isSoMe">
-                <xsl:value-of select="uniqueId"/>
+                <uniqueId>
+                    <xsl:value-of select="uniqueId"/>
+                </uniqueId>
             </xsl:if>
 
             <!-- Titel generieren -->
@@ -746,6 +748,9 @@ Timetable – Raumplan-->
     <!-- Nur Namen der Speaker für die Speaker_Namen.xml -->
     <xsl:template match="speaker" mode="nameOnly">
         <item>
+            <uniqueId>
+                <xsl:value-of select="uniqueId"/>
+            </uniqueId>
             <name>
                 <xsl:value-of select="concat(firstName, ' ', lastName)"/>
             </name>
