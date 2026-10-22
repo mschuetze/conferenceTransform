@@ -29,6 +29,11 @@
 
 1. Konferenz-XML herunterladen und ablegen siehe Manual. 
 2. Ordner "conferenceTransform" im Finder öffnen.
-3. XML-Datei(en) in Unterordner `input` kopieren.
+3. XML-Datei(en) in Unterordner `input` kopieren. Vorher alte Dateien im Ordner löschen.
 4. Datei `start_conferenceTransform` öffnen und per PLAY-Button (oben rechts) ausführen.
 5. Fertige Dateien landen in Unterordner `indesign-out`.
+
+## Aktualisieren
+
+1. siehe [Installation] https://github.com/mschuetze/conferenceTransform#installation
+2. alten Ordner löschen.
