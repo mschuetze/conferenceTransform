@@ -22,7 +22,6 @@
 
 1. Neueste Version des Tools herunterladen (ZIP): https://github.com/mschuetze/conferenceTransform/releases
    ![Download der ZIP-Datei auf der GitHub-Release-Seite](./_Bilder/conferencetransform-downloadZIP.png)
-
 2. ZIP entpacken und in beliebigen Ordner (z.B. Schreibtisch) kopieren/verschieben.
 3. fertig.
 
