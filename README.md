@@ -36,4 +36,4 @@
 ## Aktualisieren
 
 1. siehe [Installation] https://github.com/mschuetze/conferenceTransform#installation
-2. alten Ordner löschen.
+2. alten Ordner `conferenceTransform` löschen.
